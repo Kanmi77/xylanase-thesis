@@ -1,0 +1,71 @@
+               :-) GROMACS - gmx pdb2gmx, 2025.4-conda_forge (-:
+
+Executable:   /home/ubuntu/miniconda3/envs/test/bin.AVX2_256/gmx
+Data prefix:  /home/ubuntu/miniconda3/envs/test
+Working dir:  /home/ubuntu/xylanase-thesis
+Command line:
+  gmx pdb2gmx -f /home/ubuntu/xylanase-thesis/md/systems/1O8S_A_Repair/333K/input.fixed.pdb -o /home/ubuntu/xylanase-thesis/md/systems/1O8S_A_Repair/333K/processed.gro -p /home/ubuntu/xylanase-thesis/md/systems/1O8S_A_Repair/333K/topol.top -i /home/ubuntu/xylanase-thesis/md/systems/1O8S_A_Repair/333K/posre.itp -ff amber99sb-ildn -water tip3p -ignh
+
+Opening force field file /home/ubuntu/miniconda3/envs/test/share/gromacs/top/amber99sb-ildn.ff/aminoacids.r2b
+Opening force field file /home/ubuntu/miniconda3/envs/test/share/gromacs/top/amber99sb-ildn.ff/dna.r2b
+Opening force field file /home/ubuntu/miniconda3/envs/test/share/gromacs/top/amber99sb-ildn.ff/rna.r2b
+All occupancies are one
+Opening force field file /home/ubuntu/miniconda3/envs/test/share/gromacs/top/amber99sb-ildn.ff/atomtypes.atp
+Opening force field file /home/ubuntu/miniconda3/envs/test/share/gromacs/top/amber99sb-ildn.ff/aminoacids.rtp
+Opening force field file /home/ubuntu/miniconda3/envs/test/share/gromacs/top/amber99sb-ildn.ff/dna.rtp
+Opening force field file /home/ubuntu/miniconda3/envs/test/share/gromacs/top/amber99sb-ildn.ff/rna.rtp
+Opening force field file /home/ubuntu/miniconda3/envs/test/share/gromacs/top/amber99sb-ildn.ff/aminoacids.hdb
+Opening force field file /home/ubuntu/miniconda3/envs/test/share/gromacs/top/amber99sb-ildn.ff/dna.hdb
+Opening force field file /home/ubuntu/miniconda3/envs/test/share/gromacs/top/amber99sb-ildn.ff/rna.hdb
+Opening force field file /home/ubuntu/miniconda3/envs/test/share/gromacs/top/amber99sb-ildn.ff/aminoacids.n.tdb
+Opening force field file /home/ubuntu/miniconda3/envs/test/share/gromacs/top/amber99sb-ildn.ff/aminoacids.c.tdb
+9 out of 9 lines of specbond.dat converted successfully
+Opening force field file /home/ubuntu/miniconda3/envs/test/share/gromacs/top/amber99sb-ildn.ff/aminoacids.arn
+Opening force field file /home/ubuntu/miniconda3/envs/test/share/gromacs/top/amber99sb-ildn.ff/dna.arn
+Opening force field file /home/ubuntu/miniconda3/envs/test/share/gromacs/top/amber99sb-ildn.ff/rna.arn
+
+-------------------------------------------------------
+Program:     gmx pdb2gmx, version 2025.4-conda_forge
+Source file: src/gromacs/gmxpreprocess/pgutil.cpp (line 156)
+
+Fatal error:
+Residue 5 named ARG of a molecule in the input file was mapped
+to an entry in the topology database, but the atom CD used in
+that entry is not found in the input file. Perhaps your atom
+and/or residue naming needs to be fixed.
+
+For more information and tips for troubleshooting, please check the GROMACS
+website at https://manual.gromacs.org/current/user-guide/run-time-errors.html
+-------------------------------------------------------
+Using the Amber99sb-ildn force field in directory amber99sb-ildn.ff
+
+going to rename amber99sb-ildn.ff/aminoacids.r2b
+
+going to rename amber99sb-ildn.ff/dna.r2b
+
+going to rename amber99sb-ildn.ff/rna.r2b
+Reading /home/ubuntu/xylanase-thesis/md/systems/1O8S_A_Repair/333K/input.fixed.pdb...
+Read '', 897 atoms
+
+Analyzing pdb file
+Splitting chemical chains based on TER records or chain id changing.
+
+There are 1 chains and 0 blocks of water and 131 residues with 897 atoms
+
+  chain  #res #atoms
+
+  1 'A'   131    897  
+
+All occupancies are one
+
+Reading residue database... (Amber99sb-ildn)
+
+Processing chain 1 'A' (897 atoms, 131 residues)
+
+Identified residue VAL19 as a starting terminus.
+
+Identified residue SER149 as a ending terminus.
+
+Checking for duplicate atoms....
+
+Generating any missing hydrogen atoms and/or adding termini.
