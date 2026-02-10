@@ -9,3 +9,6 @@ foldx/bin/FoldX filter=lfs diff=lfs merge=lfs -text
 data/**/*.csv filter=lfs diff=lfs merge=lfs -text
 data/**/*.cif filter=lfs diff=lfs merge=lfs -text
 data/**/*.fasta filter=lfs diff=lfs merge=lfs -text
+md/**/*.xtc filter=lfs diff=lfs merge=lfs -text
+md/**/*.gro filter=lfs diff=lfs merge=lfs -text
+md/**/*.pdb filter=lfs diff=lfs merge=lfs -text
