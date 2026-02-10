@@ -1,0 +1,27 @@
+integrator  = md
+dt          = 0.002
+nsteps      = 50000        ; 100 ps
+nstxout-compressed = 500
+nstenergy   = 500
+nstlog      = 500
+
+cutoff-scheme = Verlet
+nstlist     = 50
+rlist       = 1.1
+coulombtype = PME
+rcoulomb    = 1.1
+rvdw        = 1.1
+
+tcoupl      = V-rescale
+tc-grps     = Protein Non-Protein
+tau_t       = 0.1     0.1
+ref_t       = 333 333
+
+pcoupl      = no
+constraints = h-bonds
+constraint_algorithm = lincs
+
+pbc         = xyz
+gen_vel     = yes
+gen_temp    = 333
+gen_seed    = -1

@@ -1,0 +1,49 @@
+; NVT equilibration
+integrator              = md
+nsteps                  = 50000        ; 100 ps if dt=0.002
+dt                      = 0.002
+
+; Output control
+nstxout-compressed      = 500
+nstvout                 = 0
+nstenergy               = 500
+nstlog                  = 500
+
+; Constraints
+constraints             = h-bonds
+constraint_algorithm    = lincs
+lincs_iter              = 1
+lincs_order             = 4
+
+; Neighborsearching
+cutoff-scheme           = Verlet
+nstlist                 = 20
+rlist                   = 1.0
+
+; Electrostatics and VdW
+coulombtype             = PME
+rcoulomb                = 1.0
+rvdw                    = 1.0
+
+; Temperature coupling
+tcoupl                  = V-rescale
+tc-grps                 = Protein Non-Protein
+tau_t                   = 0.1     0.1
+ref_t                   = 333     333
+
+; Pressure coupling (OFF in NVT)
+pcoupl                  = no
+
+; Periodic boundary conditions
+pbc                     = xyz
+
+; Dispersion correction
+DispCorr                = EnerPres
+
+; Velocity generation
+gen_vel                 = yes
+gen_temp                = 333
+gen_seed                = -1
+
+; Position restraints
+define                  = -DPOSRES
