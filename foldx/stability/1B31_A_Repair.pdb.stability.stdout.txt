@@ -1,0 +1,52 @@
+   ********************************************
+   ***                                      ***
+   ***             FoldX 4 (c)              ***
+   ***                                      ***
+   ***     code by the FoldX Consortium     ***
+   ***                                      ***
+   ***     Jesper Borg, Frederic Rousseau   ***
+   ***    Joost Schymkowitz, Luis Serrano   ***
+   ***    Peter Vanhee, Erik Verschueren    ***
+   ***     Lies Baeten, Javier Delgado      ***
+   ***       and Francois Stricher          ***
+   *** and any other of the 9! permutations ***
+   ***   based on an original concept by    ***
+   ***   Raphael Guerois and Luis Serrano   ***
+   ********************************************
+
+Stability >>>
+
+1 models read: 1B31_A_Repair.pdb
+./1B31_A_Repair_0_ST.fxout
+Output Directory: ./
+Output File: 1B31_A_Repair_0_ST.fxout
+Configuration File: config_1B31_A_Repair_0_ST.cfg
+
+BackHbond       =               -235.99
+SideHbond       =               -110.60
+Energy_VdW      =               -382.15
+Electro         =               -21.69
+Energy_SolvP    =               526.95
+Energy_SolvH    =               -505.17
+Energy_vdwclash =               10.50
+energy_torsion  =               12.67
+backbone_vdwclash=              217.26
+Entropy_sidec   =               189.24
+Entropy_mainc   =               471.11
+water bonds     =               0.00
+helix dipole    =               -7.36
+loop_entropy    =               0.00
+cis_bond        =               1.84
+disulfide       =               -2.21
+kn electrostatic=               0.00
+partial covalent interactions = 0.00
+Energy_Ionisation =             1.29
+Entropy Complex =               0.00
+-----------------------------------------------------------
+Total          = 				  -51.55
+
+FINISHING STABILITY ANALYSIS OPTION
+
+Your file run OK
+End time of FoldX: Thu Jan 15 02:46:12 2026
+Total time spend: 0.48 seconds.

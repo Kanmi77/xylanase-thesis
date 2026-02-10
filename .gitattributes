@@ -5,3 +5,4 @@ data/curated/*.csv filter=lfs diff=lfs merge=lfs -text
 *.fasta filter=lfs diff=lfs merge=lfs -text
 *.csv filter=lfs diff=lfs merge=lfs -text
 data/curated/curated filter=lfs diff=lfs merge=lfs -text
+foldx/bin/FoldX filter=lfs diff=lfs merge=lfs -text

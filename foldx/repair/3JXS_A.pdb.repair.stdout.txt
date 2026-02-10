@@ -1,0 +1,4877 @@
+   ********************************************
+   ***                                      ***
+   ***             FoldX 4 (c)              ***
+   ***                                      ***
+   ***     code by the FoldX Consortium     ***
+   ***                                      ***
+   ***     Jesper Borg, Frederic Rousseau   ***
+   ***    Joost Schymkowitz, Luis Serrano   ***
+   ***    Peter Vanhee, Erik Verschueren    ***
+   ***     Lies Baeten, Javier Delgado      ***
+   ***       and Francois Stricher          ***
+   *** and any other of the 9! permutations ***
+   ***   based on an original concept by    ***
+   ***   Raphael Guerois and Luis Serrano   ***
+   ********************************************
+
+Start RepairPDB >>>
+
+1 models read: 3JXS_A.pdb
+"3JXS_A_Repair.fxout"
+Repair will take all residues into account
+wild type
+
+BackHbond       =               -92.43
+SideHbond       =               -21.72
+Energy_VdW      =               -184.23
+Electro         =               -6.11
+Energy_SolvP    =               268.32
+Energy_SolvH    =               -244.49
+Energy_vdwclash =               17.16
+energy_torsion  =               7.77
+backbone_vdwclash=              45.92
+Entropy_sidec   =               73.88
+Entropy_mainc   =               246.00
+water bonds     =               0.00
+helix dipole    =               0.00
+loop_entropy    =               0.00
+cis_bond        =               1.12
+disulfide       =               0.00
+kn electrostatic=               0.00
+partial covalent interactions = -24.97
+Energy_Ionisation =             0.30
+Entropy Complex =               0.00
+-----------------------------------------------------------
+Total          = 				  40.58
+
+Flipping HNQ
+
+BackHbond       =               -93.01
+SideHbond       =               -22.32
+Energy_VdW      =               -184.33
+Electro         =               -6.11
+Energy_SolvP    =               268.00
+Energy_SolvH    =               -244.58
+Energy_vdwclash =               17.05
+energy_torsion  =               7.74
+backbone_vdwclash=              45.92
+Entropy_sidec   =               74.13
+Entropy_mainc   =               246.05
+water bonds     =               0.00
+helix dipole    =               0.00
+loop_entropy    =               0.00
+cis_bond        =               1.12
+disulfide       =               0.00
+kn electrostatic=               0.00
+partial covalent interactions = -24.97
+Energy_Ionisation =             0.30
+Entropy Complex =               0.00
+-----------------------------------------------------------
+Total          = 				  39.08
+
+Now Optimizing Residues.
+Now optimizing Residue META1
+Optimize Residue ID= META1
+
+BackHbond       =               -93.01
+SideHbond       =               -22.32
+Energy_VdW      =               -184.34
+Electro         =               -6.11
+Energy_SolvP    =               268.01
+Energy_SolvH    =               -244.62
+Energy_vdwclash =               17.05
+energy_torsion  =               7.74
+backbone_vdwclash=              45.92
+Entropy_sidec   =               74.14
+Entropy_mainc   =               246.05
+water bonds     =               0.00
+helix dipole    =               0.00
+loop_entropy    =               0.00
+cis_bond        =               1.12
+disulfide       =               0.00
+kn electrostatic=               0.00
+partial covalent interactions = -24.97
+Energy_Ionisation =             0.30
+Entropy Complex =               0.00
+-----------------------------------------------------------
+Total          = 				  39.04
+
+Now optimizing Residue LEUA2
+Optimize Residue ID= LEUA2
+
+BackHbond       =               -93.01
+SideHbond       =               -22.32
+Energy_VdW      =               -184.34
+Electro         =               -6.11
+Energy_SolvP    =               268.01
+Energy_SolvH    =               -244.62
+Energy_vdwclash =               17.05
+energy_torsion  =               7.70
+backbone_vdwclash=              45.92
+Entropy_sidec   =               74.14
+Entropy_mainc   =               246.05
+water bonds     =               0.00
+helix dipole    =               0.00
+loop_entropy    =               0.00
+cis_bond        =               1.12
+disulfide       =               0.00
+kn electrostatic=               0.00
+partial covalent interactions = -24.97
+Energy_Ionisation =             0.30
+Entropy Complex =               0.00
+-----------------------------------------------------------
+Total          = 				  39.00
+
+Now optimizing Residue VALA3
+Optimize Residue ID= VALA3
+
+BackHbond       =               -93.01
+SideHbond       =               -22.32
+Energy_VdW      =               -184.34
+Electro         =               -6.11
+Energy_SolvP    =               268.01
+Energy_SolvH    =               -244.62
+Energy_vdwclash =               17.06
+energy_torsion  =               7.64
+backbone_vdwclash=              45.92
+Entropy_sidec   =               74.14
+Entropy_mainc   =               246.05
+water bonds     =               0.00
+helix dipole    =               0.00
+loop_entropy    =               0.00
+cis_bond        =               1.12
+disulfide       =               0.00
+kn electrostatic=               0.00
+partial covalent interactions = -24.97
+Energy_Ionisation =             0.30
+Entropy Complex =               0.00
+-----------------------------------------------------------
+Total          = 				  38.94
+
+Now optimizing Residue ASNA5
+Optimize Residue ID= ASNA5
+
+BackHbond       =               -93.01
+SideHbond       =               -22.32
+Energy_VdW      =               -184.34
+Electro         =               -6.11
+Energy_SolvP    =               268.00
+Energy_SolvH    =               -244.63
+Energy_vdwclash =               16.81
+energy_torsion  =               7.62
+backbone_vdwclash=              45.92
+Entropy_sidec   =               74.14
+Entropy_mainc   =               246.06
+water bonds     =               0.00
+helix dipole    =               0.00
+loop_entropy    =               0.00
+cis_bond        =               1.12
+disulfide       =               0.00
+kn electrostatic=               0.00
+partial covalent interactions = -24.97
+Energy_Ionisation =             0.30
+Entropy Complex =               0.00
+-----------------------------------------------------------
+Total          = 				  38.65
+
+Now optimizing Residue ILEA6
+Optimize Residue ID= ILEA6
+
+BackHbond       =               -93.01
+SideHbond       =               -22.32
+Energy_VdW      =               -184.35
+Electro         =               -6.11
+Energy_SolvP    =               268.00
+Energy_SolvH    =               -244.63
+Energy_vdwclash =               16.81
+energy_torsion  =               7.62
+backbone_vdwclash=              45.92
+Entropy_sidec   =               74.14
+Entropy_mainc   =               246.06
+water bonds     =               0.00
+helix dipole    =               0.00
+loop_entropy    =               0.00
+cis_bond        =               1.12
+disulfide       =               0.00
+kn electrostatic=               0.00
+partial covalent interactions = -24.97
+Energy_Ionisation =             0.30
+Entropy Complex =               0.00
+-----------------------------------------------------------
+Total          = 				  38.65
+
+Now optimizing Residue ASNA7
+Optimize Residue ID= ASNA7
+
+BackHbond       =               -93.07
+SideHbond       =               -22.39
+Energy_VdW      =               -184.35
+Electro         =               -6.11
+Energy_SolvP    =               268.00
+Energy_SolvH    =               -244.64
+Energy_vdwclash =               16.81
+energy_torsion  =               7.67
+backbone_vdwclash=              45.93
+Entropy_sidec   =               74.14
+Entropy_mainc   =               246.06
+water bonds     =               0.00
+helix dipole    =               0.00
+loop_entropy    =               0.00
+cis_bond        =               1.12
+disulfide       =               0.00
+kn electrostatic=               0.00
+partial covalent interactions = -24.97
+Energy_Ionisation =             0.30
+Entropy Complex =               0.00
+-----------------------------------------------------------
+Total          = 				  38.56
+
+Now optimizing Residue PHEA10
+Optimize Residue ID= PHEA10
+
+BackHbond       =               -93.07
+SideHbond       =               -22.39
+Energy_VdW      =               -184.38
+Electro         =               -6.09
+Energy_SolvP    =               267.96
+Energy_SolvH    =               -244.71
+Energy_vdwclash =               16.81
+energy_torsion  =               7.67
+backbone_vdwclash=              45.92
+Entropy_sidec   =               74.14
+Entropy_mainc   =               246.06
+water bonds     =               0.00
+helix dipole    =               0.00
+loop_entropy    =               0.00
+cis_bond        =               1.12
+disulfide       =               0.00
+kn electrostatic=               0.00
+partial covalent interactions = -24.97
+Energy_Ionisation =             0.30
+Entropy Complex =               0.00
+-----------------------------------------------------------
+Total          = 				  38.45
+
+Now optimizing Residue GLUA11
+Optimize Residue ID= GLUA11
+
+BackHbond       =               -93.59
+SideHbond       =               -22.91
+Energy_VdW      =               -184.38
+Electro         =               -6.09
+Energy_SolvP    =               267.50
+Energy_SolvH    =               -244.72
+Energy_vdwclash =               15.17
+energy_torsion  =               7.66
+backbone_vdwclash=              45.92
+Entropy_sidec   =               74.14
+Entropy_mainc   =               246.15
+water bonds     =               0.00
+helix dipole    =               0.00
+loop_entropy    =               0.00
+cis_bond        =               1.12
+disulfide       =               0.00
+kn electrostatic=               0.00
+partial covalent interactions = -24.74
+Energy_Ionisation =             0.30
+Entropy Complex =               0.00
+-----------------------------------------------------------
+Total          = 				  35.61
+
+Now optimizing Residue SERA12
+Optimize Residue ID= SERA12
+
+BackHbond       =               -93.59
+SideHbond       =               -22.91
+Energy_VdW      =               -184.38
+Electro         =               -6.09
+Energy_SolvP    =               267.50
+Energy_SolvH    =               -244.72
+Energy_vdwclash =               15.17
+energy_torsion  =               7.66
+backbone_vdwclash=              45.92
+Entropy_sidec   =               74.14
+Entropy_mainc   =               246.15
+water bonds     =               0.00
+helix dipole    =               0.00
+loop_entropy    =               0.00
+cis_bond        =               1.12
+disulfide       =               0.00
+kn electrostatic=               0.00
+partial covalent interactions = -24.74
+Energy_Ionisation =             0.30
+Entropy Complex =               0.00
+-----------------------------------------------------------
+Total          = 				  35.60
+
+Now optimizing Residue THRA13
+Optimize Residue ID= THRA13
+
+BackHbond       =               -93.59
+SideHbond       =               -22.91
+Energy_VdW      =               -184.38
+Electro         =               -6.09
+Energy_SolvP    =               267.50
+Energy_SolvH    =               -244.72
+Energy_vdwclash =               15.17
+energy_torsion  =               7.66
+backbone_vdwclash=              45.92
+Entropy_sidec   =               74.14
+Entropy_mainc   =               246.15
+water bonds     =               0.00
+helix dipole    =               0.00
+loop_entropy    =               0.00
+cis_bond        =               1.12
+disulfide       =               0.00
+kn electrostatic=               0.00
+partial covalent interactions = -24.74
+Energy_Ionisation =             0.30
+Entropy Complex =               0.00
+-----------------------------------------------------------
+Total          = 				  35.60
+
+Now optimizing Residue PROA14
+Optimize Residue ID= PROA14
+
+BackHbond       =               -93.59
+SideHbond       =               -22.91
+Energy_VdW      =               -184.38
+Electro         =               -6.09
+Energy_SolvP    =               267.50
+Energy_SolvH    =               -244.72
+Energy_vdwclash =               15.17
+energy_torsion  =               7.66
+backbone_vdwclash=              45.92
+Entropy_sidec   =               74.14
+Entropy_mainc   =               246.15
+water bonds     =               0.00
+helix dipole    =               0.00
+loop_entropy    =               0.00
+cis_bond        =               1.12
+disulfide       =               0.00
+kn electrostatic=               0.00
+partial covalent interactions = -24.74
+Energy_Ionisation =             0.30
+Entropy Complex =               0.00
+-----------------------------------------------------------
+Total          = 				  35.60
+
+Now optimizing Residue VALA17
+Optimize Residue ID= VALA17
+
+BackHbond       =               -93.59
+SideHbond       =               -22.91
+Energy_VdW      =               -184.38
+Electro         =               -6.09
+Energy_SolvP    =               267.50
+Energy_SolvH    =               -244.72
+Energy_vdwclash =               15.17
+energy_torsion  =               7.66
+backbone_vdwclash=              45.92
+Entropy_sidec   =               74.14
+Entropy_mainc   =               246.15
+water bonds     =               0.00
+helix dipole    =               0.00
+loop_entropy    =               0.00
+cis_bond        =               1.12
+disulfide       =               0.00
+kn electrostatic=               0.00
+partial covalent interactions = -24.74
+Energy_Ionisation =             0.30
+Entropy Complex =               0.00
+-----------------------------------------------------------
+Total          = 				  35.60
+
+Now optimizing Residue VALA18
+Optimize Residue ID= VALA18
+
+BackHbond       =               -93.59
+SideHbond       =               -22.91
+Energy_VdW      =               -184.38
+Electro         =               -6.09
+Energy_SolvP    =               267.50
+Energy_SolvH    =               -244.72
+Energy_vdwclash =               15.17
+energy_torsion  =               7.66
+backbone_vdwclash=              45.92
+Entropy_sidec   =               74.14
+Entropy_mainc   =               246.15
+water bonds     =               0.00
+helix dipole    =               0.00
+loop_entropy    =               0.00
+cis_bond        =               1.12
+disulfide       =               0.00
+kn electrostatic=               0.00
+partial covalent interactions = -24.74
+Energy_Ionisation =             0.30
+Entropy Complex =               0.00
+-----------------------------------------------------------
+Total          = 				  35.60
+
+Now optimizing Residue THRA19
+Optimize Residue ID= THRA19
+
+BackHbond       =               -93.59
+SideHbond       =               -22.91
+Energy_VdW      =               -184.38
+Electro         =               -6.09
+Energy_SolvP    =               267.50
+Energy_SolvH    =               -244.72
+Energy_vdwclash =               15.17
+energy_torsion  =               7.66
+backbone_vdwclash=              45.92
+Entropy_sidec   =               74.14
+Entropy_mainc   =               246.15
+water bonds     =               0.00
+helix dipole    =               0.00
+loop_entropy    =               0.00
+cis_bond        =               1.12
+disulfide       =               0.00
+kn electrostatic=               0.00
+partial covalent interactions = -24.74
+Energy_Ionisation =             0.30
+Entropy Complex =               0.00
+-----------------------------------------------------------
+Total          = 				  35.60
+
+Now optimizing Residue ASPA20
+Optimize Residue ID= ASPA20
+
+BackHbond       =               -93.54
+SideHbond       =               -22.86
+Energy_VdW      =               -184.37
+Electro         =               -6.10
+Energy_SolvP    =               267.46
+Energy_SolvH    =               -244.71
+Energy_vdwclash =               14.76
+energy_torsion  =               7.51
+backbone_vdwclash=              45.91
+Entropy_sidec   =               74.08
+Entropy_mainc   =               246.15
+water bonds     =               0.00
+helix dipole    =               0.00
+loop_entropy    =               0.00
+cis_bond        =               1.12
+disulfide       =               0.00
+kn electrostatic=               0.00
+partial covalent interactions = -24.74
+Energy_Ionisation =             0.30
+Entropy Complex =               0.00
+-----------------------------------------------------------
+Total          = 				  35.05
+
+Now optimizing Residue GLUA23
+Optimize Residue ID= GLUA23
+
+BackHbond       =               -93.54
+SideHbond       =               -22.86
+Energy_VdW      =               -184.37
+Electro         =               -6.10
+Energy_SolvP    =               267.46
+Energy_SolvH    =               -244.72
+Energy_vdwclash =               14.76
+energy_torsion  =               7.49
+backbone_vdwclash=              45.91
+Entropy_sidec   =               74.09
+Entropy_mainc   =               246.15
+water bonds     =               0.00
+helix dipole    =               0.00
+loop_entropy    =               0.00
+cis_bond        =               1.12
+disulfide       =               0.00
+kn electrostatic=               0.00
+partial covalent interactions = -24.74
+Energy_Ionisation =             0.30
+Entropy Complex =               0.00
+-----------------------------------------------------------
+Total          = 				  35.03
+
+Now optimizing Residue GLUA26
+Optimize Residue ID= GLUA26
+
+BackHbond       =               -93.54
+SideHbond       =               -22.86
+Energy_VdW      =               -184.31
+Electro         =               -6.10
+Energy_SolvP    =               267.30
+Energy_SolvH    =               -244.67
+Energy_vdwclash =               14.74
+energy_torsion  =               7.49
+backbone_vdwclash=              45.90
+Entropy_sidec   =               74.05
+Entropy_mainc   =               246.14
+water bonds     =               0.00
+helix dipole    =               0.00
+loop_entropy    =               0.00
+cis_bond        =               1.12
+disulfide       =               0.00
+kn electrostatic=               0.00
+partial covalent interactions = -24.74
+Energy_Ionisation =             0.30
+Entropy Complex =               0.00
+-----------------------------------------------------------
+Total          = 				  34.90
+
+Now optimizing Residue ASPA29
+Optimize Residue ID= ASPA29
+
+BackHbond       =               -93.54
+SideHbond       =               -22.86
+Energy_VdW      =               -184.29
+Electro         =               -6.09
+Energy_SolvP    =               267.25
+Energy_SolvH    =               -244.64
+Energy_vdwclash =               14.67
+energy_torsion  =               7.49
+backbone_vdwclash=              45.90
+Entropy_sidec   =               74.04
+Entropy_mainc   =               246.14
+water bonds     =               0.00
+helix dipole    =               0.00
+loop_entropy    =               0.00
+cis_bond        =               1.12
+disulfide       =               0.00
+kn electrostatic=               0.00
+partial covalent interactions = -24.76
+Energy_Ionisation =             0.30
+Entropy Complex =               0.00
+-----------------------------------------------------------
+Total          = 				  34.82
+
+Now optimizing Residue ASNA31
+Optimize Residue ID= ASNA31
+
+BackHbond       =               -93.55
+SideHbond       =               -22.87
+Energy_VdW      =               -184.31
+Electro         =               -6.09
+Energy_SolvP    =               267.28
+Energy_SolvH    =               -244.66
+Energy_vdwclash =               14.68
+energy_torsion  =               7.49
+backbone_vdwclash=              45.90
+Entropy_sidec   =               74.04
+Entropy_mainc   =               246.14
+water bonds     =               0.00
+helix dipole    =               0.00
+loop_entropy    =               0.00
+cis_bond        =               1.12
+disulfide       =               0.00
+kn electrostatic=               0.00
+partial covalent interactions = -24.76
+Energy_Ionisation =             0.30
+Entropy Complex =               0.00
+-----------------------------------------------------------
+Total          = 				  34.80
+
+Now optimizing Residue SERA34
+Optimize Residue ID= SERA34
+
+BackHbond       =               -93.55
+SideHbond       =               -22.87
+Energy_VdW      =               -184.31
+Electro         =               -6.09
+Energy_SolvP    =               267.28
+Energy_SolvH    =               -244.66
+Energy_vdwclash =               14.68
+energy_torsion  =               7.49
+backbone_vdwclash=              45.90
+Entropy_sidec   =               74.04
+Entropy_mainc   =               246.14
+water bonds     =               0.00
+helix dipole    =               0.00
+loop_entropy    =               0.00
+cis_bond        =               1.12
+disulfide       =               0.00
+kn electrostatic=               0.00
+partial covalent interactions = -24.76
+Energy_Ionisation =             0.30
+Entropy Complex =               0.00
+-----------------------------------------------------------
+Total          = 				  34.80
+
+Now optimizing Residue SERA35
+Optimize Residue ID= SERA35
+
+BackHbond       =               -93.55
+SideHbond       =               -22.87
+Energy_VdW      =               -184.31
+Electro         =               -6.09
+Energy_SolvP    =               267.28
+Energy_SolvH    =               -244.66
+Energy_vdwclash =               14.68
+energy_torsion  =               7.49
+backbone_vdwclash=              45.90
+Entropy_sidec   =               74.04
+Entropy_mainc   =               246.14
+water bonds     =               0.00
+helix dipole    =               0.00
+loop_entropy    =               0.00
+cis_bond        =               1.12
+disulfide       =               0.00
+kn electrostatic=               0.00
+partial covalent interactions = -24.76
+Energy_Ionisation =             0.30
+Entropy Complex =               0.00
+-----------------------------------------------------------
+Total          = 				  34.80
+
+Now optimizing Residue THRA37
+Optimize Residue ID= THRA37
+
+BackHbond       =               -93.55
+SideHbond       =               -22.87
+Energy_VdW      =               -184.31
+Electro         =               -6.09
+Energy_SolvP    =               267.28
+Energy_SolvH    =               -244.66
+Energy_vdwclash =               14.68
+energy_torsion  =               7.49
+backbone_vdwclash=              45.90
+Entropy_sidec   =               74.04
+Entropy_mainc   =               246.14
+water bonds     =               0.00
+helix dipole    =               0.00
+loop_entropy    =               0.00
+cis_bond        =               1.12
+disulfide       =               0.00
+kn electrostatic=               0.00
+partial covalent interactions = -24.76
+Energy_Ionisation =             0.30
+Entropy Complex =               0.00
+-----------------------------------------------------------
+Total          = 				  34.80
+
+Now optimizing Residue ASNA38
+Optimize Residue ID= ASNA38
+
+BackHbond       =               -93.55
+SideHbond       =               -22.87
+Energy_VdW      =               -184.30
+Electro         =               -6.09
+Energy_SolvP    =               267.26
+Energy_SolvH    =               -244.65
+Energy_vdwclash =               14.68
+energy_torsion  =               7.48
+backbone_vdwclash=              45.90
+Entropy_sidec   =               74.04
+Entropy_mainc   =               246.13
+water bonds     =               0.00
+helix dipole    =               0.00
+loop_entropy    =               0.00
+cis_bond        =               1.12
+disulfide       =               0.00
+kn electrostatic=               0.00
+partial covalent interactions = -24.76
+Energy_Ionisation =             0.30
+Entropy Complex =               0.00
+-----------------------------------------------------------
+Total          = 				  34.78
+
+Now optimizing Residue PROA39
+Optimize Residue ID= PROA39
+
+BackHbond       =               -93.55
+SideHbond       =               -22.87
+Energy_VdW      =               -184.33
+Electro         =               -6.09
+Energy_SolvP    =               267.29
+Energy_SolvH    =               -244.68
+Energy_vdwclash =               14.68
+energy_torsion  =               7.48
+backbone_vdwclash=              45.90
+Entropy_sidec   =               74.05
+Entropy_mainc   =               246.13
+water bonds     =               0.00
+helix dipole    =               0.00
+loop_entropy    =               0.00
+cis_bond        =               1.12
+disulfide       =               0.00
+kn electrostatic=               0.00
+partial covalent interactions = -24.76
+Energy_Ionisation =             0.30
+Entropy Complex =               0.00
+-----------------------------------------------------------
+Total          = 				  34.77
+
+Now optimizing Residue VALA41
+Optimize Residue ID= VALA41
+
+BackHbond       =               -93.55
+SideHbond       =               -22.87
+Energy_VdW      =               -184.34
+Electro         =               -6.09
+Energy_SolvP    =               267.29
+Energy_SolvH    =               -244.70
+Energy_vdwclash =               14.68
+energy_torsion  =               7.49
+backbone_vdwclash=              45.90
+Entropy_sidec   =               74.06
+Entropy_mainc   =               246.13
+water bonds     =               0.00
+helix dipole    =               0.00
+loop_entropy    =               0.00
+cis_bond        =               1.12
+disulfide       =               0.00
+kn electrostatic=               0.00
+partial covalent interactions = -24.76
+Energy_Ionisation =             0.30
+Entropy Complex =               0.00
+-----------------------------------------------------------
+Total          = 				  34.76
+
+Now optimizing Residue GLUA43
+Optimize Residue ID= GLUA43
+
+BackHbond       =               -93.55
+SideHbond       =               -22.87
+Energy_VdW      =               -184.34
+Electro         =               -6.10
+Energy_SolvP    =               267.29
+Energy_SolvH    =               -244.70
+Energy_vdwclash =               14.68
+energy_torsion  =               7.49
+backbone_vdwclash=              45.90
+Entropy_sidec   =               74.05
+Entropy_mainc   =               246.13
+water bonds     =               0.00
+helix dipole    =               0.00
+loop_entropy    =               0.00
+cis_bond        =               1.12
+disulfide       =               0.00
+kn electrostatic=               0.00
+partial covalent interactions = -24.76
+Energy_Ionisation =             0.30
+Entropy Complex =               0.00
+-----------------------------------------------------------
+Total          = 				  34.75
+
+Now optimizing Residue LEUA45
+Optimize Residue ID= LEUA45
+
+BackHbond       =               -93.55
+SideHbond       =               -22.87
+Energy_VdW      =               -184.34
+Electro         =               -6.10
+Energy_SolvP    =               267.28
+Energy_SolvH    =               -244.70
+Energy_vdwclash =               14.68
+energy_torsion  =               7.49
+backbone_vdwclash=              45.90
+Entropy_sidec   =               74.05
+Entropy_mainc   =               246.13
+water bonds     =               0.00
+helix dipole    =               0.00
+loop_entropy    =               0.00
+cis_bond        =               1.12
+disulfide       =               0.00
+kn electrostatic=               0.00
+partial covalent interactions = -24.76
+Energy_Ionisation =             0.30
+Entropy Complex =               0.00
+-----------------------------------------------------------
+Total          = 				  34.74
+
+Now optimizing Residue GLUA46
+Optimize Residue ID= GLUA46
+
+BackHbond       =               -93.55
+SideHbond       =               -22.87
+Energy_VdW      =               -184.33
+Electro         =               -6.09
+Energy_SolvP    =               267.24
+Energy_SolvH    =               -244.70
+Energy_vdwclash =               14.68
+energy_torsion  =               7.48
+backbone_vdwclash=              45.90
+Entropy_sidec   =               74.04
+Entropy_mainc   =               246.13
+water bonds     =               0.00
+helix dipole    =               0.00
+loop_entropy    =               0.00
+cis_bond        =               1.12
+disulfide       =               0.00
+kn electrostatic=               0.00
+partial covalent interactions = -24.76
+Energy_Ionisation =             0.30
+Entropy Complex =               0.00
+-----------------------------------------------------------
+Total          = 				  34.70
+
+Now optimizing Residue THRA47
+Optimize Residue ID= THRA47
+
+BackHbond       =               -93.58
+SideHbond       =               -22.90
+Energy_VdW      =               -184.30
+Electro         =               -6.09
+Energy_SolvP    =               267.20
+Energy_SolvH    =               -244.66
+Energy_vdwclash =               14.67
+energy_torsion  =               7.36
+backbone_vdwclash=              45.90
+Entropy_sidec   =               74.04
+Entropy_mainc   =               246.14
+water bonds     =               0.00
+helix dipole    =               0.00
+loop_entropy    =               0.00
+cis_bond        =               1.12
+disulfide       =               0.00
+kn electrostatic=               0.00
+partial covalent interactions = -24.76
+Energy_Ionisation =             0.30
+Entropy Complex =               0.00
+-----------------------------------------------------------
+Total          = 				  34.53
+
+Now optimizing Residue SERA48
+Optimize Residue ID= SERA48
+
+BackHbond       =               -93.58
+SideHbond       =               -22.90
+Energy_VdW      =               -184.30
+Electro         =               -6.09
+Energy_SolvP    =               267.20
+Energy_SolvH    =               -244.66
+Energy_vdwclash =               14.67
+energy_torsion  =               7.36
+backbone_vdwclash=              45.90
+Entropy_sidec   =               74.04
+Entropy_mainc   =               246.14
+water bonds     =               0.00
+helix dipole    =               0.00
+loop_entropy    =               0.00
+cis_bond        =               1.12
+disulfide       =               0.00
+kn electrostatic=               0.00
+partial covalent interactions = -24.76
+Energy_Ionisation =             0.30
+Entropy Complex =               0.00
+-----------------------------------------------------------
+Total          = 				  34.53
+
+Now optimizing Residue ASPA49
+Optimize Residue ID= ASPA49
+
+BackHbond       =               -93.58
+SideHbond       =               -22.90
+Energy_VdW      =               -184.28
+Electro         =               -6.09
+Energy_SolvP    =               267.12
+Energy_SolvH    =               -244.64
+Energy_vdwclash =               14.09
+energy_torsion  =               7.28
+backbone_vdwclash=              45.90
+Entropy_sidec   =               74.03
+Entropy_mainc   =               246.13
+water bonds     =               0.00
+helix dipole    =               0.00
+loop_entropy    =               0.00
+cis_bond        =               1.12
+disulfide       =               0.00
+kn electrostatic=               0.00
+partial covalent interactions = -24.76
+Energy_Ionisation =             0.30
+Entropy Complex =               0.00
+-----------------------------------------------------------
+Total          = 				  33.84
+
+Now optimizing Residue GLUA52
+Optimize Residue ID= GLUA52
+
+BackHbond       =               -93.58
+SideHbond       =               -22.90
+Energy_VdW      =               -184.24
+Electro         =               -6.19
+Energy_SolvP    =               266.98
+Energy_SolvH    =               -244.62
+Energy_vdwclash =               14.03
+energy_torsion  =               7.00
+backbone_vdwclash=              45.89
+Entropy_sidec   =               74.03
+Entropy_mainc   =               246.13
+water bonds     =               0.00
+helix dipole    =               0.00
+loop_entropy    =               0.00
+cis_bond        =               1.12
+disulfide       =               0.00
+kn electrostatic=               0.00
+partial covalent interactions = -24.69
+Energy_Ionisation =             0.30
+Entropy Complex =               0.00
+-----------------------------------------------------------
+Total          = 				  33.36
+
+Now optimizing Residue ASNA54
+Optimize Residue ID= ASNA54
+
+BackHbond       =               -93.58
+SideHbond       =               -22.90
+Energy_VdW      =               -184.24
+Electro         =               -6.19
+Energy_SolvP    =               266.97
+Energy_SolvH    =               -244.62
+Energy_vdwclash =               14.03
+energy_torsion  =               6.99
+backbone_vdwclash=              45.89
+Entropy_sidec   =               74.03
+Entropy_mainc   =               246.13
+water bonds     =               0.00
+helix dipole    =               0.00
+loop_entropy    =               0.00
+cis_bond        =               1.12
+disulfide       =               0.00
+kn electrostatic=               0.00
+partial covalent interactions = -24.69
+Energy_Ionisation =             0.30
+Entropy Complex =               0.00
+-----------------------------------------------------------
+Total          = 				  33.36
+
+Now optimizing Residue LYSA55
+Optimize Residue ID= LYSA55
+
+BackHbond       =               -93.58
+SideHbond       =               -23.10
+Energy_VdW      =               -184.23
+Electro         =               -6.20
+Energy_SolvP    =               266.93
+Energy_SolvH    =               -244.60
+Energy_vdwclash =               14.03
+energy_torsion  =               6.99
+backbone_vdwclash=              45.90
+Entropy_sidec   =               74.14
+Entropy_mainc   =               246.13
+water bonds     =               0.00
+helix dipole    =               0.00
+loop_entropy    =               0.00
+cis_bond        =               1.12
+disulfide       =               0.00
+kn electrostatic=               0.00
+partial covalent interactions = -24.69
+Energy_Ionisation =             0.30
+Entropy Complex =               0.00
+-----------------------------------------------------------
+Total          = 				  33.25
+
+Now optimizing Residue THRA60
+Optimize Residue ID= THRA60
+
+BackHbond       =               -93.58
+SideHbond       =               -23.13
+Energy_VdW      =               -184.22
+Electro         =               -6.20
+Energy_SolvP    =               266.92
+Energy_SolvH    =               -244.60
+Energy_vdwclash =               14.03
+energy_torsion  =               7.00
+backbone_vdwclash=              45.90
+Entropy_sidec   =               74.14
+Entropy_mainc   =               246.13
+water bonds     =               0.00
+helix dipole    =               0.00
+loop_entropy    =               0.00
+cis_bond        =               1.12
+disulfide       =               0.00
+kn electrostatic=               0.00
+partial covalent interactions = -24.69
+Energy_Ionisation =             0.30
+Entropy Complex =               0.00
+-----------------------------------------------------------
+Total          = 				  33.22
+
+Now optimizing Residue ASNA62
+Optimize Residue ID= ASNA62
+
+BackHbond       =               -93.60
+SideHbond       =               -23.14
+Energy_VdW      =               -184.24
+Electro         =               -6.20
+Energy_SolvP    =               266.94
+Energy_SolvH    =               -244.61
+Energy_vdwclash =               14.03
+energy_torsion  =               7.00
+backbone_vdwclash=              45.90
+Entropy_sidec   =               74.14
+Entropy_mainc   =               246.13
+water bonds     =               0.00
+helix dipole    =               0.00
+loop_entropy    =               0.00
+cis_bond        =               1.12
+disulfide       =               0.00
+kn electrostatic=               0.00
+partial covalent interactions = -24.69
+Energy_Ionisation =             0.30
+Entropy Complex =               0.00
+-----------------------------------------------------------
+Total          = 				  33.18
+
+Now optimizing Residue VALA64
+Optimize Residue ID= VALA64
+
+BackHbond       =               -93.60
+SideHbond       =               -23.14
+Energy_VdW      =               -184.26
+Electro         =               -6.20
+Energy_SolvP    =               266.94
+Energy_SolvH    =               -244.67
+Energy_vdwclash =               14.03
+energy_torsion  =               7.02
+backbone_vdwclash=              45.90
+Entropy_sidec   =               74.14
+Entropy_mainc   =               246.13
+water bonds     =               0.00
+helix dipole    =               0.00
+loop_entropy    =               0.00
+cis_bond        =               1.12
+disulfide       =               0.00
+kn electrostatic=               0.00
+partial covalent interactions = -24.69
+Energy_Ionisation =             0.30
+Entropy Complex =               0.00
+-----------------------------------------------------------
+Total          = 				  33.11
+
+Now optimizing Residue ASNA66
+Optimize Residue ID= ASNA66
+
+BackHbond       =               -93.60
+SideHbond       =               -23.14
+Energy_VdW      =               -184.25
+Electro         =               -6.20
+Energy_SolvP    =               266.91
+Energy_SolvH    =               -244.66
+Energy_vdwclash =               14.03
+energy_torsion  =               7.02
+backbone_vdwclash=              45.90
+Entropy_sidec   =               74.13
+Entropy_mainc   =               246.13
+water bonds     =               0.00
+helix dipole    =               0.00
+loop_entropy    =               0.00
+cis_bond        =               1.12
+disulfide       =               0.00
+kn electrostatic=               0.00
+partial covalent interactions = -24.69
+Energy_Ionisation =             0.30
+Entropy Complex =               0.00
+-----------------------------------------------------------
+Total          = 				  33.10
+
+Now optimizing Residue ASNA67
+Optimize Residue ID= ASNA67
+
+BackHbond       =               -93.60
+SideHbond       =               -23.14
+Energy_VdW      =               -184.25
+Electro         =               -6.20
+Energy_SolvP    =               266.91
+Energy_SolvH    =               -244.66
+Energy_vdwclash =               14.03
+energy_torsion  =               7.02
+backbone_vdwclash=              45.90
+Entropy_sidec   =               74.13
+Entropy_mainc   =               246.13
+water bonds     =               0.00
+helix dipole    =               0.00
+loop_entropy    =               0.00
+cis_bond        =               1.12
+disulfide       =               0.00
+kn electrostatic=               0.00
+partial covalent interactions = -24.69
+Energy_Ionisation =             0.30
+Entropy Complex =               0.00
+-----------------------------------------------------------
+Total          = 				  33.09
+
+Now optimizing Residue PROA68
+Optimize Residue ID= PROA68
+
+BackHbond       =               -93.60
+SideHbond       =               -23.14
+Energy_VdW      =               -184.25
+Electro         =               -6.20
+Energy_SolvP    =               266.91
+Energy_SolvH    =               -244.67
+Energy_vdwclash =               14.03
+energy_torsion  =               7.02
+backbone_vdwclash=              45.90
+Entropy_sidec   =               74.13
+Entropy_mainc   =               246.13
+water bonds     =               0.00
+helix dipole    =               0.00
+loop_entropy    =               0.00
+cis_bond        =               1.12
+disulfide       =               0.00
+kn electrostatic=               0.00
+partial covalent interactions = -24.69
+Energy_Ionisation =             0.30
+Entropy Complex =               0.00
+-----------------------------------------------------------
+Total          = 				  33.08
+
+Now optimizing Residue TYRA69
+Optimize Residue ID= TYRA69
+
+BackHbond       =               -93.60
+SideHbond       =               -23.14
+Energy_VdW      =               -184.26
+Electro         =               -6.20
+Energy_SolvP    =               266.88
+Energy_SolvH    =               -244.70
+Energy_vdwclash =               14.03
+energy_torsion  =               7.01
+backbone_vdwclash=              45.90
+Entropy_sidec   =               74.14
+Entropy_mainc   =               246.13
+water bonds     =               0.00
+helix dipole    =               0.00
+loop_entropy    =               0.00
+cis_bond        =               1.12
+disulfide       =               0.00
+kn electrostatic=               0.00
+partial covalent interactions = -24.69
+Energy_Ionisation =             0.30
+Entropy Complex =               0.00
+-----------------------------------------------------------
+Total          = 				  33.02
+
+Now optimizing Residue ASPA70
+Optimize Residue ID= ASPA70
+
+BackHbond       =               -93.67
+SideHbond       =               -23.22
+Energy_VdW      =               -184.26
+Electro         =               -6.21
+Energy_SolvP    =               266.87
+Energy_SolvH    =               -244.70
+Energy_vdwclash =               13.97
+energy_torsion  =               7.00
+backbone_vdwclash=              45.90
+Entropy_sidec   =               74.14
+Entropy_mainc   =               246.13
+water bonds     =               0.00
+helix dipole    =               0.00
+loop_entropy    =               0.00
+cis_bond        =               1.12
+disulfide       =               0.00
+kn electrostatic=               0.00
+partial covalent interactions = -24.69
+Energy_Ionisation =             0.30
+Entropy Complex =               0.00
+-----------------------------------------------------------
+Total          = 				  32.79
+
+Now optimizing Residue THRA74
+Optimize Residue ID= THRA74
+
+BackHbond       =               -93.67
+SideHbond       =               -23.22
+Energy_VdW      =               -184.26
+Electro         =               -6.21
+Energy_SolvP    =               266.87
+Energy_SolvH    =               -244.70
+Energy_vdwclash =               13.97
+energy_torsion  =               6.95
+backbone_vdwclash=              45.90
+Entropy_sidec   =               74.14
+Entropy_mainc   =               246.13
+water bonds     =               0.00
+helix dipole    =               0.00
+loop_entropy    =               0.00
+cis_bond        =               1.12
+disulfide       =               0.00
+kn electrostatic=               0.00
+partial covalent interactions = -24.69
+Energy_Ionisation =             0.30
+Entropy Complex =               0.00
+-----------------------------------------------------------
+Total          = 				  32.74
+
+Now optimizing Residue LEUA76
+Optimize Residue ID= LEUA76
+
+BackHbond       =               -93.67
+SideHbond       =               -23.22
+Energy_VdW      =               -184.25
+Electro         =               -6.21
+Energy_SolvP    =               266.88
+Energy_SolvH    =               -244.68
+Energy_vdwclash =               13.66
+energy_torsion  =               6.95
+backbone_vdwclash=              45.90
+Entropy_sidec   =               74.14
+Entropy_mainc   =               246.13
+water bonds     =               0.00
+helix dipole    =               0.00
+loop_entropy    =               0.00
+cis_bond        =               1.12
+disulfide       =               0.00
+kn electrostatic=               0.00
+partial covalent interactions = -24.69
+Energy_Ionisation =             0.30
+Entropy Complex =               0.00
+-----------------------------------------------------------
+Total          = 				  32.45
+
+Now optimizing Residue PROA77
+Optimize Residue ID= PROA77
+
+BackHbond       =               -93.67
+SideHbond       =               -23.22
+Energy_VdW      =               -184.26
+Electro         =               -6.21
+Energy_SolvP    =               266.88
+Energy_SolvH    =               -244.69
+Energy_vdwclash =               13.66
+energy_torsion  =               6.95
+backbone_vdwclash=              45.90
+Entropy_sidec   =               74.14
+Entropy_mainc   =               246.13
+water bonds     =               0.00
+helix dipole    =               0.00
+loop_entropy    =               0.00
+cis_bond        =               1.12
+disulfide       =               0.00
+kn electrostatic=               0.00
+partial covalent interactions = -24.69
+Energy_Ionisation =             0.30
+Entropy Complex =               0.00
+-----------------------------------------------------------
+Total          = 				  32.45
+
+Now optimizing Residue ASNA79
+Optimize Residue ID= ASNA79
+
+BackHbond       =               -93.67
+SideHbond       =               -23.22
+Energy_VdW      =               -184.25
+Electro         =               -6.21
+Energy_SolvP    =               266.86
+Energy_SolvH    =               -244.69
+Energy_vdwclash =               13.66
+energy_torsion  =               6.95
+backbone_vdwclash=              45.90
+Entropy_sidec   =               74.14
+Entropy_mainc   =               246.12
+water bonds     =               0.00
+helix dipole    =               0.00
+loop_entropy    =               0.00
+cis_bond        =               1.12
+disulfide       =               0.00
+kn electrostatic=               0.00
+partial covalent interactions = -24.69
+Energy_Ionisation =             0.30
+Entropy Complex =               0.00
+-----------------------------------------------------------
+Total          = 				  32.43
+
+Now optimizing Residue ARGA81
+Optimize Residue ID= ARGA81
+
+BackHbond       =               -93.67
+SideHbond       =               -23.22
+Energy_VdW      =               -184.25
+Electro         =               -6.21
+Energy_SolvP    =               266.86
+Energy_SolvH    =               -244.69
+Energy_vdwclash =               13.66
+energy_torsion  =               6.95
+backbone_vdwclash=              45.90
+Entropy_sidec   =               74.14
+Entropy_mainc   =               246.12
+water bonds     =               0.00
+helix dipole    =               0.00
+loop_entropy    =               0.00
+cis_bond        =               1.12
+disulfide       =               0.00
+kn electrostatic=               0.00
+partial covalent interactions = -24.69
+Energy_Ionisation =             0.30
+Entropy Complex =               0.00
+-----------------------------------------------------------
+Total          = 				  32.43
+
+Now optimizing Residue VALA84
+Optimize Residue ID= VALA84
+
+BackHbond       =               -93.67
+SideHbond       =               -23.22
+Energy_VdW      =               -184.25
+Electro         =               -6.21
+Energy_SolvP    =               266.86
+Energy_SolvH    =               -244.69
+Energy_vdwclash =               13.64
+energy_torsion  =               6.93
+backbone_vdwclash=              45.90
+Entropy_sidec   =               74.14
+Entropy_mainc   =               246.12
+water bonds     =               0.00
+helix dipole    =               0.00
+loop_entropy    =               0.00
+cis_bond        =               1.12
+disulfide       =               0.00
+kn electrostatic=               0.00
+partial covalent interactions = -24.69
+Energy_Ionisation =             0.30
+Entropy Complex =               0.00
+-----------------------------------------------------------
+Total          = 				  32.38
+
+Now optimizing Residue THRA85
+Optimize Residue ID= THRA85
+
+BackHbond       =               -93.67
+SideHbond       =               -23.30
+Energy_VdW      =               -184.25
+Electro         =               -6.21
+Energy_SolvP    =               266.85
+Energy_SolvH    =               -244.69
+Energy_vdwclash =               13.64
+energy_torsion  =               6.93
+backbone_vdwclash=              45.90
+Entropy_sidec   =               74.14
+Entropy_mainc   =               246.12
+water bonds     =               0.00
+helix dipole    =               0.00
+loop_entropy    =               0.00
+cis_bond        =               1.12
+disulfide       =               0.00
+kn electrostatic=               0.00
+partial covalent interactions = -24.69
+Energy_Ionisation =             0.30
+Entropy Complex =               0.00
+-----------------------------------------------------------
+Total          = 				  32.30
+
+Now optimizing Residue TYRA86
+Optimize Residue ID= TYRA86
+
+BackHbond       =               -94.17
+SideHbond       =               -23.78
+Energy_VdW      =               -184.31
+Electro         =               -6.19
+Energy_SolvP    =               266.49
+Energy_SolvH    =               -244.77
+Energy_vdwclash =               13.29
+energy_torsion  =               6.93
+backbone_vdwclash=              45.90
+Entropy_sidec   =               74.13
+Entropy_mainc   =               246.12
+water bonds     =               0.00
+helix dipole    =               0.00
+loop_entropy    =               0.00
+cis_bond        =               1.12
+disulfide       =               0.00
+kn electrostatic=               0.00
+partial covalent interactions = -24.69
+Energy_Ionisation =             0.30
+Entropy Complex =               0.00
+-----------------------------------------------------------
+Total          = 				  30.47
+
+Now optimizing Residue THRA87
+Optimize Residue ID= THRA87
+
+BackHbond       =               -94.17
+SideHbond       =               -23.78
+Energy_VdW      =               -184.31
+Electro         =               -6.19
+Energy_SolvP    =               266.48
+Energy_SolvH    =               -244.77
+Energy_vdwclash =               13.29
+energy_torsion  =               6.93
+backbone_vdwclash=              45.90
+Entropy_sidec   =               74.13
+Entropy_mainc   =               246.12
+water bonds     =               0.00
+helix dipole    =               0.00
+loop_entropy    =               0.00
+cis_bond        =               1.12
+disulfide       =               0.00
+kn electrostatic=               0.00
+partial covalent interactions = -24.69
+Energy_Ionisation =             0.30
+Entropy Complex =               0.00
+-----------------------------------------------------------
+Total          = 				  30.47
+
+Now optimizing Residue TYRA88
+Optimize Residue ID= TYRA88
+
+BackHbond       =               -94.17
+SideHbond       =               -23.78
+Energy_VdW      =               -184.32
+Electro         =               -6.19
+Energy_SolvP    =               266.49
+Energy_SolvH    =               -244.79
+Energy_vdwclash =               13.28
+energy_torsion  =               6.78
+backbone_vdwclash=              45.90
+Entropy_sidec   =               74.13
+Entropy_mainc   =               246.12
+water bonds     =               0.00
+helix dipole    =               0.00
+loop_entropy    =               0.00
+cis_bond        =               1.12
+disulfide       =               0.00
+kn electrostatic=               0.00
+partial covalent interactions = -24.69
+Energy_Ionisation =             0.30
+Entropy Complex =               0.00
+-----------------------------------------------------------
+Total          = 				  30.30
+
+Now optimizing Residue THRA89
+Optimize Residue ID= THRA89
+
+BackHbond       =               -94.17
+SideHbond       =               -23.79
+Energy_VdW      =               -184.32
+Electro         =               -6.19
+Energy_SolvP    =               266.49
+Energy_SolvH    =               -244.78
+Energy_vdwclash =               13.28
+energy_torsion  =               6.78
+backbone_vdwclash=              45.90
+Entropy_sidec   =               74.13
+Entropy_mainc   =               246.12
+water bonds     =               0.00
+helix dipole    =               0.00
+loop_entropy    =               0.00
+cis_bond        =               1.12
+disulfide       =               0.00
+kn electrostatic=               0.00
+partial covalent interactions = -24.69
+Energy_Ionisation =             0.30
+Entropy Complex =               0.00
+-----------------------------------------------------------
+Total          = 				  30.30
+
+Now optimizing Residue ILEA90
+Optimize Residue ID= ILEA90
+
+BackHbond       =               -94.17
+SideHbond       =               -23.79
+Energy_VdW      =               -184.35
+Electro         =               -6.19
+Energy_SolvP    =               266.49
+Energy_SolvH    =               -244.85
+Energy_vdwclash =               13.28
+energy_torsion  =               6.71
+backbone_vdwclash=              45.90
+Entropy_sidec   =               74.15
+Entropy_mainc   =               246.12
+water bonds     =               0.00
+helix dipole    =               0.00
+loop_entropy    =               0.00
+cis_bond        =               1.12
+disulfide       =               0.00
+kn electrostatic=               0.00
+partial covalent interactions = -24.69
+Energy_Ionisation =             0.30
+Entropy Complex =               0.00
+-----------------------------------------------------------
+Total          = 				  30.14
+
+Now optimizing Residue TRPA91
+Optimize Residue ID= TRPA91
+
+BackHbond       =               -94.17
+SideHbond       =               -23.79
+Energy_VdW      =               -184.40
+Electro         =               -6.19
+Energy_SolvP    =               266.49
+Energy_SolvH    =               -244.94
+Energy_vdwclash =               13.13
+energy_torsion  =               6.71
+backbone_vdwclash=              45.90
+Entropy_sidec   =               74.15
+Entropy_mainc   =               246.13
+water bonds     =               0.00
+helix dipole    =               0.00
+loop_entropy    =               0.00
+cis_bond        =               1.12
+disulfide       =               0.00
+kn electrostatic=               0.00
+partial covalent interactions = -24.69
+Energy_Ionisation =             0.30
+Entropy Complex =               0.00
+-----------------------------------------------------------
+Total          = 				  29.85
+
+Now optimizing Residue ARGA93
+Optimize Residue ID= ARGA93
+
+BackHbond       =               -94.88
+SideHbond       =               -24.48
+Energy_VdW      =               -184.38
+Electro         =               -6.13
+Energy_SolvP    =               265.83
+Energy_SolvH    =               -244.93
+Energy_vdwclash =               12.54
+energy_torsion  =               6.69
+backbone_vdwclash=              45.89
+Entropy_sidec   =               74.15
+Entropy_mainc   =               246.56
+water bonds     =               0.00
+helix dipole    =               0.00
+loop_entropy    =               0.00
+cis_bond        =               1.12
+disulfide       =               0.00
+kn electrostatic=               0.00
+partial covalent interactions = -24.69
+Energy_Ionisation =             0.30
+Entropy Complex =               0.00
+-----------------------------------------------------------
+Total          = 				  27.69
+
+Now optimizing Residue GLUA95
+Optimize Residue ID= GLUA95
+
+BackHbond       =               -94.88
+SideHbond       =               -24.56
+Energy_VdW      =               -184.39
+Electro         =               -6.17
+Energy_SolvP    =               265.85
+Energy_SolvH    =               -244.95
+Energy_vdwclash =               12.54
+energy_torsion  =               6.69
+backbone_vdwclash=              45.89
+Entropy_sidec   =               74.20
+Entropy_mainc   =               246.56
+water bonds     =               0.00
+helix dipole    =               0.00
+loop_entropy    =               0.00
+cis_bond        =               1.12
+disulfide       =               0.00
+kn electrostatic=               0.00
+partial covalent interactions = -24.69
+Energy_Ionisation =             0.30
+Entropy Complex =               0.00
+-----------------------------------------------------------
+Total          = 				  27.62
+
+Now optimizing Residue GLNA96
+Optimize Residue ID= GLNA96
+
+BackHbond       =               -94.88
+SideHbond       =               -24.55
+Energy_VdW      =               -184.35
+Electro         =               -6.17
+Energy_SolvP    =               265.77
+Energy_SolvH    =               -244.92
+Energy_vdwclash =               12.54
+energy_torsion  =               6.67
+backbone_vdwclash=              45.89
+Entropy_sidec   =               74.17
+Entropy_mainc   =               246.56
+water bonds     =               0.00
+helix dipole    =               0.00
+loop_entropy    =               0.00
+cis_bond        =               1.12
+disulfide       =               0.00
+kn electrostatic=               0.00
+partial covalent interactions = -24.69
+Energy_Ionisation =             0.30
+Entropy Complex =               0.00
+-----------------------------------------------------------
+Total          = 				  27.56
+
+Now optimizing Residue ASPA97
+Optimize Residue ID= ASPA97
+
+BackHbond       =               -94.88
+SideHbond       =               -24.55
+Energy_VdW      =               -184.35
+Electro         =               -6.17
+Energy_SolvP    =               265.74
+Energy_SolvH    =               -244.92
+Energy_vdwclash =               12.54
+energy_torsion  =               6.67
+backbone_vdwclash=              45.89
+Entropy_sidec   =               74.17
+Entropy_mainc   =               246.55
+water bonds     =               0.00
+helix dipole    =               0.00
+loop_entropy    =               0.00
+cis_bond        =               1.12
+disulfide       =               0.00
+kn electrostatic=               0.00
+partial covalent interactions = -24.69
+Energy_Ionisation =             0.30
+Entropy Complex =               0.00
+-----------------------------------------------------------
+Total          = 				  27.54
+
+Now optimizing Residue SERA102
+Optimize Residue ID= SERA102
+
+BackHbond       =               -94.88
+SideHbond       =               -24.55
+Energy_VdW      =               -184.35
+Electro         =               -6.17
+Energy_SolvP    =               265.74
+Energy_SolvH    =               -244.92
+Energy_vdwclash =               12.50
+energy_torsion  =               6.67
+backbone_vdwclash=              45.89
+Entropy_sidec   =               74.17
+Entropy_mainc   =               246.55
+water bonds     =               0.00
+helix dipole    =               0.00
+loop_entropy    =               0.00
+cis_bond        =               1.12
+disulfide       =               0.00
+kn electrostatic=               0.00
+partial covalent interactions = -24.69
+Energy_Ionisation =             0.30
+Entropy Complex =               0.00
+-----------------------------------------------------------
+Total          = 				  27.49
+
+Now optimizing Residue ASNA107
+Optimize Residue ID= ASNA107
+
+BackHbond       =               -94.90
+SideHbond       =               -24.57
+Energy_VdW      =               -184.37
+Electro         =               -6.17
+Energy_SolvP    =               265.77
+Energy_SolvH    =               -244.93
+Energy_vdwclash =               12.48
+energy_torsion  =               6.49
+backbone_vdwclash=              45.88
+Entropy_sidec   =               74.17
+Entropy_mainc   =               246.56
+water bonds     =               0.00
+helix dipole    =               0.00
+loop_entropy    =               0.00
+cis_bond        =               1.12
+disulfide       =               0.00
+kn electrostatic=               0.00
+partial covalent interactions = -24.69
+Energy_Ionisation =             0.30
+Entropy Complex =               0.00
+-----------------------------------------------------------
+Total          = 				  27.27
+
+Now optimizing Residue GLNA108
+Optimize Residue ID= GLNA108
+
+BackHbond       =               -94.95
+SideHbond       =               -24.62
+Energy_VdW      =               -184.36
+Electro         =               -6.17
+Energy_SolvP    =               265.77
+Energy_SolvH    =               -244.93
+Energy_vdwclash =               12.48
+energy_torsion  =               6.49
+backbone_vdwclash=              45.89
+Entropy_sidec   =               74.21
+Entropy_mainc   =               246.56
+water bonds     =               0.00
+helix dipole    =               0.00
+loop_entropy    =               0.00
+cis_bond        =               1.12
+disulfide       =               0.00
+kn electrostatic=               0.00
+partial covalent interactions = -24.69
+Energy_Ionisation =             0.30
+Entropy Complex =               0.00
+-----------------------------------------------------------
+Total          = 				  27.21
+
+Now optimizing Residue SERA109
+Optimize Residue ID= SERA109
+
+BackHbond       =               -94.95
+SideHbond       =               -24.62
+Energy_VdW      =               -184.36
+Electro         =               -6.17
+Energy_SolvP    =               265.77
+Energy_SolvH    =               -244.93
+Energy_vdwclash =               12.48
+energy_torsion  =               6.49
+backbone_vdwclash=              45.89
+Entropy_sidec   =               74.21
+Entropy_mainc   =               246.56
+water bonds     =               0.00
+helix dipole    =               0.00
+loop_entropy    =               0.00
+cis_bond        =               1.12
+disulfide       =               0.00
+kn electrostatic=               0.00
+partial covalent interactions = -24.69
+Energy_Ionisation =             0.30
+Entropy Complex =               0.00
+-----------------------------------------------------------
+Total          = 				  27.21
+
+Now optimizing Residue H2SA110
+Optimize Residue ID= H2SA110
+
+BackHbond       =               -94.95
+SideHbond       =               -24.62
+Energy_VdW      =               -184.35
+Electro         =               -6.17
+Energy_SolvP    =               265.76
+Energy_SolvH    =               -244.93
+Energy_vdwclash =               12.48
+energy_torsion  =               6.46
+backbone_vdwclash=              45.88
+Entropy_sidec   =               74.21
+Entropy_mainc   =               246.56
+water bonds     =               0.00
+helix dipole    =               0.00
+loop_entropy    =               0.00
+cis_bond        =               1.12
+disulfide       =               0.00
+kn electrostatic=               0.00
+partial covalent interactions = -24.69
+Energy_Ionisation =             0.30
+Entropy Complex =               0.00
+-----------------------------------------------------------
+Total          = 				  27.17
+
+Now optimizing Residue ASPA111
+Optimize Residue ID= ASPA111
+
+BackHbond       =               -94.95
+SideHbond       =               -24.62
+Energy_VdW      =               -184.35
+Electro         =               -6.17
+Energy_SolvP    =               265.74
+Energy_SolvH    =               -244.92
+Energy_vdwclash =               12.48
+energy_torsion  =               6.46
+backbone_vdwclash=              45.88
+Entropy_sidec   =               74.20
+Entropy_mainc   =               246.56
+water bonds     =               0.00
+helix dipole    =               0.00
+loop_entropy    =               0.00
+cis_bond        =               1.12
+disulfide       =               0.00
+kn electrostatic=               0.00
+partial covalent interactions = -24.69
+Energy_Ionisation =             0.30
+Entropy Complex =               0.00
+-----------------------------------------------------------
+Total          = 				  27.16
+
+Now optimizing Residue ASPA112
+Optimize Residue ID= ASPA112
+
+BackHbond       =               -94.95
+SideHbond       =               -24.62
+Energy_VdW      =               -184.33
+Electro         =               -6.17
+Energy_SolvP    =               265.69
+Energy_SolvH    =               -244.91
+Energy_vdwclash =               12.48
+energy_torsion  =               6.46
+backbone_vdwclash=              45.88
+Entropy_sidec   =               74.20
+Entropy_mainc   =               246.56
+water bonds     =               0.00
+helix dipole    =               0.00
+loop_entropy    =               0.00
+cis_bond        =               1.12
+disulfide       =               0.00
+kn electrostatic=               0.00
+partial covalent interactions = -24.69
+Energy_Ionisation =             0.30
+Entropy Complex =               0.00
+-----------------------------------------------------------
+Total          = 				  27.13
+
+Now optimizing Residue TYRA113
+Optimize Residue ID= TYRA113
+
+BackHbond       =               -94.95
+SideHbond       =               -24.53
+Energy_VdW      =               -184.35
+Electro         =               -6.17
+Energy_SolvP    =               265.68
+Energy_SolvH    =               -244.93
+Energy_vdwclash =               12.29
+energy_torsion  =               6.46
+backbone_vdwclash=              45.89
+Entropy_sidec   =               74.19
+Entropy_mainc   =               246.55
+water bonds     =               0.00
+helix dipole    =               0.00
+loop_entropy    =               0.00
+cis_bond        =               1.12
+disulfide       =               0.00
+kn electrostatic=               0.00
+partial covalent interactions = -24.69
+Energy_Ionisation =             0.30
+Entropy Complex =               0.00
+-----------------------------------------------------------
+Total          = 				  26.97
+
+Now optimizing Residue ARGA115
+Optimize Residue ID= ARGA115
+
+BackHbond       =               -94.95
+SideHbond       =               -24.53
+Energy_VdW      =               -184.27
+Electro         =               -6.17
+Energy_SolvP    =               265.54
+Energy_SolvH    =               -244.87
+Energy_vdwclash =               12.27
+energy_torsion  =               6.45
+backbone_vdwclash=              45.89
+Entropy_sidec   =               74.15
+Entropy_mainc   =               246.53
+water bonds     =               0.00
+helix dipole    =               0.00
+loop_entropy    =               0.00
+cis_bond        =               1.12
+disulfide       =               0.00
+kn electrostatic=               0.00
+partial covalent interactions = -24.69
+Energy_Ionisation =             0.30
+Entropy Complex =               0.00
+-----------------------------------------------------------
+Total          = 				  26.88
+
+Now optimizing Residue H2SA117
+Optimize Residue ID= H2SA117
+
+BackHbond       =               -94.95
+SideHbond       =               -24.53
+Energy_VdW      =               -184.27
+Electro         =               -6.17
+Energy_SolvP    =               265.54
+Energy_SolvH    =               -244.87
+Energy_vdwclash =               12.27
+energy_torsion  =               6.45
+backbone_vdwclash=              45.89
+Entropy_sidec   =               74.15
+Entropy_mainc   =               246.53
+water bonds     =               0.00
+helix dipole    =               0.00
+loop_entropy    =               0.00
+cis_bond        =               1.12
+disulfide       =               0.00
+kn electrostatic=               0.00
+partial covalent interactions = -24.69
+Energy_Ionisation =             0.30
+Entropy Complex =               0.00
+-----------------------------------------------------------
+Total          = 				  26.87
+
+Now optimizing Residue GLUA118
+Optimize Residue ID= GLUA118
+
+BackHbond       =               -94.95
+SideHbond       =               -24.53
+Energy_VdW      =               -184.26
+Electro         =               -6.19
+Energy_SolvP    =               265.53
+Energy_SolvH    =               -244.87
+Energy_vdwclash =               12.27
+energy_torsion  =               6.44
+backbone_vdwclash=              45.89
+Entropy_sidec   =               74.14
+Entropy_mainc   =               246.52
+water bonds     =               0.00
+helix dipole    =               0.00
+loop_entropy    =               0.00
+cis_bond        =               1.12
+disulfide       =               0.00
+kn electrostatic=               0.00
+partial covalent interactions = -24.69
+Energy_Ionisation =             0.30
+Entropy Complex =               0.00
+-----------------------------------------------------------
+Total          = 				  26.83
+
+Now optimizing Residue GLNA119
+Optimize Residue ID= GLNA119
+
+BackHbond       =               -95.34
+SideHbond       =               -24.92
+Energy_VdW      =               -184.26
+Electro         =               -6.19
+Energy_SolvP    =               265.39
+Energy_SolvH    =               -244.87
+Energy_vdwclash =               12.24
+energy_torsion  =               6.44
+backbone_vdwclash=              45.89
+Entropy_sidec   =               74.27
+Entropy_mainc   =               246.78
+water bonds     =               0.00
+helix dipole    =               0.00
+loop_entropy    =               0.00
+cis_bond        =               1.12
+disulfide       =               0.00
+kn electrostatic=               0.00
+partial covalent interactions = -24.69
+Energy_Ionisation =             0.30
+Entropy Complex =               0.00
+-----------------------------------------------------------
+Total          = 				  26.27
+
+Now optimizing Residue GLNA120
+Optimize Residue ID= GLNA120
+
+BackHbond       =               -95.34
+SideHbond       =               -24.92
+Energy_VdW      =               -184.24
+Electro         =               -6.19
+Energy_SolvP    =               265.36
+Energy_SolvH    =               -244.86
+Energy_vdwclash =               12.24
+energy_torsion  =               6.44
+backbone_vdwclash=              45.89
+Entropy_sidec   =               74.26
+Entropy_mainc   =               246.78
+water bonds     =               0.00
+helix dipole    =               0.00
+loop_entropy    =               0.00
+cis_bond        =               1.12
+disulfide       =               0.00
+kn electrostatic=               0.00
+partial covalent interactions = -24.69
+Energy_Ionisation =             0.30
+Entropy Complex =               0.00
+-----------------------------------------------------------
+Total          = 				  26.25
+
+Now optimizing Residue THRA122
+Optimize Residue ID= THRA122
+
+BackHbond       =               -95.34
+SideHbond       =               -24.92
+Energy_VdW      =               -184.24
+Electro         =               -6.19
+Energy_SolvP    =               265.35
+Energy_SolvH    =               -244.86
+Energy_vdwclash =               12.24
+energy_torsion  =               6.43
+backbone_vdwclash=              45.88
+Entropy_sidec   =               74.26
+Entropy_mainc   =               246.78
+water bonds     =               0.00
+helix dipole    =               0.00
+loop_entropy    =               0.00
+cis_bond        =               1.12
+disulfide       =               0.00
+kn electrostatic=               0.00
+partial covalent interactions = -24.69
+Energy_Ionisation =             0.30
+Entropy Complex =               0.00
+-----------------------------------------------------------
+Total          = 				  26.24
+
+Now optimizing Residue THRA123
+Optimize Residue ID= THRA123
+
+BackHbond       =               -95.34
+SideHbond       =               -24.92
+Energy_VdW      =               -184.24
+Electro         =               -6.19
+Energy_SolvP    =               265.35
+Energy_SolvH    =               -244.86
+Energy_vdwclash =               12.24
+energy_torsion  =               6.41
+backbone_vdwclash=              45.88
+Entropy_sidec   =               74.26
+Entropy_mainc   =               246.78
+water bonds     =               0.00
+helix dipole    =               0.00
+loop_entropy    =               0.00
+cis_bond        =               1.12
+disulfide       =               0.00
+kn electrostatic=               0.00
+partial covalent interactions = -24.69
+Energy_Ionisation =             0.30
+Entropy Complex =               0.00
+-----------------------------------------------------------
+Total          = 				  26.22
+
+Now optimizing Residue GLUA124
+Optimize Residue ID= GLUA124
+
+BackHbond       =               -95.34
+SideHbond       =               -24.92
+Energy_VdW      =               -184.22
+Electro         =               -6.19
+Energy_SolvP    =               265.30
+Energy_SolvH    =               -244.85
+Energy_vdwclash =               12.24
+energy_torsion  =               6.41
+backbone_vdwclash=              45.88
+Entropy_sidec   =               74.25
+Entropy_mainc   =               246.78
+water bonds     =               0.00
+helix dipole    =               0.00
+loop_entropy    =               0.00
+cis_bond        =               1.12
+disulfide       =               0.00
+kn electrostatic=               0.00
+partial covalent interactions = -24.69
+Energy_Ionisation =             0.30
+Entropy Complex =               0.00
+-----------------------------------------------------------
+Total          = 				  26.19
+
+Now optimizing Residue TRPA125
+Optimize Residue ID= TRPA125
+
+BackHbond       =               -95.35
+SideHbond       =               -24.92
+Energy_VdW      =               -184.24
+Electro         =               -6.15
+Energy_SolvP    =               265.29
+Energy_SolvH    =               -244.91
+Energy_vdwclash =               11.74
+energy_torsion  =               6.41
+backbone_vdwclash=              45.88
+Entropy_sidec   =               74.25
+Entropy_mainc   =               246.77
+water bonds     =               0.00
+helix dipole    =               0.00
+loop_entropy    =               0.00
+cis_bond        =               1.12
+disulfide       =               0.00
+kn electrostatic=               0.00
+partial covalent interactions = -24.69
+Energy_Ionisation =             0.30
+Entropy Complex =               0.00
+-----------------------------------------------------------
+Total          = 				  25.62
+
+Now optimizing Residue GLNA126
+Optimize Residue ID= GLNA126
+
+BackHbond       =               -95.35
+SideHbond       =               -24.92
+Energy_VdW      =               -184.24
+Electro         =               -6.15
+Energy_SolvP    =               265.25
+Energy_SolvH    =               -244.92
+Energy_vdwclash =               11.74
+energy_torsion  =               6.41
+backbone_vdwclash=              45.88
+Entropy_sidec   =               74.25
+Entropy_mainc   =               246.76
+water bonds     =               0.00
+helix dipole    =               0.00
+loop_entropy    =               0.00
+cis_bond        =               1.12
+disulfide       =               0.00
+kn electrostatic=               0.00
+partial covalent interactions = -24.69
+Energy_Ionisation =             0.30
+Entropy Complex =               0.00
+-----------------------------------------------------------
+Total          = 				  25.56
+
+Now optimizing Residue PROA127
+Optimize Residue ID= PROA127
+
+BackHbond       =               -95.35
+SideHbond       =               -24.92
+Energy_VdW      =               -184.22
+Electro         =               -6.15
+Energy_SolvP    =               265.23
+Energy_SolvH    =               -244.91
+Energy_vdwclash =               11.73
+energy_torsion  =               6.41
+backbone_vdwclash=              45.88
+Entropy_sidec   =               74.24
+Entropy_mainc   =               246.77
+water bonds     =               0.00
+helix dipole    =               0.00
+loop_entropy    =               0.00
+cis_bond        =               1.12
+disulfide       =               0.00
+kn electrostatic=               0.00
+partial covalent interactions = -24.69
+Energy_Ionisation =             0.30
+Entropy Complex =               0.00
+-----------------------------------------------------------
+Total          = 				  25.56
+
+Now optimizing Residue THRA129
+Optimize Residue ID= THRA129
+
+BackHbond       =               -95.38
+SideHbond       =               -24.97
+Energy_VdW      =               -184.24
+Electro         =               -6.15
+Energy_SolvP    =               265.26
+Energy_SolvH    =               -244.93
+Energy_vdwclash =               11.73
+energy_torsion  =               6.43
+backbone_vdwclash=              45.88
+Entropy_sidec   =               74.24
+Entropy_mainc   =               246.78
+water bonds     =               0.00
+helix dipole    =               0.00
+loop_entropy    =               0.00
+cis_bond        =               1.12
+disulfide       =               0.00
+kn electrostatic=               0.00
+partial covalent interactions = -24.69
+Energy_Ionisation =             0.30
+Entropy Complex =               0.00
+-----------------------------------------------------------
+Total          = 				  25.51
+
+Now optimizing Residue GLUA131
+Optimize Residue ID= GLUA131
+
+BackHbond       =               -95.38
+SideHbond       =               -24.97
+Energy_VdW      =               -184.24
+Electro         =               -6.15
+Energy_SolvP    =               265.26
+Energy_SolvH    =               -244.93
+Energy_vdwclash =               11.73
+energy_torsion  =               6.42
+backbone_vdwclash=              45.88
+Entropy_sidec   =               74.24
+Entropy_mainc   =               246.78
+water bonds     =               0.00
+helix dipole    =               0.00
+loop_entropy    =               0.00
+cis_bond        =               1.12
+disulfide       =               0.00
+kn electrostatic=               0.00
+partial covalent interactions = -24.69
+Energy_Ionisation =             0.30
+Entropy Complex =               0.00
+-----------------------------------------------------------
+Total          = 				  25.49
+
+Now optimizing Residue THRA133
+Optimize Residue ID= THRA133
+
+BackHbond       =               -95.38
+SideHbond       =               -24.95
+Energy_VdW      =               -184.24
+Electro         =               -6.15
+Energy_SolvP    =               265.26
+Energy_SolvH    =               -244.93
+Energy_vdwclash =               11.73
+energy_torsion  =               6.38
+backbone_vdwclash=              45.88
+Entropy_sidec   =               74.24
+Entropy_mainc   =               246.77
+water bonds     =               0.00
+helix dipole    =               0.00
+loop_entropy    =               0.00
+cis_bond        =               1.12
+disulfide       =               0.00
+kn electrostatic=               0.00
+partial covalent interactions = -24.69
+Energy_Ionisation =             0.30
+Entropy Complex =               0.00
+-----------------------------------------------------------
+Total          = 				  25.47
+
+Now optimizing Residue SERA135
+Optimize Residue ID= SERA135
+
+BackHbond       =               -95.38
+SideHbond       =               -24.95
+Energy_VdW      =               -184.21
+Electro         =               -6.15
+Energy_SolvP    =               265.20
+Energy_SolvH    =               -244.90
+Energy_vdwclash =               11.73
+energy_torsion  =               6.38
+backbone_vdwclash=              45.88
+Entropy_sidec   =               74.23
+Entropy_mainc   =               246.77
+water bonds     =               0.00
+helix dipole    =               0.00
+loop_entropy    =               0.00
+cis_bond        =               1.12
+disulfide       =               0.00
+kn electrostatic=               0.00
+partial covalent interactions = -24.69
+Energy_Ionisation =             0.30
+Entropy Complex =               0.00
+-----------------------------------------------------------
+Total          = 				  25.46
+
+Now optimizing Residue ASPA136
+Optimize Residue ID= ASPA136
+
+BackHbond       =               -95.47
+SideHbond       =               -25.05
+Energy_VdW      =               -184.22
+Electro         =               -6.12
+Energy_SolvP    =               265.21
+Energy_SolvH    =               -244.91
+Energy_vdwclash =               11.73
+energy_torsion  =               6.44
+backbone_vdwclash=              45.88
+Entropy_sidec   =               74.23
+Entropy_mainc   =               246.77
+water bonds     =               0.00
+helix dipole    =               0.00
+loop_entropy    =               0.00
+cis_bond        =               1.12
+disulfide       =               0.00
+kn electrostatic=               0.00
+partial covalent interactions = -24.69
+Energy_Ionisation =             0.30
+Entropy Complex =               0.00
+-----------------------------------------------------------
+Total          = 				  25.35
+
+Now optimizing Residue GLNA137
+Optimize Residue ID= GLNA137
+
+BackHbond       =               -95.47
+SideHbond       =               -25.05
+Energy_VdW      =               -184.19
+Electro         =               -6.12
+Energy_SolvP    =               265.13
+Energy_SolvH    =               -244.90
+Energy_vdwclash =               11.73
+energy_torsion  =               6.44
+backbone_vdwclash=              45.85
+Entropy_sidec   =               74.21
+Entropy_mainc   =               246.77
+water bonds     =               0.00
+helix dipole    =               0.00
+loop_entropy    =               0.00
+cis_bond        =               1.12
+disulfide       =               0.00
+kn electrostatic=               0.00
+partial covalent interactions = -24.69
+Energy_Ionisation =             0.30
+Entropy Complex =               0.00
+-----------------------------------------------------------
+Total          = 				  25.29
+
+Now optimizing Residue GLUA138
+Optimize Residue ID= GLUA138
+
+BackHbond       =               -95.47
+SideHbond       =               -25.04
+Energy_VdW      =               -184.18
+Electro         =               -6.16
+Energy_SolvP    =               265.11
+Energy_SolvH    =               -244.90
+Energy_vdwclash =               11.73
+energy_torsion  =               6.44
+backbone_vdwclash=              45.85
+Entropy_sidec   =               74.22
+Entropy_mainc   =               246.76
+water bonds     =               0.00
+helix dipole    =               0.00
+loop_entropy    =               0.00
+cis_bond        =               1.12
+disulfide       =               0.00
+kn electrostatic=               0.00
+partial covalent interactions = -24.69
+Energy_Ionisation =             0.30
+Entropy Complex =               0.00
+-----------------------------------------------------------
+Total          = 				  25.25
+
+Now optimizing Residue THRA139
+Optimize Residue ID= THRA139
+
+BackHbond       =               -95.47
+SideHbond       =               -25.04
+Energy_VdW      =               -184.18
+Electro         =               -6.16
+Energy_SolvP    =               265.11
+Energy_SolvH    =               -244.90
+Energy_vdwclash =               11.73
+energy_torsion  =               6.44
+backbone_vdwclash=              45.85
+Entropy_sidec   =               74.22
+Entropy_mainc   =               246.76
+water bonds     =               0.00
+helix dipole    =               0.00
+loop_entropy    =               0.00
+cis_bond        =               1.12
+disulfide       =               0.00
+kn electrostatic=               0.00
+partial covalent interactions = -24.69
+Energy_Ionisation =             0.30
+Entropy Complex =               0.00
+-----------------------------------------------------------
+Total          = 				  25.25
+
+Now optimizing Residue VALA140
+Optimize Residue ID= VALA140
+
+BackHbond       =               -95.46
+SideHbond       =               -25.04
+Energy_VdW      =               -184.18
+Electro         =               -6.16
+Energy_SolvP    =               265.11
+Energy_SolvH    =               -244.90
+Energy_vdwclash =               11.73
+energy_torsion  =               6.43
+backbone_vdwclash=              45.85
+Entropy_sidec   =               74.22
+Entropy_mainc   =               246.76
+water bonds     =               0.00
+helix dipole    =               0.00
+loop_entropy    =               0.00
+cis_bond        =               1.12
+disulfide       =               0.00
+kn electrostatic=               0.00
+partial covalent interactions = -24.69
+Energy_Ionisation =             0.30
+Entropy Complex =               0.00
+-----------------------------------------------------------
+Total          = 				  25.24
+
+Now optimizing Residue ARGA142
+Optimize Residue ID= ARGA142
+
+BackHbond       =               -95.46
+SideHbond       =               -25.04
+Energy_VdW      =               -184.17
+Electro         =               -6.15
+Energy_SolvP    =               265.02
+Energy_SolvH    =               -244.94
+Energy_vdwclash =               11.73
+energy_torsion  =               6.43
+backbone_vdwclash=              45.84
+Entropy_sidec   =               74.20
+Entropy_mainc   =               246.75
+water bonds     =               0.00
+helix dipole    =               0.00
+loop_entropy    =               0.00
+cis_bond        =               1.12
+disulfide       =               0.00
+kn electrostatic=               0.00
+partial covalent interactions = -24.69
+Energy_Ionisation =             0.30
+Entropy Complex =               0.00
+-----------------------------------------------------------
+Total          = 				  25.10
+
+Now optimizing Residue H1SA146
+Optimize Residue ID= H1SA146
+
+BackHbond       =               -95.46
+SideHbond       =               -25.04
+Energy_VdW      =               -184.18
+Electro         =               -6.15
+Energy_SolvP    =               265.02
+Energy_SolvH    =               -244.97
+Energy_vdwclash =               11.73
+energy_torsion  =               6.43
+backbone_vdwclash=              45.84
+Entropy_sidec   =               74.21
+Entropy_mainc   =               246.75
+water bonds     =               0.00
+helix dipole    =               0.00
+loop_entropy    =               0.00
+cis_bond        =               1.12
+disulfide       =               0.00
+kn electrostatic=               0.00
+partial covalent interactions = -24.69
+Energy_Ionisation =             0.30
+Entropy Complex =               0.00
+-----------------------------------------------------------
+Total          = 				  25.07
+
+Now optimizing Residue ASNA152
+Optimize Residue ID= ASNA152
+
+BackHbond       =               -95.51
+SideHbond       =               -25.09
+Energy_VdW      =               -184.18
+Electro         =               -6.15
+Energy_SolvP    =               265.03
+Energy_SolvH    =               -244.97
+Energy_vdwclash =               11.73
+energy_torsion  =               6.43
+backbone_vdwclash=              45.84
+Entropy_sidec   =               74.21
+Entropy_mainc   =               246.75
+water bonds     =               0.00
+helix dipole    =               0.00
+loop_entropy    =               0.00
+cis_bond        =               1.12
+disulfide       =               0.00
+kn electrostatic=               0.00
+partial covalent interactions = -24.69
+Energy_Ionisation =             0.30
+Entropy Complex =               0.00
+-----------------------------------------------------------
+Total          = 				  24.97
+
+Now optimizing Residue VALA153
+Optimize Residue ID= VALA153
+
+BackHbond       =               -95.51
+SideHbond       =               -25.09
+Energy_VdW      =               -184.19
+Electro         =               -6.15
+Energy_SolvP    =               265.03
+Energy_SolvH    =               -244.99
+Energy_vdwclash =               11.73
+energy_torsion  =               6.43
+backbone_vdwclash=              45.84
+Entropy_sidec   =               74.21
+Entropy_mainc   =               246.75
+water bonds     =               0.00
+helix dipole    =               0.00
+loop_entropy    =               0.00
+cis_bond        =               1.12
+disulfide       =               0.00
+kn electrostatic=               0.00
+partial covalent interactions = -24.69
+Energy_Ionisation =             0.30
+Entropy Complex =               0.00
+-----------------------------------------------------------
+Total          = 				  24.95
+
+Now optimizing Residue ASNA155
+Optimize Residue ID= ASNA155
+
+BackHbond       =               -95.53
+SideHbond       =               -25.11
+Energy_VdW      =               -184.19
+Electro         =               -6.15
+Energy_SolvP    =               265.03
+Energy_SolvH    =               -244.98
+Energy_vdwclash =               11.59
+energy_torsion  =               6.43
+backbone_vdwclash=              45.84
+Entropy_sidec   =               74.21
+Entropy_mainc   =               246.75
+water bonds     =               0.00
+helix dipole    =               0.00
+loop_entropy    =               0.00
+cis_bond        =               1.12
+disulfide       =               0.00
+kn electrostatic=               0.00
+partial covalent interactions = -24.69
+Energy_Ionisation =             0.30
+Entropy Complex =               0.00
+-----------------------------------------------------------
+Total          = 				  24.78
+
+Now optimizing Residue ASPA160
+Optimize Residue ID= ASPA160
+
+BackHbond       =               -95.57
+SideHbond       =               -25.15
+Energy_VdW      =               -184.19
+Electro         =               -6.09
+Energy_SolvP    =               265.03
+Energy_SolvH    =               -244.99
+Energy_vdwclash =               11.30
+energy_torsion  =               6.43
+backbone_vdwclash=              45.84
+Entropy_sidec   =               74.21
+Entropy_mainc   =               246.77
+water bonds     =               0.00
+helix dipole    =               0.00
+loop_entropy    =               0.00
+cis_bond        =               1.12
+disulfide       =               0.00
+kn electrostatic=               0.00
+partial covalent interactions = -24.58
+Energy_Ionisation =             0.30
+Entropy Complex =               0.00
+-----------------------------------------------------------
+Total          = 				  24.59
+
+Now optimizing Residue ASPA166
+Optimize Residue ID= ASPA166
+
+BackHbond       =               -95.57
+SideHbond       =               -25.15
+Energy_VdW      =               -184.20
+Electro         =               -6.13
+Energy_SolvP    =               265.06
+Energy_SolvH    =               -244.99
+Energy_vdwclash =               11.30
+energy_torsion  =               6.42
+backbone_vdwclash=              45.84
+Entropy_sidec   =               74.22
+Entropy_mainc   =               246.77
+water bonds     =               0.00
+helix dipole    =               0.00
+loop_entropy    =               0.00
+cis_bond        =               1.12
+disulfide       =               0.00
+kn electrostatic=               0.00
+partial covalent interactions = -24.58
+Energy_Ionisation =             0.30
+Entropy Complex =               0.00
+-----------------------------------------------------------
+Total          = 				  24.57
+
+Optimized
+
+BackHbond       =               -95.57
+SideHbond       =               -25.15
+Energy_VdW      =               -184.20
+Electro         =               -6.13
+Energy_SolvP    =               265.06
+Energy_SolvH    =               -244.99
+Energy_vdwclash =               11.30
+energy_torsion  =               6.42
+backbone_vdwclash=              45.84
+Entropy_sidec   =               74.22
+Entropy_mainc   =               246.77
+water bonds     =               0.00
+helix dipole    =               0.00
+loop_entropy    =               0.00
+cis_bond        =               1.12
+disulfide       =               0.00
+kn electrostatic=               0.00
+partial covalent interactions = -24.58
+Energy_Ionisation =             0.30
+Entropy Complex =               0.00
+-----------------------------------------------------------
+Total          = 				  24.57
+
+Now moving residues with bad energies 
+Residue META1 has high Energy, we mutate it to itself
+Repair Residue ID= META1
+
+BackHbond       =               -95.58
+SideHbond       =               -25.15
+Energy_VdW      =               -184.52
+Electro         =               -6.13
+Energy_SolvP    =               264.85
+Energy_SolvH    =               -245.68
+Energy_vdwclash =               11.32
+energy_torsion  =               6.29
+backbone_vdwclash=              45.84
+Entropy_sidec   =               74.38
+Entropy_mainc   =               246.75
+water bonds     =               0.00
+helix dipole    =               0.00
+loop_entropy    =               0.00
+cis_bond        =               1.12
+disulfide       =               0.00
+kn electrostatic=               0.00
+partial covalent interactions = -24.58
+Energy_Ionisation =             0.30
+Entropy Complex =               0.00
+-----------------------------------------------------------
+Total          = 				  23.38
+
+Residue LEUA2 has high Energy, we mutate it to itself
+Repair Residue ID= LEUA2
+
+BackHbond       =               -95.58
+SideHbond       =               -25.15
+Energy_VdW      =               -184.49
+Electro         =               -6.13
+Energy_SolvP    =               264.76
+Energy_SolvH    =               -245.68
+Energy_vdwclash =               11.32
+energy_torsion  =               6.12
+backbone_vdwclash=              45.84
+Entropy_sidec   =               74.39
+Entropy_mainc   =               246.73
+water bonds     =               0.00
+helix dipole    =               0.00
+loop_entropy    =               0.00
+cis_bond        =               1.12
+disulfide       =               0.00
+kn electrostatic=               0.00
+partial covalent interactions = -24.58
+Energy_Ionisation =             0.30
+Entropy Complex =               0.00
+-----------------------------------------------------------
+Total          = 				  23.14
+
+Residue VALA3 has high Energy, we mutate it to itself
+Repair Residue ID= VALA3
+
+BackHbond       =               -95.97
+SideHbond       =               -25.54
+Energy_VdW      =               -184.49
+Electro         =               -6.13
+Energy_SolvP    =               264.62
+Energy_SolvH    =               -245.67
+Energy_vdwclash =               10.62
+energy_torsion  =               5.97
+backbone_vdwclash=              45.85
+Entropy_sidec   =               74.37
+Entropy_mainc   =               246.73
+water bonds     =               0.00
+helix dipole    =               0.00
+loop_entropy    =               0.00
+cis_bond        =               1.12
+disulfide       =               0.00
+kn electrostatic=               0.00
+partial covalent interactions = -24.58
+Energy_Ionisation =             0.30
+Entropy Complex =               0.00
+-----------------------------------------------------------
+Total          = 				  21.34
+
+Residue ASNA5 has high Energy, we mutate it to itself
+We optimize, instead of self-mutatingASNA5
+Repair Residue ID= ASNA5
+
+BackHbond       =               -95.99
+SideHbond       =               -25.57
+Energy_VdW      =               -184.49
+Electro         =               -6.13
+Energy_SolvP    =               264.61
+Energy_SolvH    =               -245.68
+Energy_vdwclash =               10.58
+energy_torsion  =               5.97
+backbone_vdwclash=              45.86
+Entropy_sidec   =               74.38
+Entropy_mainc   =               246.73
+water bonds     =               0.00
+helix dipole    =               0.00
+loop_entropy    =               0.00
+cis_bond        =               1.12
+disulfide       =               0.00
+kn electrostatic=               0.00
+partial covalent interactions = -24.58
+Energy_Ionisation =             0.30
+Entropy Complex =               0.00
+-----------------------------------------------------------
+Total          = 				  21.26
+
+Residue ILEA6 has high Energy, we mutate it to itself
+Repair Residue ID= ILEA6
+
+BackHbond       =               -96.03
+SideHbond       =               -25.57
+Energy_VdW      =               -184.63
+Electro         =               -6.13
+Energy_SolvP    =               264.69
+Energy_SolvH    =               -245.93
+Energy_vdwclash =               10.59
+energy_torsion  =               5.95
+backbone_vdwclash=              45.87
+Entropy_sidec   =               74.44
+Entropy_mainc   =               246.78
+water bonds     =               0.00
+helix dipole    =               0.00
+loop_entropy    =               0.00
+cis_bond        =               1.12
+disulfide       =               0.00
+kn electrostatic=               0.00
+partial covalent interactions = -24.58
+Energy_Ionisation =             0.30
+Entropy Complex =               0.00
+-----------------------------------------------------------
+Total          = 				  21.02
+
+Residue ASNA7 has high Energy, we mutate it to itself
+We optimize, instead of self-mutatingASNA7
+Repair Residue ID= ASNA7
+
+BackHbond       =               -96.03
+SideHbond       =               -25.57
+Energy_VdW      =               -184.63
+Electro         =               -6.13
+Energy_SolvP    =               264.69
+Energy_SolvH    =               -245.93
+Energy_vdwclash =               10.59
+energy_torsion  =               5.95
+backbone_vdwclash=              45.87
+Entropy_sidec   =               74.44
+Entropy_mainc   =               246.78
+water bonds     =               0.00
+helix dipole    =               0.00
+loop_entropy    =               0.00
+cis_bond        =               1.12
+disulfide       =               0.00
+kn electrostatic=               0.00
+partial covalent interactions = -24.58
+Energy_Ionisation =             0.30
+Entropy Complex =               0.00
+-----------------------------------------------------------
+Total          = 				  21.02
+
+Residue PHEA10 has high Energy, we mutate it to itself
+Repair Residue ID= PHEA10
+
+BackHbond       =               -96.00
+SideHbond       =               -25.58
+Energy_VdW      =               -184.64
+Electro         =               -6.13
+Energy_SolvP    =               264.63
+Energy_SolvH    =               -246.01
+Energy_vdwclash =               10.58
+energy_torsion  =               5.96
+backbone_vdwclash=              45.82
+Entropy_sidec   =               74.44
+Entropy_mainc   =               246.78
+water bonds     =               0.00
+helix dipole    =               0.00
+loop_entropy    =               0.00
+cis_bond        =               1.12
+disulfide       =               0.00
+kn electrostatic=               0.00
+partial covalent interactions = -24.58
+Energy_Ionisation =             0.30
+Entropy Complex =               0.00
+-----------------------------------------------------------
+Total          = 				  20.87
+
+Residue GLUA11 has high Energy, we mutate it to itself
+We optimize, instead of self-mutatingGLUA11
+Repair Residue ID= GLUA11
+
+BackHbond       =               -95.99
+SideHbond       =               -25.57
+Energy_VdW      =               -184.65
+Electro         =               -6.18
+Energy_SolvP    =               264.65
+Energy_SolvH    =               -246.01
+Energy_vdwclash =               10.50
+energy_torsion  =               5.96
+backbone_vdwclash=              45.82
+Entropy_sidec   =               74.44
+Entropy_mainc   =               246.79
+water bonds     =               0.00
+helix dipole    =               0.00
+loop_entropy    =               0.00
+cis_bond        =               1.12
+disulfide       =               0.00
+kn electrostatic=               0.00
+partial covalent interactions = -24.61
+Energy_Ionisation =             0.30
+Entropy Complex =               0.00
+-----------------------------------------------------------
+Total          = 				  20.75
+
+Residue SERA12 has high Energy, we mutate it to itself
+Repair Residue ID= SERA12
+
+BackHbond       =               -95.99
+SideHbond       =               -25.88
+Energy_VdW      =               -184.58
+Electro         =               -6.18
+Energy_SolvP    =               264.49
+Energy_SolvH    =               -245.97
+Energy_vdwclash =               10.50
+energy_torsion  =               5.96
+backbone_vdwclash=              45.76
+Entropy_sidec   =               74.73
+Entropy_mainc   =               246.79
+water bonds     =               0.00
+helix dipole    =               0.00
+loop_entropy    =               0.00
+cis_bond        =               1.12
+disulfide       =               0.00
+kn electrostatic=               0.00
+partial covalent interactions = -24.61
+Energy_Ionisation =             0.30
+Entropy Complex =               0.00
+-----------------------------------------------------------
+Total          = 				  20.66
+
+Residue THRA13 has high Energy, we mutate it to itself
+We optimize, instead of self-mutatingTHRA13
+Repair Residue ID= THRA13
+
+BackHbond       =               -95.99
+SideHbond       =               -25.88
+Energy_VdW      =               -184.58
+Electro         =               -6.18
+Energy_SolvP    =               264.49
+Energy_SolvH    =               -245.97
+Energy_vdwclash =               10.50
+energy_torsion  =               5.96
+backbone_vdwclash=              45.76
+Entropy_sidec   =               74.73
+Entropy_mainc   =               246.79
+water bonds     =               0.00
+helix dipole    =               0.00
+loop_entropy    =               0.00
+cis_bond        =               1.12
+disulfide       =               0.00
+kn electrostatic=               0.00
+partial covalent interactions = -24.61
+Energy_Ionisation =             0.30
+Entropy Complex =               0.00
+-----------------------------------------------------------
+Total          = 				  20.66
+
+Residue PROA14 has high Energy, we mutate it to itself
+Repair Residue ID= PROA14
+
+BackHbond       =               -95.99
+SideHbond       =               -25.88
+Energy_VdW      =               -184.52
+Electro         =               -6.18
+Energy_SolvP    =               264.33
+Energy_SolvH    =               -245.89
+Energy_vdwclash =               10.50
+energy_torsion  =               5.96
+backbone_vdwclash=              45.76
+Entropy_sidec   =               74.72
+Entropy_mainc   =               246.76
+water bonds     =               0.00
+helix dipole    =               0.00
+loop_entropy    =               0.00
+cis_bond        =               1.12
+disulfide       =               0.00
+kn electrostatic=               0.00
+partial covalent interactions = -24.61
+Energy_Ionisation =             0.30
+Entropy Complex =               0.00
+-----------------------------------------------------------
+Total          = 				  20.61
+
+Residue VALA17 has high Energy, we mutate it to itself
+Repair Residue ID= VALA17
+
+BackHbond       =               -95.99
+SideHbond       =               -25.88
+Energy_VdW      =               -184.52
+Electro         =               -6.18
+Energy_SolvP    =               264.33
+Energy_SolvH    =               -245.89
+Energy_vdwclash =               10.50
+energy_torsion  =               5.96
+backbone_vdwclash=              45.76
+Entropy_sidec   =               74.72
+Entropy_mainc   =               246.76
+water bonds     =               0.00
+helix dipole    =               0.00
+loop_entropy    =               0.00
+cis_bond        =               1.12
+disulfide       =               0.00
+kn electrostatic=               0.00
+partial covalent interactions = -24.61
+Energy_Ionisation =             0.30
+Entropy Complex =               0.00
+-----------------------------------------------------------
+Total          = 				  20.61
+
+Residue VALA18 has high Energy, we mutate it to itself
+Residue THRA19 has high Energy, we mutate it to itself
+Repair Residue ID= THRA19
+
+BackHbond       =               -95.98
+SideHbond       =               -25.88
+Energy_VdW      =               -184.54
+Electro         =               -6.18
+Energy_SolvP    =               264.26
+Energy_SolvH    =               -245.94
+Energy_vdwclash =               10.50
+energy_torsion  =               5.77
+backbone_vdwclash=              45.76
+Entropy_sidec   =               74.70
+Entropy_mainc   =               246.79
+water bonds     =               0.00
+helix dipole    =               0.00
+loop_entropy    =               0.00
+cis_bond        =               1.12
+disulfide       =               0.00
+kn electrostatic=               0.00
+partial covalent interactions = -24.61
+Energy_Ionisation =             0.30
+Entropy Complex =               0.00
+-----------------------------------------------------------
+Total          = 				  20.31
+
+Residue ASPA20 has high Energy, we mutate it to itself
+Repair Residue ID= ASPA20
+
+BackHbond       =               -96.61
+SideHbond       =               -26.51
+Energy_VdW      =               -184.45
+Electro         =               -6.20
+Energy_SolvP    =               263.78
+Energy_SolvH    =               -245.87
+Energy_vdwclash =               10.22
+energy_torsion  =               5.57
+backbone_vdwclash=              45.72
+Entropy_sidec   =               74.77
+Entropy_mainc   =               246.61
+water bonds     =               0.00
+helix dipole    =               0.00
+loop_entropy    =               0.00
+cis_bond        =               1.12
+disulfide       =               0.00
+kn electrostatic=               0.00
+partial covalent interactions = -24.61
+Energy_Ionisation =             0.30
+Entropy Complex =               0.00
+-----------------------------------------------------------
+Total          = 				  18.12
+
+Residue GLUA23 has high Energy, we mutate it to itself
+Repair Residue ID= GLUA23
+
+BackHbond       =               -96.61
+SideHbond       =               -26.51
+Energy_VdW      =               -184.45
+Electro         =               -6.20
+Energy_SolvP    =               263.60
+Energy_SolvH    =               -245.87
+Energy_vdwclash =               10.22
+energy_torsion  =               5.52
+backbone_vdwclash=              45.72
+Entropy_sidec   =               74.76
+Entropy_mainc   =               246.60
+water bonds     =               0.00
+helix dipole    =               0.00
+loop_entropy    =               0.00
+cis_bond        =               1.12
+disulfide       =               0.00
+kn electrostatic=               0.00
+partial covalent interactions = -24.61
+Energy_Ionisation =             0.30
+Entropy Complex =               0.00
+-----------------------------------------------------------
+Total          = 				  17.88
+
+Residue GLUA26 has high Energy, we mutate it to itself
+We optimize, instead of self-mutatingGLUA26
+Repair Residue ID= GLUA26
+
+BackHbond       =               -97.38
+SideHbond       =               -28.77
+Energy_VdW      =               -184.92
+Electro         =               -6.04
+Energy_SolvP    =               265.18
+Energy_SolvH    =               -246.09
+Energy_vdwclash =               10.20
+energy_torsion  =               5.51
+backbone_vdwclash=              45.86
+Entropy_sidec   =               75.59
+Entropy_mainc   =               246.74
+water bonds     =               0.00
+helix dipole    =               0.00
+loop_entropy    =               0.00
+cis_bond        =               1.12
+disulfide       =               0.00
+kn electrostatic=               0.00
+partial covalent interactions = -24.61
+Energy_Ionisation =             0.30
+Entropy Complex =               0.00
+-----------------------------------------------------------
+Total          = 				  16.83
+
+Residue ASPA29 has high Energy, we mutate it to itself
+We optimize, instead of self-mutatingASPA29
+Repair Residue ID= ASPA29
+
+BackHbond       =               -97.38
+SideHbond       =               -28.77
+Energy_VdW      =               -184.87
+Electro         =               -5.97
+Energy_SolvP    =               265.01
+Energy_SolvH    =               -246.03
+Energy_vdwclash =               10.12
+energy_torsion  =               5.50
+backbone_vdwclash=              45.88
+Entropy_sidec   =               75.57
+Entropy_mainc   =               246.74
+water bonds     =               0.00
+helix dipole    =               0.00
+loop_entropy    =               0.00
+cis_bond        =               1.12
+disulfide       =               0.00
+kn electrostatic=               0.00
+partial covalent interactions = -24.64
+Energy_Ionisation =             0.30
+Entropy Complex =               0.00
+-----------------------------------------------------------
+Total          = 				  16.70
+
+Residue ASNA31 has high Energy, we mutate it to itself
+We optimize, instead of self-mutatingASNA31
+Repair Residue ID= ASNA31
+
+BackHbond       =               -97.39
+SideHbond       =               -28.78
+Energy_VdW      =               -184.88
+Electro         =               -5.97
+Energy_SolvP    =               265.02
+Energy_SolvH    =               -246.05
+Energy_vdwclash =               10.12
+energy_torsion  =               5.50
+backbone_vdwclash=              45.88
+Entropy_sidec   =               75.57
+Entropy_mainc   =               246.74
+water bonds     =               0.00
+helix dipole    =               0.00
+loop_entropy    =               0.00
+cis_bond        =               1.12
+disulfide       =               0.00
+kn electrostatic=               0.00
+partial covalent interactions = -24.64
+Energy_Ionisation =             0.30
+Entropy Complex =               0.00
+-----------------------------------------------------------
+Total          = 				  16.67
+
+Residue SERA34 has high Energy, we mutate it to itself
+Repair Residue ID= SERA34
+
+BackHbond       =               -97.39
+SideHbond       =               -28.78
+Energy_VdW      =               -184.85
+Electro         =               -5.97
+Energy_SolvP    =               264.98
+Energy_SolvH    =               -246.02
+Energy_vdwclash =               10.12
+energy_torsion  =               5.50
+backbone_vdwclash=              45.86
+Entropy_sidec   =               75.55
+Entropy_mainc   =               246.72
+water bonds     =               0.00
+helix dipole    =               0.00
+loop_entropy    =               0.00
+cis_bond        =               1.12
+disulfide       =               0.00
+kn electrostatic=               0.00
+partial covalent interactions = -24.64
+Energy_Ionisation =             0.30
+Entropy Complex =               0.00
+-----------------------------------------------------------
+Total          = 				  16.64
+
+Residue SERA35 has high Energy, we mutate it to itself
+Repair Residue ID= SERA35
+
+BackHbond       =               -97.47
+SideHbond       =               -28.87
+Energy_VdW      =               -184.54
+Electro         =               -5.94
+Energy_SolvP    =               263.93
+Energy_SolvH    =               -245.83
+Energy_vdwclash =               9.94
+energy_torsion  =               5.50
+backbone_vdwclash=              45.85
+Entropy_sidec   =               75.39
+Entropy_mainc   =               246.66
+water bonds     =               0.00
+helix dipole    =               0.00
+loop_entropy    =               0.00
+cis_bond        =               1.12
+disulfide       =               0.00
+kn electrostatic=               0.00
+partial covalent interactions = -24.64
+Energy_Ionisation =             0.30
+Entropy Complex =               0.00
+-----------------------------------------------------------
+Total          = 				  15.55
+
+Residue THRA37 has high Energy, we mutate it to itself
+Repair Residue ID= THRA37
+
+BackHbond       =               -97.47
+SideHbond       =               -28.87
+Energy_VdW      =               -184.54
+Electro         =               -5.94
+Energy_SolvP    =               263.93
+Energy_SolvH    =               -245.83
+Energy_vdwclash =               9.94
+energy_torsion  =               5.50
+backbone_vdwclash=              45.85
+Entropy_sidec   =               75.39
+Entropy_mainc   =               246.66
+water bonds     =               0.00
+helix dipole    =               0.00
+loop_entropy    =               0.00
+cis_bond        =               1.12
+disulfide       =               0.00
+kn electrostatic=               0.00
+partial covalent interactions = -24.64
+Energy_Ionisation =             0.30
+Entropy Complex =               0.00
+-----------------------------------------------------------
+Total          = 				  15.55
+
+Residue ASNA38 has high Energy, we mutate it to itself
+Repair Residue ID= ASNA38
+
+BackHbond       =               -98.08
+SideHbond       =               -29.48
+Energy_VdW      =               -184.52
+Electro         =               -5.94
+Energy_SolvP    =               263.85
+Energy_SolvH    =               -245.81
+Energy_vdwclash =               9.95
+energy_torsion  =               5.50
+backbone_vdwclash=              45.84
+Entropy_sidec   =               75.86
+Entropy_mainc   =               246.96
+water bonds     =               0.00
+helix dipole    =               0.00
+loop_entropy    =               0.00
+cis_bond        =               1.12
+disulfide       =               0.00
+kn electrostatic=               0.00
+partial covalent interactions = -24.64
+Energy_Ionisation =             0.30
+Entropy Complex =               0.00
+-----------------------------------------------------------
+Total          = 				  15.05
+
+Residue PROA39 has high Energy, we mutate it to itself
+Repair Residue ID= PROA39
+
+BackHbond       =               -98.08
+SideHbond       =               -29.48
+Energy_VdW      =               -184.61
+Electro         =               -5.94
+Energy_SolvP    =               263.86
+Energy_SolvH    =               -246.02
+Energy_vdwclash =               9.95
+energy_torsion  =               5.50
+backbone_vdwclash=              45.84
+Entropy_sidec   =               75.90
+Entropy_mainc   =               247.01
+water bonds     =               0.00
+helix dipole    =               0.00
+loop_entropy    =               0.00
+cis_bond        =               1.12
+disulfide       =               0.00
+kn electrostatic=               0.00
+partial covalent interactions = -24.64
+Energy_Ionisation =             0.30
+Entropy Complex =               0.00
+-----------------------------------------------------------
+Total          = 				  14.86
+
+Residue VALA41 has high Energy, we mutate it to itself
+Repair Residue ID= VALA41
+
+BackHbond       =               -98.08
+SideHbond       =               -29.48
+Energy_VdW      =               -184.61
+Electro         =               -5.94
+Energy_SolvP    =               263.86
+Energy_SolvH    =               -246.02
+Energy_vdwclash =               9.95
+energy_torsion  =               5.50
+backbone_vdwclash=              45.84
+Entropy_sidec   =               75.90
+Entropy_mainc   =               247.01
+water bonds     =               0.00
+helix dipole    =               0.00
+loop_entropy    =               0.00
+cis_bond        =               1.12
+disulfide       =               0.00
+kn electrostatic=               0.00
+partial covalent interactions = -24.64
+Energy_Ionisation =             0.30
+Entropy Complex =               0.00
+-----------------------------------------------------------
+Total          = 				  14.86
+
+Residue GLUA43 has high Energy, we mutate it to itself
+Repair Residue ID= GLUA43
+
+BackHbond       =               -98.04
+SideHbond       =               -29.48
+Energy_VdW      =               -184.53
+Electro         =               -6.03
+Energy_SolvP    =               263.45
+Energy_SolvH    =               -246.06
+Energy_vdwclash =               9.95
+energy_torsion  =               5.50
+backbone_vdwclash=              45.74
+Entropy_sidec   =               75.91
+Entropy_mainc   =               246.91
+water bonds     =               0.00
+helix dipole    =               0.00
+loop_entropy    =               0.00
+cis_bond        =               1.12
+disulfide       =               0.00
+kn electrostatic=               0.00
+partial covalent interactions = -24.64
+Energy_Ionisation =             0.30
+Entropy Complex =               0.00
+-----------------------------------------------------------
+Total          = 				  14.34
+
+Residue LEUA45 has high Energy, we mutate it to itself
+Residue GLUA46 has high Energy, we mutate it to itself
+Repair Residue ID= GLUA46
+
+BackHbond       =               -98.07
+SideHbond       =               -29.53
+Energy_VdW      =               -184.86
+Electro         =               -6.01
+Energy_SolvP    =               263.26
+Energy_SolvH    =               -246.88
+Energy_vdwclash =               9.96
+energy_torsion  =               5.58
+backbone_vdwclash=              45.74
+Entropy_sidec   =               76.17
+Entropy_mainc   =               246.87
+water bonds     =               0.00
+helix dipole    =               0.00
+loop_entropy    =               0.00
+cis_bond        =               1.12
+disulfide       =               0.00
+kn electrostatic=               0.00
+partial covalent interactions = -24.64
+Energy_Ionisation =             0.30
+Entropy Complex =               0.00
+-----------------------------------------------------------
+Total          = 				  13.28
+
+Residue THRA47 has high Energy, we mutate it to itself
+We optimize, instead of self-mutatingTHRA47
+Repair Residue ID= THRA47
+
+BackHbond       =               -98.11
+SideHbond       =               -29.57
+Energy_VdW      =               -184.85
+Electro         =               -6.01
+Energy_SolvP    =               263.26
+Energy_SolvH    =               -246.87
+Energy_vdwclash =               9.94
+energy_torsion  =               5.41
+backbone_vdwclash=              45.74
+Entropy_sidec   =               76.17
+Entropy_mainc   =               246.87
+water bonds     =               0.00
+helix dipole    =               0.00
+loop_entropy    =               0.00
+cis_bond        =               1.12
+disulfide       =               0.00
+kn electrostatic=               0.00
+partial covalent interactions = -24.64
+Energy_Ionisation =             0.30
+Entropy Complex =               0.00
+-----------------------------------------------------------
+Total          = 				  13.01
+
+Residue SERA48 has high Energy, we mutate it to itself
+Repair Residue ID= SERA48
+
+BackHbond       =               -98.11
+SideHbond       =               -29.57
+Energy_VdW      =               -184.85
+Electro         =               -6.01
+Energy_SolvP    =               263.26
+Energy_SolvH    =               -246.87
+Energy_vdwclash =               9.94
+energy_torsion  =               5.41
+backbone_vdwclash=              45.74
+Entropy_sidec   =               76.17
+Entropy_mainc   =               246.87
+water bonds     =               0.00
+helix dipole    =               0.00
+loop_entropy    =               0.00
+cis_bond        =               1.12
+disulfide       =               0.00
+kn electrostatic=               0.00
+partial covalent interactions = -24.64
+Energy_Ionisation =             0.30
+Entropy Complex =               0.00
+-----------------------------------------------------------
+Total          = 				  13.01
+
+Residue ASPA49 has high Energy, we mutate it to itself
+We optimize, instead of self-mutatingASPA49
+We optimize, instead of self-mutatingASPA49
+Repair Residue ID= ASPA49
+
+BackHbond       =               -98.29
+SideHbond       =               -30.91
+Energy_VdW      =               -184.73
+Electro         =               -5.69
+Energy_SolvP    =               262.64
+Energy_SolvH    =               -246.85
+Energy_vdwclash =               9.83
+energy_torsion  =               4.49
+backbone_vdwclash=              45.72
+Entropy_sidec   =               76.51
+Entropy_mainc   =               246.91
+water bonds     =               0.00
+helix dipole    =               0.00
+loop_entropy    =               0.00
+cis_bond        =               1.12
+disulfide       =               0.00
+kn electrostatic=               0.00
+partial covalent interactions = -24.64
+Energy_Ionisation =             0.30
+Entropy Complex =               0.00
+-----------------------------------------------------------
+Total          = 				  10.69
+
+Residue GLUA52 has high Energy, we mutate it to itself
+We optimize, instead of self-mutatingGLUA52
+Repair Residue ID= GLUA52
+
+BackHbond       =               -98.29
+SideHbond       =               -30.91
+Energy_VdW      =               -184.73
+Electro         =               -5.70
+Energy_SolvP    =               262.64
+Energy_SolvH    =               -246.86
+Energy_vdwclash =               9.84
+energy_torsion  =               4.46
+backbone_vdwclash=              45.73
+Entropy_sidec   =               76.51
+Entropy_mainc   =               246.91
+water bonds     =               0.00
+helix dipole    =               0.00
+loop_entropy    =               0.00
+cis_bond        =               1.12
+disulfide       =               0.00
+kn electrostatic=               0.00
+partial covalent interactions = -24.68
+Energy_Ionisation =             0.30
+Entropy Complex =               0.00
+-----------------------------------------------------------
+Total          = 				  10.62
+
+Residue ASNA54 has high Energy, we mutate it to itself
+We optimize, instead of self-mutatingASNA54
+Repair Residue ID= ASNA54
+
+BackHbond       =               -98.29
+SideHbond       =               -30.91
+Energy_VdW      =               -184.71
+Electro         =               -5.70
+Energy_SolvP    =               262.58
+Energy_SolvH    =               -246.83
+Energy_vdwclash =               9.84
+energy_torsion  =               4.46
+backbone_vdwclash=              45.73
+Entropy_sidec   =               76.51
+Entropy_mainc   =               246.91
+water bonds     =               0.00
+helix dipole    =               0.00
+loop_entropy    =               0.00
+cis_bond        =               1.12
+disulfide       =               0.00
+kn electrostatic=               0.00
+partial covalent interactions = -24.68
+Energy_Ionisation =             0.30
+Entropy Complex =               0.00
+-----------------------------------------------------------
+Total          = 				  10.60
+
+Residue LYSA55 has high Energy, we mutate it to itself
+We optimize, instead of self-mutatingLYSA55
+We optimize, instead of self-mutatingLYSA55
+Repair Residue ID= LYSA55
+
+BackHbond       =               -98.25
+SideHbond       =               -31.04
+Energy_VdW      =               -184.74
+Electro         =               -5.69
+Energy_SolvP    =               262.68
+Energy_SolvH    =               -246.88
+Energy_vdwclash =               10.02
+energy_torsion  =               4.43
+backbone_vdwclash=              45.73
+Entropy_sidec   =               76.60
+Entropy_mainc   =               246.90
+water bonds     =               0.00
+helix dipole    =               0.00
+loop_entropy    =               0.00
+cis_bond        =               1.12
+disulfide       =               0.00
+kn electrostatic=               0.00
+partial covalent interactions = -24.93
+Energy_Ionisation =             0.30
+Entropy Complex =               0.00
+-----------------------------------------------------------
+Total          = 				  10.51
+
+Residue THRA60 has high Energy, we mutate it to itself
+We optimize, instead of self-mutatingTHRA60
+Repair Residue ID= THRA60
+
+BackHbond       =               -98.25
+SideHbond       =               -31.04
+Energy_VdW      =               -184.74
+Electro         =               -5.69
+Energy_SolvP    =               262.68
+Energy_SolvH    =               -246.88
+Energy_vdwclash =               10.02
+energy_torsion  =               4.43
+backbone_vdwclash=              45.73
+Entropy_sidec   =               76.60
+Entropy_mainc   =               246.90
+water bonds     =               0.00
+helix dipole    =               0.00
+loop_entropy    =               0.00
+cis_bond        =               1.12
+disulfide       =               0.00
+kn electrostatic=               0.00
+partial covalent interactions = -24.93
+Energy_Ionisation =             0.30
+Entropy Complex =               0.00
+-----------------------------------------------------------
+Total          = 				  10.51
+
+Residue ASNA62 has high Energy, we mutate it to itself
+We optimize, instead of self-mutatingASNA62
+Repair Residue ID= ASNA62
+
+BackHbond       =               -98.25
+SideHbond       =               -31.04
+Energy_VdW      =               -184.76
+Electro         =               -5.69
+Energy_SolvP    =               262.69
+Energy_SolvH    =               -246.89
+Energy_vdwclash =               10.02
+energy_torsion  =               4.43
+backbone_vdwclash=              45.72
+Entropy_sidec   =               76.61
+Entropy_mainc   =               246.90
+water bonds     =               0.00
+helix dipole    =               0.00
+loop_entropy    =               0.00
+cis_bond        =               1.12
+disulfide       =               0.00
+kn electrostatic=               0.00
+partial covalent interactions = -24.93
+Energy_Ionisation =             0.30
+Entropy Complex =               0.00
+-----------------------------------------------------------
+Total          = 				  10.50
+
+Residue VALA64 has high Energy, we mutate it to itself
+Repair Residue ID= VALA64
+
+BackHbond       =               -98.25
+SideHbond       =               -31.04
+Energy_VdW      =               -184.76
+Electro         =               -5.69
+Energy_SolvP    =               262.69
+Energy_SolvH    =               -246.89
+Energy_vdwclash =               10.02
+energy_torsion  =               4.43
+backbone_vdwclash=              45.72
+Entropy_sidec   =               76.61
+Entropy_mainc   =               246.90
+water bonds     =               0.00
+helix dipole    =               0.00
+loop_entropy    =               0.00
+cis_bond        =               1.12
+disulfide       =               0.00
+kn electrostatic=               0.00
+partial covalent interactions = -24.93
+Energy_Ionisation =             0.30
+Entropy Complex =               0.00
+-----------------------------------------------------------
+Total          = 				  10.50
+
+Residue ASNA66 has high Energy, we mutate it to itself
+We optimize, instead of self-mutatingASNA66
+Repair Residue ID= ASNA66
+
+BackHbond       =               -98.25
+SideHbond       =               -32.11
+Energy_VdW      =               -184.70
+Electro         =               -5.69
+Energy_SolvP    =               262.59
+Energy_SolvH    =               -246.85
+Energy_vdwclash =               10.01
+energy_torsion  =               4.43
+backbone_vdwclash=              45.72
+Entropy_sidec   =               77.50
+Entropy_mainc   =               246.88
+water bonds     =               0.00
+helix dipole    =               0.00
+loop_entropy    =               0.00
+cis_bond        =               1.12
+disulfide       =               0.00
+kn electrostatic=               0.00
+partial covalent interactions = -24.93
+Energy_Ionisation =             0.30
+Entropy Complex =               0.00
+-----------------------------------------------------------
+Total          = 				  10.30
+
+Residue ASNA67 has high Energy, we mutate it to itself
+We optimize, instead of self-mutatingASNA67
+We optimize, instead of self-mutatingASNA67
+Repair Residue ID= ASNA67
+
+BackHbond       =               -98.31
+SideHbond       =               -33.53
+Energy_VdW      =               -185.02
+Electro         =               -5.69
+Energy_SolvP    =               263.09
+Energy_SolvH    =               -247.14
+Energy_vdwclash =               10.05
+energy_torsion  =               4.49
+backbone_vdwclash=              45.85
+Entropy_sidec   =               77.93
+Entropy_mainc   =               246.91
+water bonds     =               0.00
+helix dipole    =               0.00
+loop_entropy    =               0.00
+cis_bond        =               1.12
+disulfide       =               0.00
+kn electrostatic=               0.00
+partial covalent interactions = -24.93
+Energy_Ionisation =             0.30
+Entropy Complex =               0.00
+-----------------------------------------------------------
+Total          = 				  9.27
+
+Residue PROA68 has high Energy, we mutate it to itself
+Repair Residue ID= PROA68
+
+BackHbond       =               -98.31
+SideHbond       =               -33.53
+Energy_VdW      =               -185.03
+Electro         =               -5.69
+Energy_SolvP    =               263.09
+Energy_SolvH    =               -247.16
+Energy_vdwclash =               10.06
+energy_torsion  =               4.49
+backbone_vdwclash=              45.85
+Entropy_sidec   =               77.93
+Entropy_mainc   =               246.91
+water bonds     =               0.00
+helix dipole    =               0.00
+loop_entropy    =               0.00
+cis_bond        =               1.12
+disulfide       =               0.00
+kn electrostatic=               0.00
+partial covalent interactions = -24.93
+Energy_Ionisation =             0.30
+Entropy Complex =               0.00
+-----------------------------------------------------------
+Total          = 				  9.26
+
+Residue TYRA69 has high Energy, we mutate it to itself
+Repair Residue ID= TYRA69
+
+BackHbond       =               -98.30
+SideHbond       =               -33.53
+Energy_VdW      =               -185.08
+Electro         =               -5.64
+Energy_SolvP    =               262.98
+Energy_SolvH    =               -247.32
+Energy_vdwclash =               10.07
+energy_torsion  =               4.49
+backbone_vdwclash=              45.82
+Entropy_sidec   =               77.94
+Entropy_mainc   =               246.91
+water bonds     =               0.00
+helix dipole    =               0.00
+loop_entropy    =               0.00
+cis_bond        =               1.12
+disulfide       =               0.00
+kn electrostatic=               0.00
+partial covalent interactions = -24.93
+Energy_Ionisation =             0.30
+Entropy Complex =               0.00
+-----------------------------------------------------------
+Total          = 				  9.01
+
+Residue ASPA70 has high Energy, we mutate it to itself
+We optimize, instead of self-mutatingASPA70
+Repair Residue ID= ASPA70
+
+BackHbond       =               -98.30
+SideHbond       =               -33.53
+Energy_VdW      =               -185.08
+Electro         =               -5.64
+Energy_SolvP    =               262.98
+Energy_SolvH    =               -247.32
+Energy_vdwclash =               10.07
+energy_torsion  =               4.49
+backbone_vdwclash=              45.82
+Entropy_sidec   =               77.94
+Entropy_mainc   =               246.91
+water bonds     =               0.00
+helix dipole    =               0.00
+loop_entropy    =               0.00
+cis_bond        =               1.12
+disulfide       =               0.00
+kn electrostatic=               0.00
+partial covalent interactions = -24.93
+Energy_Ionisation =             0.30
+Entropy Complex =               0.00
+-----------------------------------------------------------
+Total          = 				  9.01
+
+Residue THRA74 has high Energy, we mutate it to itself
+Repair Residue ID= THRA74
+
+BackHbond       =               -98.30
+SideHbond       =               -33.53
+Energy_VdW      =               -185.08
+Electro         =               -5.64
+Energy_SolvP    =               262.98
+Energy_SolvH    =               -247.31
+Energy_vdwclash =               10.08
+energy_torsion  =               4.45
+backbone_vdwclash=              45.82
+Entropy_sidec   =               77.94
+Entropy_mainc   =               246.91
+water bonds     =               0.00
+helix dipole    =               0.00
+loop_entropy    =               0.00
+cis_bond        =               1.12
+disulfide       =               0.00
+kn electrostatic=               0.00
+partial covalent interactions = -24.93
+Energy_Ionisation =             0.30
+Entropy Complex =               0.00
+-----------------------------------------------------------
+Total          = 				  8.98
+
+Residue LEUA76 has high Energy, we mutate it to itself
+Repair Residue ID= LEUA76
+
+BackHbond       =               -98.30
+SideHbond       =               -33.53
+Energy_VdW      =               -185.13
+Electro         =               -5.64
+Energy_SolvP    =               262.98
+Energy_SolvH    =               -247.42
+Energy_vdwclash =               9.90
+energy_torsion  =               4.45
+backbone_vdwclash=              45.82
+Entropy_sidec   =               78.00
+Entropy_mainc   =               246.91
+water bonds     =               0.00
+helix dipole    =               0.00
+loop_entropy    =               0.00
+cis_bond        =               1.12
+disulfide       =               0.00
+kn electrostatic=               0.00
+partial covalent interactions = -24.93
+Energy_Ionisation =             0.30
+Entropy Complex =               0.00
+-----------------------------------------------------------
+Total          = 				  8.72
+
+Residue PROA77 has high Energy, we mutate it to itself
+Repair Residue ID= PROA77
+
+BackHbond       =               -98.30
+SideHbond       =               -33.53
+Energy_VdW      =               -185.14
+Electro         =               -5.64
+Energy_SolvP    =               262.99
+Energy_SolvH    =               -247.44
+Energy_vdwclash =               9.25
+energy_torsion  =               4.45
+backbone_vdwclash=              45.82
+Entropy_sidec   =               78.01
+Entropy_mainc   =               246.91
+water bonds     =               0.00
+helix dipole    =               0.00
+loop_entropy    =               0.00
+cis_bond        =               1.12
+disulfide       =               0.00
+kn electrostatic=               0.00
+partial covalent interactions = -24.93
+Energy_Ionisation =             0.30
+Entropy Complex =               0.00
+-----------------------------------------------------------
+Total          = 				  8.07
+
+Residue ASNA79 has high Energy, we mutate it to itself
+Repair Residue ID= ASNA79
+
+BackHbond       =               -98.62
+SideHbond       =               -33.89
+Energy_VdW      =               -185.15
+Electro         =               -5.64
+Energy_SolvP    =               262.90
+Energy_SolvH    =               -247.44
+Energy_vdwclash =               9.21
+energy_torsion  =               4.46
+backbone_vdwclash=              45.84
+Entropy_sidec   =               78.38
+Entropy_mainc   =               246.88
+water bonds     =               0.00
+helix dipole    =               0.00
+loop_entropy    =               0.00
+cis_bond        =               1.12
+disulfide       =               0.00
+kn electrostatic=               0.00
+partial covalent interactions = -24.93
+Energy_Ionisation =             0.30
+Entropy Complex =               0.00
+-----------------------------------------------------------
+Total          = 				  7.59
+
+Residue ARGA81 has high Energy, we mutate it to itself
+We optimize, instead of self-mutatingARGA81
+Repair Residue ID= ARGA81
+
+BackHbond       =               -99.30
+SideHbond       =               -34.59
+Energy_VdW      =               -185.59
+Electro         =               -5.65
+Energy_SolvP    =               263.26
+Energy_SolvH    =               -247.96
+Energy_vdwclash =               9.20
+energy_torsion  =               4.44
+backbone_vdwclash=              46.02
+Entropy_sidec   =               79.22
+Entropy_mainc   =               246.88
+water bonds     =               0.00
+helix dipole    =               0.00
+loop_entropy    =               0.00
+cis_bond        =               1.12
+disulfide       =               0.00
+kn electrostatic=               0.00
+partial covalent interactions = -24.93
+Energy_Ionisation =             0.30
+Entropy Complex =               0.00
+-----------------------------------------------------------
+Total          = 				  6.42
+
+Residue VALA84 has high Energy, we mutate it to itself
+Repair Residue ID= VALA84
+
+BackHbond       =               -99.30
+SideHbond       =               -34.59
+Energy_VdW      =               -185.59
+Electro         =               -5.65
+Energy_SolvP    =               263.26
+Energy_SolvH    =               -247.96
+Energy_vdwclash =               9.20
+energy_torsion  =               4.44
+backbone_vdwclash=              46.02
+Entropy_sidec   =               79.22
+Entropy_mainc   =               246.88
+water bonds     =               0.00
+helix dipole    =               0.00
+loop_entropy    =               0.00
+cis_bond        =               1.12
+disulfide       =               0.00
+kn electrostatic=               0.00
+partial covalent interactions = -24.93
+Energy_Ionisation =             0.30
+Entropy Complex =               0.00
+-----------------------------------------------------------
+Total          = 				  6.42
+
+Residue THRA85 has high Energy, we mutate it to itself
+We optimize, instead of self-mutatingTHRA85
+Repair Residue ID= THRA85
+
+BackHbond       =               -99.30
+SideHbond       =               -34.58
+Energy_VdW      =               -185.58
+Electro         =               -5.65
+Energy_SolvP    =               263.25
+Energy_SolvH    =               -247.96
+Energy_vdwclash =               9.20
+energy_torsion  =               4.44
+backbone_vdwclash=              46.02
+Entropy_sidec   =               79.22
+Entropy_mainc   =               246.88
+water bonds     =               0.00
+helix dipole    =               0.00
+loop_entropy    =               0.00
+cis_bond        =               1.12
+disulfide       =               0.00
+kn electrostatic=               0.00
+partial covalent interactions = -24.93
+Energy_Ionisation =             0.30
+Entropy Complex =               0.00
+-----------------------------------------------------------
+Total          = 				  6.42
+
+Residue THRA87 has high Energy, we mutate it to itself
+Repair Residue ID= THRA87
+
+BackHbond       =               -99.30
+SideHbond       =               -34.58
+Energy_VdW      =               -185.58
+Electro         =               -5.65
+Energy_SolvP    =               263.25
+Energy_SolvH    =               -247.96
+Energy_vdwclash =               9.20
+energy_torsion  =               4.44
+backbone_vdwclash=              46.02
+Entropy_sidec   =               79.22
+Entropy_mainc   =               246.88
+water bonds     =               0.00
+helix dipole    =               0.00
+loop_entropy    =               0.00
+cis_bond        =               1.12
+disulfide       =               0.00
+kn electrostatic=               0.00
+partial covalent interactions = -24.93
+Energy_Ionisation =             0.30
+Entropy Complex =               0.00
+-----------------------------------------------------------
+Total          = 				  6.42
+
+Residue TYRA88 has high Energy, we mutate it to itself
+Repair Residue ID= TYRA88
+
+BackHbond       =               -99.30
+SideHbond       =               -34.58
+Energy_VdW      =               -185.58
+Electro         =               -5.65
+Energy_SolvP    =               263.24
+Energy_SolvH    =               -247.96
+Energy_vdwclash =               9.21
+energy_torsion  =               4.38
+backbone_vdwclash=              46.02
+Entropy_sidec   =               79.22
+Entropy_mainc   =               246.88
+water bonds     =               0.00
+helix dipole    =               0.00
+loop_entropy    =               0.00
+cis_bond        =               1.12
+disulfide       =               0.00
+kn electrostatic=               0.00
+partial covalent interactions = -24.93
+Energy_Ionisation =             0.30
+Entropy Complex =               0.00
+-----------------------------------------------------------
+Total          = 				  6.36
+
+Residue THRA89 has high Energy, we mutate it to itself
+Repair Residue ID= THRA89
+
+BackHbond       =               -99.57
+SideHbond       =               -34.76
+Energy_VdW      =               -185.62
+Electro         =               -5.65
+Energy_SolvP    =               263.26
+Energy_SolvH    =               -248.04
+Energy_vdwclash =               9.43
+energy_torsion  =               4.43
+backbone_vdwclash=              46.02
+Entropy_sidec   =               79.22
+Entropy_mainc   =               246.87
+water bonds     =               0.00
+helix dipole    =               0.00
+loop_entropy    =               0.00
+cis_bond        =               1.12
+disulfide       =               0.00
+kn electrostatic=               0.00
+partial covalent interactions = -24.93
+Energy_Ionisation =             0.30
+Entropy Complex =               0.00
+-----------------------------------------------------------
+Total          = 				  6.06
+
+Residue TRPA91 has high Energy, we mutate it to itself
+Repair Residue ID= TRPA91
+
+BackHbond       =               -99.59
+SideHbond       =               -34.76
+Energy_VdW      =               -185.78
+Electro         =               -5.65
+Energy_SolvP    =               263.35
+Energy_SolvH    =               -248.29
+Energy_vdwclash =               9.44
+energy_torsion  =               4.43
+backbone_vdwclash=              46.03
+Entropy_sidec   =               79.23
+Entropy_mainc   =               246.93
+water bonds     =               0.00
+helix dipole    =               0.00
+loop_entropy    =               0.00
+cis_bond        =               1.12
+disulfide       =               0.00
+kn electrostatic=               0.00
+partial covalent interactions = -24.93
+Energy_Ionisation =             0.30
+Entropy Complex =               0.00
+-----------------------------------------------------------
+Total          = 				  5.82
+
+Residue ARGA93 has high Energy, we mutate it to itself
+We optimize, instead of self-mutatingARGA93
+Repair Residue ID= ARGA93
+
+BackHbond       =               -99.81
+SideHbond       =               -34.97
+Energy_VdW      =               -185.82
+Electro         =               -5.71
+Energy_SolvP    =               263.51
+Energy_SolvH    =               -248.29
+Energy_vdwclash =               9.44
+energy_torsion  =               4.43
+backbone_vdwclash=              46.06
+Entropy_sidec   =               79.25
+Entropy_mainc   =               246.93
+water bonds     =               0.00
+helix dipole    =               0.00
+loop_entropy    =               0.00
+cis_bond        =               1.12
+disulfide       =               0.00
+kn electrostatic=               0.00
+partial covalent interactions = -24.93
+Energy_Ionisation =             0.30
+Entropy Complex =               0.00
+-----------------------------------------------------------
+Total          = 				  5.46
+
+Residue GLUA95 has high Energy, we mutate it to itself
+We optimize, instead of self-mutatingGLUA95
+Repair Residue ID= GLUA95
+
+BackHbond       =               -99.81
+SideHbond       =               -35.07
+Energy_VdW      =               -185.86
+Electro         =               -5.84
+Energy_SolvP    =               263.60
+Energy_SolvH    =               -248.30
+Energy_vdwclash =               9.44
+energy_torsion  =               4.43
+backbone_vdwclash=              46.06
+Entropy_sidec   =               79.28
+Entropy_mainc   =               246.93
+water bonds     =               0.00
+helix dipole    =               0.00
+loop_entropy    =               0.00
+cis_bond        =               1.12
+disulfide       =               0.00
+kn electrostatic=               0.00
+partial covalent interactions = -24.93
+Energy_Ionisation =             0.30
+Entropy Complex =               0.00
+-----------------------------------------------------------
+Total          = 				  5.31
+
+Residue GLNA96 has high Energy, we mutate it to itself
+Repair Residue ID= GLNA96
+
+BackHbond       =               -100.25
+SideHbond       =               -35.49
+Energy_VdW      =               -185.69
+Electro         =               -5.93
+Energy_SolvP    =               263.33
+Energy_SolvH    =               -248.13
+Energy_vdwclash =               9.44
+energy_torsion  =               4.35
+backbone_vdwclash=              46.03
+Entropy_sidec   =               79.57
+Entropy_mainc   =               246.94
+water bonds     =               0.00
+helix dipole    =               0.00
+loop_entropy    =               0.00
+cis_bond        =               1.12
+disulfide       =               0.00
+kn electrostatic=               0.00
+partial covalent interactions = -24.93
+Energy_Ionisation =             0.30
+Entropy Complex =               0.00
+-----------------------------------------------------------
+Total          = 				  4.63
+
+Residue ASPA97 has high Energy, we mutate it to itself
+Repair Residue ID= ASPA97
+
+BackHbond       =               -100.92
+SideHbond       =               -36.15
+Energy_VdW      =               -185.66
+Electro         =               -5.92
+Energy_SolvP    =               262.97
+Energy_SolvH    =               -248.10
+Energy_vdwclash =               9.44
+energy_torsion  =               4.35
+backbone_vdwclash=              46.03
+Entropy_sidec   =               79.92
+Entropy_mainc   =               246.91
+water bonds     =               0.00
+helix dipole    =               0.00
+loop_entropy    =               0.00
+cis_bond        =               1.12
+disulfide       =               0.00
+kn electrostatic=               0.00
+partial covalent interactions = -24.93
+Energy_Ionisation =             0.30
+Entropy Complex =               0.00
+-----------------------------------------------------------
+Total          = 				  3.32
+
+Residue SERA102 has high Energy, we mutate it to itself
+We optimize, instead of self-mutatingSERA102
+Repair Residue ID= SERA102
+
+BackHbond       =               -101.55
+SideHbond       =               -37.81
+Energy_VdW      =               -185.69
+Electro         =               -5.92
+Energy_SolvP    =               262.45
+Energy_SolvH    =               -248.10
+Energy_vdwclash =               8.24
+energy_torsion  =               4.35
+backbone_vdwclash=              46.02
+Entropy_sidec   =               80.23
+Entropy_mainc   =               247.19
+water bonds     =               0.00
+helix dipole    =               0.00
+loop_entropy    =               0.00
+cis_bond        =               1.12
+disulfide       =               0.00
+kn electrostatic=               0.00
+partial covalent interactions = -24.93
+Energy_Ionisation =             0.30
+Entropy Complex =               0.00
+-----------------------------------------------------------
+Total          = 				  -0.12
+
+Residue ASNA107 has high Energy, we mutate it to itself
+We optimize, instead of self-mutatingASNA107
+Repair Residue ID= ASNA107
+
+BackHbond       =               -101.57
+SideHbond       =               -37.83
+Energy_VdW      =               -185.68
+Electro         =               -5.92
+Energy_SolvP    =               262.44
+Energy_SolvH    =               -248.09
+Energy_vdwclash =               8.19
+energy_torsion  =               4.12
+backbone_vdwclash=              46.01
+Entropy_sidec   =               80.23
+Entropy_mainc   =               247.19
+water bonds     =               0.00
+helix dipole    =               0.00
+loop_entropy    =               0.00
+cis_bond        =               1.12
+disulfide       =               0.00
+kn electrostatic=               0.00
+partial covalent interactions = -24.93
+Energy_Ionisation =             0.30
+Entropy Complex =               0.00
+-----------------------------------------------------------
+Total          = 				  -0.42
+
+Residue GLNA108 has high Energy, we mutate it to itself
+We optimize, instead of self-mutatingGLNA108
+Repair Residue ID= GLNA108
+
+BackHbond       =               -101.62
+SideHbond       =               -37.89
+Energy_VdW      =               -185.67
+Electro         =               -5.92
+Energy_SolvP    =               262.42
+Energy_SolvH    =               -248.09
+Energy_vdwclash =               8.19
+energy_torsion  =               4.12
+backbone_vdwclash=              46.01
+Entropy_sidec   =               80.28
+Entropy_mainc   =               247.19
+water bonds     =               0.00
+helix dipole    =               0.00
+loop_entropy    =               0.00
+cis_bond        =               1.12
+disulfide       =               0.00
+kn electrostatic=               0.00
+partial covalent interactions = -24.93
+Energy_Ionisation =             0.30
+Entropy Complex =               0.00
+-----------------------------------------------------------
+Total          = 				  -0.50
+
+Residue SERA109 has high Energy, we mutate it to itself
+Repair Residue ID= SERA109
+
+BackHbond       =               -101.62
+SideHbond       =               -37.89
+Energy_VdW      =               -185.66
+Electro         =               -5.92
+Energy_SolvP    =               262.38
+Energy_SolvH    =               -248.08
+Energy_vdwclash =               8.19
+energy_torsion  =               4.12
+backbone_vdwclash=              46.00
+Entropy_sidec   =               80.27
+Entropy_mainc   =               247.18
+water bonds     =               0.00
+helix dipole    =               0.00
+loop_entropy    =               0.00
+cis_bond        =               1.12
+disulfide       =               0.00
+kn electrostatic=               0.00
+partial covalent interactions = -24.93
+Energy_Ionisation =             0.30
+Entropy Complex =               0.00
+-----------------------------------------------------------
+Total          = 				  -0.52
+
+Residue H2SA110 has high Energy, we mutate it to itself
+Repair Residue ID= H2SA110
+
+BackHbond       =               -101.62
+SideHbond       =               -37.89
+Energy_VdW      =               -185.61
+Electro         =               -5.92
+Energy_SolvP    =               262.01
+Energy_SolvH    =               -248.20
+Energy_vdwclash =               8.15
+energy_torsion  =               4.11
+backbone_vdwclash=              45.84
+Entropy_sidec   =               80.23
+Entropy_mainc   =               247.05
+water bonds     =               0.00
+helix dipole    =               0.00
+loop_entropy    =               0.00
+cis_bond        =               1.12
+disulfide       =               0.00
+kn electrostatic=               0.00
+partial covalent interactions = -24.93
+Energy_Ionisation =             0.30
+Entropy Complex =               0.00
+-----------------------------------------------------------
+Total          = 				  -1.19
+
+Residue ASPA111 has high Energy, we mutate it to itself
+Repair Residue ID= ASPA111
+
+BackHbond       =               -101.62
+SideHbond       =               -37.89
+Energy_VdW      =               -185.55
+Electro         =               -5.93
+Energy_SolvP    =               261.87
+Energy_SolvH    =               -248.13
+Energy_vdwclash =               8.15
+energy_torsion  =               4.11
+backbone_vdwclash=              45.82
+Entropy_sidec   =               80.19
+Entropy_mainc   =               247.05
+water bonds     =               0.00
+helix dipole    =               0.00
+loop_entropy    =               0.00
+cis_bond        =               1.12
+disulfide       =               0.00
+kn electrostatic=               0.00
+partial covalent interactions = -24.93
+Energy_Ionisation =             0.30
+Entropy Complex =               0.00
+-----------------------------------------------------------
+Total          = 				  -1.24
+
+Residue ASPA112 has high Energy, we mutate it to itself
+Repair Residue ID= ASPA112
+
+BackHbond       =               -101.59
+SideHbond       =               -37.89
+Energy_VdW      =               -185.33
+Electro         =               -5.71
+Energy_SolvP    =               260.89
+Energy_SolvH    =               -247.98
+Energy_vdwclash =               8.13
+energy_torsion  =               4.09
+backbone_vdwclash=              45.84
+Entropy_sidec   =               79.91
+Entropy_mainc   =               247.05
+water bonds     =               0.00
+helix dipole    =               0.00
+loop_entropy    =               0.00
+cis_bond        =               1.12
+disulfide       =               0.00
+kn electrostatic=               0.00
+partial covalent interactions = -24.93
+Energy_Ionisation =             0.30
+Entropy Complex =               0.00
+-----------------------------------------------------------
+Total          = 				  -1.93
+
+Residue ARGA115 has high Energy, we mutate it to itself
+Repair Residue ID= ARGA115
+
+BackHbond       =               -101.58
+SideHbond       =               -37.91
+Energy_VdW      =               -185.34
+Electro         =               -5.70
+Energy_SolvP    =               260.84
+Energy_SolvH    =               -248.00
+Energy_vdwclash =               8.13
+energy_torsion  =               4.09
+backbone_vdwclash=              45.84
+Entropy_sidec   =               79.89
+Entropy_mainc   =               247.05
+water bonds     =               0.00
+helix dipole    =               0.00
+loop_entropy    =               0.00
+cis_bond        =               1.12
+disulfide       =               0.00
+kn electrostatic=               0.00
+partial covalent interactions = -24.93
+Energy_Ionisation =             0.30
+Entropy Complex =               0.00
+-----------------------------------------------------------
+Total          = 				  -2.04
+
+Residue H2SA117 has high Energy, we mutate it to itself
+We optimize, instead of self-mutatingH2SA117
+Repair Residue ID= H2SA117
+
+BackHbond       =               -101.58
+SideHbond       =               -37.92
+Energy_VdW      =               -185.36
+Electro         =               -5.70
+Energy_SolvP    =               260.86
+Energy_SolvH    =               -248.02
+Energy_vdwclash =               8.14
+energy_torsion  =               4.09
+backbone_vdwclash=              45.84
+Entropy_sidec   =               79.90
+Entropy_mainc   =               247.05
+water bonds     =               0.00
+helix dipole    =               0.00
+loop_entropy    =               0.00
+cis_bond        =               1.12
+disulfide       =               0.00
+kn electrostatic=               0.00
+partial covalent interactions = -24.93
+Energy_Ionisation =             0.30
+Entropy Complex =               0.00
+-----------------------------------------------------------
+Total          = 				  -2.06
+
+Residue GLUA118 has high Energy, we mutate it to itself
+Repair Residue ID= GLUA118
+
+BackHbond       =               -101.58
+SideHbond       =               -37.90
+Energy_VdW      =               -185.31
+Electro         =               -5.74
+Energy_SolvP    =               260.60
+Energy_SolvH    =               -248.07
+Energy_vdwclash =               8.14
+energy_torsion  =               4.02
+backbone_vdwclash=              45.82
+Entropy_sidec   =               79.86
+Entropy_mainc   =               247.05
+water bonds     =               0.00
+helix dipole    =               0.00
+loop_entropy    =               0.00
+cis_bond        =               1.12
+disulfide       =               0.00
+kn electrostatic=               0.00
+partial covalent interactions = -24.93
+Energy_Ionisation =             0.30
+Entropy Complex =               0.00
+-----------------------------------------------------------
+Total          = 				  -2.44
+
+Residue GLNA119 has high Energy, we mutate it to itself
+Repair Residue ID= GLNA119
+
+BackHbond       =               -101.60
+SideHbond       =               -37.92
+Energy_VdW      =               -185.33
+Electro         =               -5.74
+Energy_SolvP    =               260.62
+Energy_SolvH    =               -248.09
+Energy_vdwclash =               8.14
+energy_torsion  =               4.02
+backbone_vdwclash=              45.82
+Entropy_sidec   =               79.89
+Entropy_mainc   =               247.04
+water bonds     =               0.00
+helix dipole    =               0.00
+loop_entropy    =               0.00
+cis_bond        =               1.12
+disulfide       =               0.00
+kn electrostatic=               0.00
+partial covalent interactions = -24.93
+Energy_Ionisation =             0.30
+Entropy Complex =               0.00
+-----------------------------------------------------------
+Total          = 				  -2.46
+
+Residue GLNA120 has high Energy, we mutate it to itself
+Repair Residue ID= GLNA120
+
+BackHbond       =               -101.58
+SideHbond       =               -37.92
+Energy_VdW      =               -185.08
+Electro         =               -5.74
+Energy_SolvP    =               259.94
+Energy_SolvH    =               -247.95
+Energy_vdwclash =               8.14
+energy_torsion  =               4.02
+backbone_vdwclash=              45.77
+Entropy_sidec   =               79.65
+Entropy_mainc   =               247.01
+water bonds     =               0.00
+helix dipole    =               0.00
+loop_entropy    =               0.00
+cis_bond        =               1.12
+disulfide       =               0.00
+kn electrostatic=               0.00
+partial covalent interactions = -24.93
+Energy_Ionisation =             0.30
+Entropy Complex =               0.00
+-----------------------------------------------------------
+Total          = 				  -3.01
+
+Residue THRA122 has high Energy, we mutate it to itself
+Repair Residue ID= THRA122
+
+BackHbond       =               -101.78
+SideHbond       =               -38.07
+Energy_VdW      =               -185.07
+Electro         =               -5.74
+Energy_SolvP    =               259.82
+Energy_SolvH    =               -247.94
+Energy_vdwclash =               8.14
+energy_torsion  =               4.08
+backbone_vdwclash=              45.77
+Entropy_sidec   =               79.66
+Entropy_mainc   =               247.02
+water bonds     =               0.00
+helix dipole    =               0.00
+loop_entropy    =               0.00
+cis_bond        =               1.12
+disulfide       =               0.00
+kn electrostatic=               0.00
+partial covalent interactions = -24.93
+Energy_Ionisation =             0.30
+Entropy Complex =               0.00
+-----------------------------------------------------------
+Total          = 				  -3.40
+
+Residue THRA123 has high Energy, we mutate it to itself
+We optimize, instead of self-mutatingTHRA123
+Repair Residue ID= THRA123
+
+BackHbond       =               -101.80
+SideHbond       =               -39.81
+Energy_VdW      =               -185.13
+Electro         =               -5.76
+Energy_SolvP    =               259.78
+Energy_SolvH    =               -248.02
+Energy_vdwclash =               8.14
+energy_torsion  =               4.95
+backbone_vdwclash=              45.77
+Entropy_sidec   =               79.85
+Entropy_mainc   =               247.02
+water bonds     =               0.00
+helix dipole    =               0.00
+loop_entropy    =               0.00
+cis_bond        =               1.12
+disulfide       =               0.00
+kn electrostatic=               0.00
+partial covalent interactions = -24.93
+Energy_Ionisation =             0.30
+Entropy Complex =               0.00
+-----------------------------------------------------------
+Total          = 				  -4.28
+
+Residue GLUA124 has high Energy, we mutate it to itself
+Repair Residue ID= GLUA124
+
+BackHbond       =               -102.60
+SideHbond       =               -40.59
+Energy_VdW      =               -185.30
+Electro         =               -5.75
+Energy_SolvP    =               260.06
+Energy_SolvH    =               -248.27
+Energy_vdwclash =               8.15
+energy_torsion  =               4.89
+backbone_vdwclash=              45.70
+Entropy_sidec   =               80.72
+Entropy_mainc   =               247.33
+water bonds     =               0.00
+helix dipole    =               0.00
+loop_entropy    =               0.00
+cis_bond        =               1.12
+disulfide       =               0.00
+kn electrostatic=               0.00
+partial covalent interactions = -24.93
+Energy_Ionisation =             0.30
+Entropy Complex =               0.00
+-----------------------------------------------------------
+Total          = 				  -4.87
+
+Residue GLNA126 has high Energy, we mutate it to itself
+We optimize, instead of self-mutatingGLNA126
+We optimize, instead of self-mutatingGLNA126
+Repair Residue ID= GLNA126
+
+BackHbond       =               -103.22
+SideHbond       =               -41.22
+Energy_VdW      =               -185.21
+Electro         =               -5.77
+Energy_SolvP    =               259.70
+Energy_SolvH    =               -248.26
+Energy_vdwclash =               8.14
+energy_torsion  =               4.89
+backbone_vdwclash=              45.74
+Entropy_sidec   =               81.23
+Entropy_mainc   =               247.23
+water bonds     =               0.00
+helix dipole    =               0.00
+loop_entropy    =               0.00
+cis_bond        =               1.12
+disulfide       =               0.00
+kn electrostatic=               0.00
+partial covalent interactions = -24.93
+Energy_Ionisation =             0.30
+Entropy Complex =               0.00
+-----------------------------------------------------------
+Total          = 				  -5.98
+
+Residue PROA127 has high Energy, we mutate it to itself
+Repair Residue ID= PROA127
+
+BackHbond       =               -103.23
+SideHbond       =               -41.22
+Energy_VdW      =               -185.28
+Electro         =               -5.77
+Energy_SolvP    =               259.73
+Energy_SolvH    =               -248.37
+Energy_vdwclash =               8.23
+energy_torsion  =               4.89
+backbone_vdwclash=              45.74
+Entropy_sidec   =               81.24
+Entropy_mainc   =               247.23
+water bonds     =               0.00
+helix dipole    =               0.00
+loop_entropy    =               0.00
+cis_bond        =               1.12
+disulfide       =               0.00
+kn electrostatic=               0.00
+partial covalent interactions = -24.93
+Energy_Ionisation =             0.30
+Entropy Complex =               0.00
+-----------------------------------------------------------
+Total          = 				  -6.05
+
+Residue THRA129 has high Energy, we mutate it to itself
+We optimize, instead of self-mutatingTHRA129
+Repair Residue ID= THRA129
+
+BackHbond       =               -103.22
+SideHbond       =               -41.20
+Energy_VdW      =               -185.27
+Electro         =               -5.77
+Energy_SolvP    =               259.73
+Energy_SolvH    =               -248.37
+Energy_vdwclash =               8.20
+energy_torsion  =               4.88
+backbone_vdwclash=              45.74
+Entropy_sidec   =               81.24
+Entropy_mainc   =               247.23
+water bonds     =               0.00
+helix dipole    =               0.00
+loop_entropy    =               0.00
+cis_bond        =               1.12
+disulfide       =               0.00
+kn electrostatic=               0.00
+partial covalent interactions = -24.93
+Energy_Ionisation =             0.30
+Entropy Complex =               0.00
+-----------------------------------------------------------
+Total          = 				  -6.06
+
+Residue GLUA131 has high Energy, we mutate it to itself
+We optimize, instead of self-mutatingGLUA131
+We optimize, instead of self-mutatingGLUA131
+Repair Residue ID= GLUA131
+
+BackHbond       =               -103.25
+SideHbond       =               -42.94
+Energy_VdW      =               -185.38
+Electro         =               -5.79
+Energy_SolvP    =               259.90
+Energy_SolvH    =               -248.51
+Energy_vdwclash =               8.20
+energy_torsion  =               4.87
+backbone_vdwclash=              45.76
+Entropy_sidec   =               82.36
+Entropy_mainc   =               247.28
+water bonds     =               0.00
+helix dipole    =               0.00
+loop_entropy    =               0.00
+cis_bond        =               1.12
+disulfide       =               0.00
+kn electrostatic=               0.00
+partial covalent interactions = -24.93
+Energy_Ionisation =             0.30
+Entropy Complex =               0.00
+-----------------------------------------------------------
+Total          = 				  -6.75
+
+Residue THRA133 has high Energy, we mutate it to itself
+We optimize, instead of self-mutatingTHRA133
+Repair Residue ID= THRA133
+
+BackHbond       =               -103.25
+SideHbond       =               -42.98
+Energy_VdW      =               -185.40
+Electro         =               -5.79
+Energy_SolvP    =               259.94
+Energy_SolvH    =               -248.53
+Energy_vdwclash =               8.20
+energy_torsion  =               4.90
+backbone_vdwclash=              45.76
+Entropy_sidec   =               82.37
+Entropy_mainc   =               247.28
+water bonds     =               0.00
+helix dipole    =               0.00
+loop_entropy    =               0.00
+cis_bond        =               1.12
+disulfide       =               0.00
+kn electrostatic=               0.00
+partial covalent interactions = -24.93
+Energy_Ionisation =             0.30
+Entropy Complex =               0.00
+-----------------------------------------------------------
+Total          = 				  -6.76
+
+Residue SERA135 has high Energy, we mutate it to itself
+Repair Residue ID= SERA135
+
+BackHbond       =               -103.25
+SideHbond       =               -42.96
+Energy_VdW      =               -185.34
+Electro         =               -5.80
+Energy_SolvP    =               259.73
+Energy_SolvH    =               -248.48
+Energy_vdwclash =               8.20
+energy_torsion  =               4.90
+backbone_vdwclash=              45.76
+Entropy_sidec   =               82.34
+Entropy_mainc   =               247.27
+water bonds     =               0.00
+helix dipole    =               0.00
+loop_entropy    =               0.00
+cis_bond        =               1.12
+disulfide       =               0.00
+kn electrostatic=               0.00
+partial covalent interactions = -24.93
+Energy_Ionisation =             0.30
+Entropy Complex =               0.00
+-----------------------------------------------------------
+Total          = 				  -6.91
+
+Residue ASPA136 has high Energy, we mutate it to itself
+We optimize, instead of self-mutatingASPA136
+Repair Residue ID= ASPA136
+
+BackHbond       =               -103.36
+SideHbond       =               -43.96
+Energy_VdW      =               -185.33
+Electro         =               -5.74
+Energy_SolvP    =               259.55
+Energy_SolvH    =               -248.48
+Energy_vdwclash =               8.12
+energy_torsion  =               5.05
+backbone_vdwclash=              45.76
+Entropy_sidec   =               82.34
+Entropy_mainc   =               247.27
+water bonds     =               0.00
+helix dipole    =               0.00
+loop_entropy    =               0.00
+cis_bond        =               1.12
+disulfide       =               0.00
+kn electrostatic=               0.00
+partial covalent interactions = -24.93
+Energy_Ionisation =             0.30
+Entropy Complex =               0.00
+-----------------------------------------------------------
+Total          = 				  -8.04
+
+Residue GLNA137 has high Energy, we mutate it to itself
+Repair Residue ID= GLNA137
+
+BackHbond       =               -103.36
+SideHbond       =               -43.96
+Energy_VdW      =               -185.30
+Electro         =               -5.74
+Energy_SolvP    =               259.46
+Energy_SolvH    =               -248.47
+Energy_vdwclash =               8.12
+energy_torsion  =               5.04
+backbone_vdwclash=              45.79
+Entropy_sidec   =               82.34
+Entropy_mainc   =               247.20
+water bonds     =               0.00
+helix dipole    =               0.00
+loop_entropy    =               0.00
+cis_bond        =               1.12
+disulfide       =               0.00
+kn electrostatic=               0.00
+partial covalent interactions = -24.93
+Energy_Ionisation =             0.30
+Entropy Complex =               0.00
+-----------------------------------------------------------
+Total          = 				  -8.17
+
+Residue GLUA138 has high Energy, we mutate it to itself
+Repair Residue ID= GLUA138
+
+BackHbond       =               -103.91
+SideHbond       =               -44.69
+Energy_VdW      =               -185.39
+Electro         =               -6.10
+Energy_SolvP    =               259.44
+Energy_SolvH    =               -248.56
+Energy_vdwclash =               8.11
+energy_torsion  =               5.01
+backbone_vdwclash=              45.89
+Entropy_sidec   =               83.16
+Entropy_mainc   =               247.15
+water bonds     =               0.00
+helix dipole    =               0.00
+loop_entropy    =               0.00
+cis_bond        =               1.12
+disulfide       =               0.00
+kn electrostatic=               0.00
+partial covalent interactions = -24.93
+Energy_Ionisation =             0.30
+Entropy Complex =               0.00
+-----------------------------------------------------------
+Total          = 				  -9.26
+
+Residue THRA139 has high Energy, we mutate it to itself
+Repair Residue ID= THRA139
+
+BackHbond       =               -103.91
+SideHbond       =               -44.69
+Energy_VdW      =               -185.41
+Electro         =               -6.10
+Energy_SolvP    =               259.42
+Energy_SolvH    =               -248.62
+Energy_vdwclash =               8.11
+energy_torsion  =               5.01
+backbone_vdwclash=              45.89
+Entropy_sidec   =               83.20
+Entropy_mainc   =               247.15
+water bonds     =               0.00
+helix dipole    =               0.00
+loop_entropy    =               0.00
+cis_bond        =               1.12
+disulfide       =               0.00
+kn electrostatic=               0.00
+partial covalent interactions = -24.93
+Energy_Ionisation =             0.30
+Entropy Complex =               0.00
+-----------------------------------------------------------
+Total          = 				  -9.32
+
+Residue VALA140 has high Energy, we mutate it to itself
+Repair Residue ID= VALA140
+
+BackHbond       =               -103.91
+SideHbond       =               -44.69
+Energy_VdW      =               -185.41
+Electro         =               -6.10
+Energy_SolvP    =               259.42
+Energy_SolvH    =               -248.62
+Energy_vdwclash =               8.11
+energy_torsion  =               5.01
+backbone_vdwclash=              45.89
+Entropy_sidec   =               83.20
+Entropy_mainc   =               247.15
+water bonds     =               0.00
+helix dipole    =               0.00
+loop_entropy    =               0.00
+cis_bond        =               1.12
+disulfide       =               0.00
+kn electrostatic=               0.00
+partial covalent interactions = -24.93
+Energy_Ionisation =             0.30
+Entropy Complex =               0.00
+-----------------------------------------------------------
+Total          = 				  -9.32
+
+Residue ARGA142 has high Energy, we mutate it to itself
+Repair Residue ID= ARGA142
+
+BackHbond       =               -103.90
+SideHbond       =               -44.69
+Energy_VdW      =               -185.36
+Electro         =               -6.13
+Energy_SolvP    =               259.30
+Energy_SolvH    =               -248.66
+Energy_vdwclash =               8.10
+energy_torsion  =               4.99
+backbone_vdwclash=              45.84
+Entropy_sidec   =               83.08
+Entropy_mainc   =               246.79
+water bonds     =               0.00
+helix dipole    =               0.00
+loop_entropy    =               0.00
+cis_bond        =               1.12
+disulfide       =               0.00
+kn electrostatic=               0.00
+partial covalent interactions = -24.93
+Energy_Ionisation =             0.30
+Entropy Complex =               0.00
+-----------------------------------------------------------
+Total          = 				  -9.97
+
+Residue H1SA146 has high Energy, we mutate it to itself
+Repair Residue ID= H1SA146
+
+BackHbond       =               -103.90
+SideHbond       =               -44.69
+Energy_VdW      =               -185.36
+Electro         =               -6.13
+Energy_SolvP    =               259.30
+Energy_SolvH    =               -248.66
+Energy_vdwclash =               8.10
+energy_torsion  =               4.99
+backbone_vdwclash=              45.84
+Entropy_sidec   =               83.08
+Entropy_mainc   =               246.79
+water bonds     =               0.00
+helix dipole    =               0.00
+loop_entropy    =               0.00
+cis_bond        =               1.12
+disulfide       =               0.00
+kn electrostatic=               0.00
+partial covalent interactions = -24.93
+Energy_Ionisation =             0.30
+Entropy Complex =               0.00
+-----------------------------------------------------------
+Total          = 				  -9.97
+
+Residue ASNA152 has high Energy, we mutate it to itself
+We optimize, instead of self-mutatingASNA152
+Residue VALA153 has high Energy, we mutate it to itself
+Repair Residue ID= VALA153
+
+BackHbond       =               -104.37
+SideHbond       =               -45.15
+Energy_VdW      =               -185.39
+Electro         =               -6.13
+Energy_SolvP    =               258.86
+Energy_SolvH    =               -248.71
+Energy_vdwclash =               6.75
+energy_torsion  =               4.99
+backbone_vdwclash=              45.83
+Entropy_sidec   =               83.10
+Entropy_mainc   =               246.79
+water bonds     =               0.00
+helix dipole    =               0.00
+loop_entropy    =               0.00
+cis_bond        =               1.12
+disulfide       =               0.00
+kn electrostatic=               0.00
+partial covalent interactions = -24.93
+Energy_Ionisation =             0.30
+Entropy Complex =               0.00
+-----------------------------------------------------------
+Total          = 				  -12.77
+
+Residue ASNA155 has high Energy, we mutate it to itself
+We optimize, instead of self-mutatingASNA155
+Repair Residue ID= ASNA155
+
+BackHbond       =               -104.73
+SideHbond       =               -45.48
+Energy_VdW      =               -185.39
+Electro         =               -6.13
+Energy_SolvP    =               258.62
+Energy_SolvH    =               -248.72
+Energy_vdwclash =               6.45
+energy_torsion  =               4.99
+backbone_vdwclash=              45.83
+Entropy_sidec   =               83.10
+Entropy_mainc   =               246.79
+water bonds     =               0.00
+helix dipole    =               0.00
+loop_entropy    =               0.00
+cis_bond        =               1.12
+disulfide       =               0.00
+kn electrostatic=               0.00
+partial covalent interactions = -24.93
+Energy_Ionisation =             0.30
+Entropy Complex =               0.00
+-----------------------------------------------------------
+Total          = 				  -14.01
+
+Residue ASPA160 has high Energy, we mutate it to itself
+We optimize, instead of self-mutatingASPA160
+Repair Residue ID= ASPA160
+
+BackHbond       =               -104.73
+SideHbond       =               -45.49
+Energy_VdW      =               -185.40
+Electro         =               -6.12
+Energy_SolvP    =               258.63
+Energy_SolvH    =               -248.72
+Energy_vdwclash =               6.37
+energy_torsion  =               4.99
+backbone_vdwclash=              45.83
+Entropy_sidec   =               83.10
+Entropy_mainc   =               246.79
+water bonds     =               0.00
+helix dipole    =               0.00
+loop_entropy    =               0.00
+cis_bond        =               1.12
+disulfide       =               0.00
+kn electrostatic=               0.00
+partial covalent interactions = -24.88
+Energy_Ionisation =             0.30
+Entropy Complex =               0.00
+-----------------------------------------------------------
+Total          = 				  -14.04
+
+Residue ASPA166 has high Energy, we mutate it to itself
+Repair Residue ID= ASPA166
+
+BackHbond       =               -104.73
+SideHbond       =               -45.49
+Energy_VdW      =               -185.34
+Electro         =               -6.09
+Energy_SolvP    =               258.43
+Energy_SolvH    =               -248.66
+Energy_vdwclash =               6.37
+energy_torsion  =               4.99
+backbone_vdwclash=              45.83
+Entropy_sidec   =               83.06
+Entropy_mainc   =               246.79
+water bonds     =               0.00
+helix dipole    =               0.00
+loop_entropy    =               0.00
+cis_bond        =               1.12
+disulfide       =               0.00
+kn electrostatic=               0.00
+partial covalent interactions = -24.88
+Energy_Ionisation =             0.30
+Entropy Complex =               0.00
+-----------------------------------------------------------
+Total          = 				  -14.13
+
+Repaired
+
+BackHbond       =               -104.73
+SideHbond       =               -45.49
+Energy_VdW      =               -185.34
+Electro         =               -6.09
+Energy_SolvP    =               258.43
+Energy_SolvH    =               -248.66
+Energy_vdwclash =               6.37
+energy_torsion  =               4.99
+backbone_vdwclash=              45.83
+Entropy_sidec   =               83.06
+Entropy_mainc   =               246.79
+water bonds     =               0.00
+helix dipole    =               0.00
+loop_entropy    =               0.00
+cis_bond        =               1.12
+disulfide       =               0.00
+kn electrostatic=               0.00
+partial covalent interactions = -24.88
+Energy_Ionisation =             0.30
+Entropy Complex =               0.00
+-----------------------------------------------------------
+Total          = 				  -14.13
+
+End of Repair
+Output PDB ./3JXS_A_Repair.pdb
+Your file run OK
+End time of FoldX: Wed Jan 14 22:06:00 2026
+Total time spend: 17.77 seconds.
+Cleaning RepairPDB...DONE
