@@ -35,8 +35,8 @@ This file lists the result files selected for GitHub tracking and thesis analysi
 | `results/sequence_features/consensus/fungal_GH11_consensus.csv` | Conservation scores for fungal GH11 alignment. |
 | `results/sequence_features/consensus/consensus_summary.csv` | Summary of conserved positions per group. |
 | `results/sequence_features/consensus_stabilizing_candidates.csv` | Conserved residues merged across groups. |
-| `results/sequence_features/GH10_vs_GH11_signature_positions.csv` | Alignment positions where GH10 and GH11 differ in dominant residue. |
-| `results/sequence_features/candidate_motif_positions.csv` | Putative motif positions mapped to alignments. |
+| `results/sequence_features/consensus/GH10_vs_GH11_signature_positions.csv` | Alignment positions where GH10 and GH11 differ in dominant residue. |
+| `results/sequence_features/consensus/candidate_motif_positions.csv` | Putative motif positions mapped to alignments. |
 
 ## 3. Structural Characterization and Homology Modeling
 
