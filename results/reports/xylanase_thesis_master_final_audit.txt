@@ -1,0 +1,254 @@
+Final Xylanase Thesis Master Table Audit
+==================================================
+Output file: /home/ubuntu/xylanase-thesis/data/curated/xylanase_thesis_master_final.csv
+Rows: 692
+Unique UniProt accessions: 692
+
+Organism type counts:
+organism_type
+bacterial    493
+fungal       192
+archaea        7
+Name: count, dtype: int64
+
+GH family counts:
+gh_family
+GH10    439
+GH11    253
+Name: count, dtype: int64
+
+Organism type x GH family:
+gh_family      GH10  GH11
+organism_type            
+archaea           5     2
+bacterial       366   127
+fungal           68   124
+
+Annotation/computational coverage:
+has_refseq_link:
+has_refseq_link
+False    426
+True     266
+Name: count, dtype: int64
+
+has_brenda_temp:
+has_brenda_temp
+False    642
+True      50
+Name: count, dtype: int64
+
+has_brenda_ph:
+has_brenda_ph
+False    643
+True      49
+Name: count, dtype: int64
+
+has_any_brenda:
+has_any_brenda
+False    641
+True      51
+Name: count, dtype: int64
+
+signal_peptide_proxy:
+signal_peptide_proxy
+True     453
+False    239
+Name: count, dtype: int64
+
+has_any_structure:
+has_any_structure
+True     679
+False     13
+Name: count, dtype: int64
+
+has_experimental_structure:
+has_experimental_structure
+False    644
+True      48
+Name: count, dtype: int64
+
+has_modelled_structure:
+has_modelled_structure
+True     631
+False     61
+Name: count, dtype: int64
+
+has_foldx_result:
+has_foldx_result
+True     631
+False     61
+Name: count, dtype: int64
+
+has_ml_prediction:
+has_ml_prediction
+True     631
+False     61
+Name: count, dtype: int64
+
+sequence_has_X:
+sequence_has_X
+False    688
+True       4
+Name: count, dtype: int64
+
+sequence_has_nonstandard_residue:
+sequence_has_nonstandard_residue
+False    688
+True       4
+Name: count, dtype: int64
+
+is_short_sequence_lt100aa:
+is_short_sequence_lt100aa
+False    687
+True       5
+Name: count, dtype: int64
+
+is_long_sequence_gt1200aa:
+is_long_sequence_gt1200aa
+False    668
+True      24
+Name: count, dtype: int64
+
+Numeric summaries:
+sequence_length:
+count     692.000000
+mean      457.093931
+std       296.775749
+min        45.000000
+25%       298.000000
+50%       370.000000
+75%       497.250000
+max      2457.000000
+Name: sequence_length, dtype: float64
+
+protparam_length:
+count     688.000000
+mean      458.709302
+std       296.791596
+min        45.000000
+25%       301.500000
+50%       371.000000
+75%       498.750000
+max      2457.000000
+Name: protparam_length, dtype: float64
+
+chain_length:
+count     631.000000
+mean      459.259905
+std       288.042026
+min        97.000000
+25%       318.500000
+50%       373.000000
+75%       502.000000
+max      2457.000000
+Name: chain_length, dtype: float64
+
+foldx_wt_total_energy:
+count     631.000000
+mean      851.669086
+std      1139.380817
+min       -30.962400
+25%       153.969000
+50%       377.263000
+75%      1092.285000
+max      6828.520000
+Name: foldx_wt_total_energy, dtype: float64
+
+foldx_energy_per_residue:
+count    631.000000
+mean       1.424878
+std        1.125726
+min       -0.089229
+25%        0.495258
+50%        1.190879
+75%        2.034684
+max        5.526923
+Name: foldx_energy_per_residue, dtype: float64
+
+hbond_proxy_count:
+count     631.000000
+mean      454.372425
+std       280.767648
+min       107.000000
+25%       294.000000
+50%       366.000000
+75%       505.500000
+max      2274.000000
+Name: hbond_proxy_count, dtype: float64
+
+disulfide_count:
+count    631.000000
+mean       0.218700
+std        0.708026
+min        0.000000
+25%        0.000000
+50%        0.000000
+75%        0.000000
+max        5.000000
+Name: disulfide_count, dtype: float64
+
+sasa_total:
+count       631.000000
+mean      30691.511458
+std       30301.471676
+min        6058.870000
+25%       14446.310000
+50%       18860.250000
+75%       31152.730000
+max      257660.270000
+Name: sasa_total, dtype: float64
+
+hbond_per_res:
+count    631.000000
+mean       1.002432
+std        0.091944
+min        0.808140
+25%        0.930264
+50%        0.977387
+75%        1.091494
+max        1.198953
+Name: hbond_per_res, dtype: float64
+
+disulfide_per_res:
+count    631.000000
+mean       0.000535
+std        0.001632
+min        0.000000
+25%        0.000000
+50%        0.000000
+75%        0.000000
+max        0.012853
+Name: disulfide_per_res, dtype: float64
+
+sasa_per_res:
+count    631.000000
+mean      60.160728
+std       18.977488
+min       38.961346
+25%       47.590668
+50%       53.742082
+75%       65.165408
+max      136.723519
+Name: sasa_per_res, dtype: float64
+
+predicted_foldx_energy_per_residue:
+count    631.000000
+mean       1.419126
+std        1.013840
+min        0.069288
+25%        0.615397
+50%        1.139090
+75%        1.932794
+max        4.187365
+Name: predicted_foldx_energy_per_residue, dtype: float64
+
+prediction_error:
+count    631.000000
+mean       0.005752
+std        0.505962
+min       -1.918259
+25%       -0.232316
+50%       -0.042003
+75%        0.189217
+max        3.121401
+Name: prediction_error, dtype: float64

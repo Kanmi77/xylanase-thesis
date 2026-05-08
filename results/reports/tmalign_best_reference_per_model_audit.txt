@@ -1,0 +1,50 @@
+TM-align Best Reference Per Model Audit
+==================================================
+Input: /home/ubuntu/xylanase-thesis/results/structures/tmalign_results_GH10_GH11_only.csv
+Output: /home/ubuntu/xylanase-thesis/results/structures/tmalign_best_reference_per_model.csv
+Input rows: 125297
+Unique models: 631
+Best-reference rows: 631
+Model column used: model_uniprot
+
+Columns:
+model_uniprot
+model_structure
+model_gh_family
+model_organism_type
+reference_uniprot
+reference_structure
+reference_id
+reference_gh_family
+reference_organism_type
+tm_score_chain1
+tm_score_chain2
+rmsd
+seq_id_aligned
+tm_score_best
+returncode
+run_status
+stderr
+raw_output_file
+
+TM-score summary:
+count    631.000000
+mean       0.928382
+std        0.122013
+min        0.357360
+25%        0.943610
+50%        0.981870
+75%        0.993180
+max        0.999660
+Name: tm_score_best, dtype: float64
+
+RMSD summary:
+count    631.000000
+mean       1.206149
+std        1.317258
+min        0.110000
+25%        0.300000
+50%        0.700000
+75%        1.430000
+max        5.990000
+Name: rmsd, dtype: float64

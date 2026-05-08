@@ -1,0 +1,44 @@
+Final Xylanase Thesis Master Table v2 Audit
+============================================================
+Input master: /home/ubuntu/xylanase-thesis/data/curated/xylanase_thesis_master_final.csv
+PDB FoldX source: /home/ubuntu/xylanase-thesis/results/foldx/foldx_with_structure.csv
+Output: /home/ubuntu/xylanase-thesis/data/curated/xylanase_thesis_master_final_v2.csv
+
+Rows: 692
+Unique UniProt accessions: 692
+PDB rows in master: 48
+PDB rows patched by accession overlap: 48
+
+Structure source summary:
+structure_sources
+modeller    631
+pdb          48
+NaN          13
+Name: count, dtype: int64
+
+FoldX result coverage:
+has_foldx_result
+True     679
+False     13
+Name: count, dtype: int64
+
+FoldX source layer:
+foldx_source_layer
+modeller_foldx_normalized    631
+pdb_foldx_with_structure      48
+                              13
+Name: count, dtype: int64
+
+FoldX coverage by structure source:
+has_foldx_result   False  True 
+structure_sources              
+modeller               0    631
+none                  13      0
+pdb                    0     48
+
+Organism type x GH family:
+gh_family      GH10  GH11
+organism_type            
+archaea           5     2
+bacterial       366   127
+fungal           68   124
