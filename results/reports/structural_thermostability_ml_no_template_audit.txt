@@ -1,0 +1,208 @@
+Structural Thermostability ML Audit - No Template Features
+================================================================================
+Input file: /home/ubuntu/xylanase-thesis/data/curated/xylanase_thesis_master_final_v5_activity_labels.csv
+Target: foldx_energy_per_residue
+
+Template-quality features excluded:
+- modeller_best_template_identity
+- modeller_best_template_coverage
+
+Rows in input master: 692
+Rows used for ML: 679
+Unique accessions used: 679
+
+Numeric features used:
+- sequence_length
+- molecular_weight
+- aromaticity
+- instability_index
+- isoelectric_point
+- gravy
+- helix_fraction
+- turn_fraction
+- sheet_fraction
+- nterm_hydrophobic_count_5_25
+- nterm_positive_count_1_10
+- chain_length
+- hbond_proxy_count
+- salt_bridge_count
+- disulfide_count
+- sasa_total
+- hbond_per_res
+- salt_bridge_per_res
+- disulfide_per_res
+- sasa_per_res
+
+Categorical features used:
+- gh_family
+- organism_type
+- structure_sources
+- foldx_source_layer
+- signal_peptide_proxy
+- sequence_has_X
+- sequence_has_nonstandard_residue
+- is_short_sequence_lt100aa
+- is_long_sequence_gt1200aa
+
+Target summary:
+count    679.000000
+mean       1.319336
+std        1.151333
+min       -0.334409
+25%        0.403251
+50%        1.066619
+75%        1.923222
+max        5.526923
+Name: foldx_energy_per_residue, dtype: float64
+
+Model performance summary:
+                  target                         model  n_samples  n_numeric_features  n_categorical_features                                                                                                                                                                                                                                                                                                                       numeric_features                                                                                                                                                                  categorical_features                                      excluded_template_features                                   cv     r2    mae   rmse
+foldx_energy_per_residue         RandomForestRegressor        679                  20                       9 sequence_length,molecular_weight,aromaticity,instability_index,isoelectric_point,gravy,helix_fraction,turn_fraction,sheet_fraction,nterm_hydrophobic_count_5_25,nterm_positive_count_1_10,chain_length,hbond_proxy_count,salt_bridge_count,disulfide_count,sasa_total,hbond_per_res,salt_bridge_per_res,disulfide_per_res,sasa_per_res gh_family,organism_type,structure_sources,foldx_source_layer,signal_peptide_proxy,sequence_has_X,sequence_has_nonstandard_residue,is_short_sequence_lt100aa,is_long_sequence_gt1200aa modeller_best_template_identity,modeller_best_template_coverage 5-fold KFold shuffle random_state=42 0.8380 0.3088 0.4631
+foldx_energy_per_residue HistGradientBoostingRegressor        679                  20                       9 sequence_length,molecular_weight,aromaticity,instability_index,isoelectric_point,gravy,helix_fraction,turn_fraction,sheet_fraction,nterm_hydrophobic_count_5_25,nterm_positive_count_1_10,chain_length,hbond_proxy_count,salt_bridge_count,disulfide_count,sasa_total,hbond_per_res,salt_bridge_per_res,disulfide_per_res,sasa_per_res gh_family,organism_type,structure_sources,foldx_source_layer,signal_peptide_proxy,sequence_has_X,sequence_has_nonstandard_residue,is_short_sequence_lt100aa,is_long_sequence_gt1200aa modeller_best_template_identity,modeller_best_template_coverage 5-fold KFold shuffle random_state=42 0.8214 0.3239 0.4861
+
+Group prediction summary:
+                        model organism_type gh_family   n  mean_observed  median_observed  mean_predicted  median_predicted  mean_abs_error  median_abs_error
+HistGradientBoostingRegressor       archaea      GH10   5         2.2366           2.9824          1.9456            2.4230          0.5704            0.5594
+HistGradientBoostingRegressor       archaea      GH11   2         1.6590           1.6590          1.4595            1.4595          0.8724            0.8724
+HistGradientBoostingRegressor     bacterial      GH10 358         1.6231           1.3814          1.6217            1.5142          0.3694            0.2534
+HistGradientBoostingRegressor     bacterial      GH11 126         0.9895           0.5366          0.9977            0.6506          0.2823            0.1474
+HistGradientBoostingRegressor        fungal      GH10  66         0.7029           0.5997          0.7042            0.6221          0.1980            0.1326
+HistGradientBoostingRegressor        fungal      GH11 122         1.0588           1.1331          1.0353            1.0482          0.2825            0.1861
+        RandomForestRegressor       archaea      GH10   5         2.2366           2.9824          1.9202            1.9961          0.7484            0.8125
+        RandomForestRegressor       archaea      GH11   2         1.6590           1.6590          1.8148            1.8148          0.6803            0.6803
+        RandomForestRegressor     bacterial      GH10 358         1.6231           1.3814          1.6234            1.4132          0.3431            0.2552
+        RandomForestRegressor     bacterial      GH11 126         0.9895           0.5366          1.0090            0.7426          0.2716            0.1272
+        RandomForestRegressor        fungal      GH10  66         0.7029           0.5997          0.7205            0.6997          0.2115            0.1546
+        RandomForestRegressor        fungal      GH11 122         1.0588           1.1331          1.0450            1.0245          0.2753            0.1922
+
+Top feature importance:
+                model                                      feature  importance
+RandomForestRegressor                             molecular_weight    0.346662
+RandomForestRegressor                                hbond_per_res    0.168031
+RandomForestRegressor                                 sasa_per_res    0.092197
+RandomForestRegressor                                   sasa_total    0.087872
+RandomForestRegressor                              sequence_length    0.039426
+RandomForestRegressor                                 chain_length    0.035473
+RandomForestRegressor                          salt_bridge_per_res    0.034417
+RandomForestRegressor                            hbond_proxy_count    0.032073
+RandomForestRegressor                        structure_sources_pdb    0.019740
+RandomForestRegressor  foldx_source_layer_pdb_foldx_with_structure    0.016446
+RandomForestRegressor                               sheet_fraction    0.016425
+RandomForestRegressor                   structure_sources_modeller    0.013159
+RandomForestRegressor foldx_source_layer_modeller_foldx_normalized    0.012867
+RandomForestRegressor                                  aromaticity    0.012669
+RandomForestRegressor                               helix_fraction    0.012609
+RandomForestRegressor                                        gravy    0.011374
+RandomForestRegressor                            instability_index    0.010298
+RandomForestRegressor                                turn_fraction    0.009408
+RandomForestRegressor                            isoelectric_point    0.009199
+RandomForestRegressor                            salt_bridge_count    0.009061
+RandomForestRegressor                 nterm_hydrophobic_count_5_25    0.004110
+RandomForestRegressor                    nterm_positive_count_1_10    0.002178
+RandomForestRegressor                            disulfide_per_res    0.001171
+RandomForestRegressor                      organism_type_bacterial    0.000979
+RandomForestRegressor                              disulfide_count    0.000554
+RandomForestRegressor                         organism_type_fungal    0.000471
+RandomForestRegressor                    signal_peptide_proxy_true    0.000387
+RandomForestRegressor                   signal_peptide_proxy_false    0.000362
+RandomForestRegressor                               gh_family_GH11    0.000193
+RandomForestRegressor                               gh_family_GH10    0.000105
+
+Top permutation importance:
+                        model                          feature  permutation_importance_mean  permutation_importance_std
+        RandomForestRegressor                    hbond_per_res                     0.405269                    0.018019
+        RandomForestRegressor                 molecular_weight                     0.391463                    0.024018
+        RandomForestRegressor                     sasa_per_res                     0.136066                    0.009697
+        RandomForestRegressor              salt_bridge_per_res                     0.066912                    0.003800
+        RandomForestRegressor                hbond_proxy_count                     0.053238                    0.003688
+        RandomForestRegressor                       sasa_total                     0.045797                    0.002626
+        RandomForestRegressor                structure_sources                     0.030420                    0.005501
+        RandomForestRegressor               foldx_source_layer                     0.024566                    0.004345
+        RandomForestRegressor                   sheet_fraction                     0.016656                    0.000880
+        RandomForestRegressor                  sequence_length                     0.016299                    0.001130
+        RandomForestRegressor                     chain_length                     0.016034                    0.001132
+        RandomForestRegressor                      aromaticity                     0.015566                    0.000960
+        RandomForestRegressor                   helix_fraction                     0.011575                    0.000713
+        RandomForestRegressor                            gravy                     0.010247                    0.000932
+        RandomForestRegressor                salt_bridge_count                     0.009051                    0.000701
+        RandomForestRegressor                instability_index                     0.008123                    0.000489
+        RandomForestRegressor                    turn_fraction                     0.007043                    0.000510
+        RandomForestRegressor                isoelectric_point                     0.006163                    0.000414
+        RandomForestRegressor     nterm_hydrophobic_count_5_25                     0.003066                    0.000224
+        RandomForestRegressor        nterm_positive_count_1_10                     0.001563                    0.000109
+        RandomForestRegressor                    organism_type                     0.001349                    0.000190
+        RandomForestRegressor                disulfide_per_res                     0.000683                    0.000095
+        RandomForestRegressor             signal_peptide_proxy                     0.000506                    0.000063
+        RandomForestRegressor                  disulfide_count                     0.000224                    0.000041
+        RandomForestRegressor                        gh_family                     0.000195                    0.000056
+        RandomForestRegressor        is_long_sequence_gt1200aa                     0.000038                    0.000006
+        RandomForestRegressor        is_short_sequence_lt100aa                     0.000000                    0.000000
+        RandomForestRegressor sequence_has_nonstandard_residue                    -0.000000                    0.000000
+        RandomForestRegressor                   sequence_has_X                    -0.000000                    0.000000
+HistGradientBoostingRegressor                 molecular_weight                     0.317689                    0.018397
+
+Best predicted matches by absolute error:
+uniprot_accession                                                                       organism organism_type gh_family structure_sources        foldx_source_layer  foldx_energy_per_residue                         model  predicted_foldx_energy_per_residue  prediction_error  abs_error
+           Q9RMM5                                             Streptomyces thermocyaneoviolaceus     bacterial      GH10          modeller modeller_foldx_normalized                  0.307985         RandomForestRegressor                            0.308396         -0.000411   0.000411
+           Q7SID8                                                              Bacillus subtilis     bacterial      GH11               pdb  pdb_foldx_with_structure                  0.060732 HistGradientBoostingRegressor                            0.059823          0.000909   0.000909
+           Q69IG4                                        Neocallimastix frontalis (Rumen fungus)        fungal      GH11          modeller modeller_foldx_normalized                  1.310672         RandomForestRegressor                            1.311805         -0.001133   0.001133
+           C3RYK8                                                           Streptomyces sp. S27     bacterial      GH10          modeller modeller_foldx_normalized                  0.324409         RandomForestRegressor                            0.325848         -0.001439   0.001439
+           C3VEV7                                                          Penicillium canescens        fungal      GH11          modeller modeller_foldx_normalized                  1.416741 HistGradientBoostingRegressor                            1.415147          0.001594   0.001594
+           B5YA84              Dictyoglomus thermophilum (strain ATCC 35947 / DSM 3960 / H-6-12)     bacterial      GH10          modeller modeller_foldx_normalized                  0.248606         RandomForestRegressor                            0.246472          0.002134   0.002134
+           Q43993                                          Aeromonas caviae (Aeromonas punctata)     bacterial      GH11          modeller modeller_foldx_normalized                  0.341286         RandomForestRegressor                            0.339021          0.002265   0.002265
+           Q69IG0                                        Neocallimastix frontalis (Rumen fungus)        fungal      GH11          modeller modeller_foldx_normalized                  1.231395 HistGradientBoostingRegressor                            1.228988          0.002407   0.002407
+           C9YW88                                            Streptomyces scabiei (strain 87.22)     bacterial      GH10          modeller modeller_foldx_normalized                  0.894204         RandomForestRegressor                            0.891682          0.002521   0.002521
+           D8UVH0                                                       Alicyclobacillus sp. A15     bacterial      GH10          modeller modeller_foldx_normalized                  0.185366         RandomForestRegressor                            0.182839          0.002527   0.002527
+           E0RS15              Spirochaeta thermophila (strain ATCC 49972 / DSM 6192 / RI 19.B1)     bacterial      GH10          modeller modeller_foldx_normalized                  0.849482 HistGradientBoostingRegressor                            0.846800          0.002682   0.002682
+           Q69IG9                                        Neocallimastix frontalis (Rumen fungus)        fungal      GH11          modeller modeller_foldx_normalized                  1.297642 HistGradientBoostingRegressor                            1.300633         -0.002991   0.002991
+           C3VEW0                                                          Penicillium canescens        fungal      GH11          modeller modeller_foldx_normalized                  1.547686         RandomForestRegressor                            1.550685         -0.002999   0.002999
+           Q7WUM6                                                            Thermotoga maritima     bacterial      GH10          modeller modeller_foldx_normalized                 -0.037929 HistGradientBoostingRegressor                           -0.041148          0.003219   0.003219
+           C6FGW6                                                              Bispora sp. MEY-1        fungal      GH11          modeller modeller_foldx_normalized                  1.572513 HistGradientBoostingRegressor                            1.569244          0.003269   0.003269
+           Q9HEN3                                                           Curvularia spicifera        fungal      GH11          modeller modeller_foldx_normalized                  0.659427 HistGradientBoostingRegressor                            0.662773         -0.003346   0.003346
+           A0LR95               Acidothermus cellulolyticus (strain ATCC 43068 / DSM 8971 / 11B)     bacterial      GH10          modeller modeller_foldx_normalized                  1.772021         RandomForestRegressor                            1.775436         -0.003415   0.003415
+           Q9UUQ2                                                             Penicillium sp. 40        fungal      GH11          modeller modeller_foldx_normalized                  1.546100         RandomForestRegressor                            1.542598          0.003501   0.003501
+           Q7SID8                                                              Bacillus subtilis     bacterial      GH11               pdb  pdb_foldx_with_structure                  0.060732         RandomForestRegressor                            0.064358         -0.003627   0.003627
+           Q69IG9                                        Neocallimastix frontalis (Rumen fungus)        fungal      GH11          modeller modeller_foldx_normalized                  1.297642         RandomForestRegressor                            1.301440         -0.003798   0.003798
+           G0RUP7                           Hypocrea jecorina (strain QM6a) (Trichoderma reesei)        fungal      GH11               pdb  pdb_foldx_with_structure                 -0.074529         RandomForestRegressor                           -0.078481          0.003952   0.003952
+           D0QF43                                                              Bispora sp. MEY-1        fungal      GH10               pdb  pdb_foldx_with_structure                 -0.047193 HistGradientBoostingRegressor                           -0.042738         -0.004455   0.004455
+           B5WY69 Colletotrichum graminicola (Maize anthracnose fungus) (Glomerella graminicola)        fungal      GH10          modeller modeller_foldx_normalized                  0.269053 HistGradientBoostingRegressor                            0.264000          0.005053   0.005053
+           Q8J0T4                                                             Trichoderma sp. SY        fungal      GH11          modeller modeller_foldx_normalized                  0.386696         RandomForestRegressor                            0.391860         -0.005164   0.005164
+           A4IP71                                Geobacillus thermodenitrificans (strain NG80-2)     bacterial      GH10          modeller modeller_foldx_normalized                  0.083104 HistGradientBoostingRegressor                            0.088477         -0.005373   0.005373
+           E2EAK3                                                        Alicyclobacillus sp. A4     bacterial      GH10          modeller modeller_foldx_normalized                  1.381800         RandomForestRegressor                            1.387250         -0.005450   0.005450
+           Q69IG2                                        Neocallimastix frontalis (Rumen fungus)        fungal      GH11          modeller modeller_foldx_normalized                  1.330179 HistGradientBoostingRegressor                            1.324571          0.005608   0.005608
+           Q0ZHI9                                       Verticillium dahliae (Verticillium wilt)        fungal      GH11          modeller modeller_foldx_normalized                  0.536956 HistGradientBoostingRegressor                            0.542580         -0.005624   0.005624
+           Q8J0T4                                                             Trichoderma sp. SY        fungal      GH11          modeller modeller_foldx_normalized                  0.386696 HistGradientBoostingRegressor                            0.392347         -0.005651   0.005651
+           D3VWB5                                                        Alicyclobacillus sp. A4     bacterial      GH10          modeller modeller_foldx_normalized                  0.263817         RandomForestRegressor                            0.269836         -0.006019   0.006019
+
+Largest prediction errors:
+uniprot_accession                                                                                                                                                organism organism_type gh_family structure_sources        foldx_source_layer  foldx_energy_per_residue                         model  predicted_foldx_energy_per_residue  prediction_error  abs_error
+           Q21GI8                                                                                         Saccharophagus degradans (strain 2-40 / ATCC 43961 / DSM 17024)     bacterial      GH10          modeller modeller_foldx_normalized                  4.815929         RandomForestRegressor                            1.651382          3.164547   3.164547
+           Q21GI8                                                                                         Saccharophagus degradans (strain 2-40 / ATCC 43961 / DSM 17024)     bacterial      GH10          modeller modeller_foldx_normalized                  4.815929 HistGradientBoostingRegressor                            1.941859          2.874070   2.874070
+           D5UGI2                                        Cellulomonas flavigena (strain ATCC 482 / DSM 20109 / BCRC 11376 / JCM 18109 / NBRC 3775 / NCIMB 8073 / NRS 134)     bacterial      GH11          modeller modeller_foldx_normalized                  3.317551         RandomForestRegressor                            0.904778          2.412773   2.412773
+           D5UGI2                                        Cellulomonas flavigena (strain ATCC 482 / DSM 20109 / BCRC 11376 / JCM 18109 / NBRC 3775 / NCIMB 8073 / NRS 134)     bacterial      GH11          modeller modeller_foldx_normalized                  3.317551 HistGradientBoostingRegressor                            0.937108          2.380444   2.380444
+           Q21PD4                                                                                         Saccharophagus degradans (strain 2-40 / ATCC 43961 / DSM 17024)     bacterial      GH10          modeller modeller_foldx_normalized                  4.487526 HistGradientBoostingRegressor                            2.187096          2.300430   2.300430
+           O87118                                                                  Acetivibrio thermocellus (Hungateiclostridium thermocellum) (Clostridium thermocellum)     bacterial      GH11          modeller modeller_foldx_normalized                  4.377637         RandomForestRegressor                            2.271608          2.106028   2.106028
+           C5BLA7                                                                                                     Teredinibacter turnerae (strain ATCC 39867 / T7901)     bacterial      GH10          modeller modeller_foldx_normalized                  1.426908 HistGradientBoostingRegressor                            3.343120         -1.916212   1.916212
+           Q9Y7F2                                                                                                      Scheffersomyces stipitis (Yeast) (Pichia stipitis)        fungal      GH11          modeller modeller_foldx_normalized                  3.146667 HistGradientBoostingRegressor                            1.293771          1.852896   1.852896
+           Q9F4L0                                                                                                      Fibrobacter succinogenes (strain ATCC 19169 / S85)     bacterial      GH10          modeller modeller_foldx_normalized                  4.871461 HistGradientBoostingRegressor                            3.019990          1.851471   1.851471
+           P83513                                                                                                                         Pseudobutyrivibrio xylanivorans     bacterial      GH11          modeller modeller_foldx_normalized                  0.693563 HistGradientBoostingRegressor                            2.532045         -1.838482   1.838482
+           C5BPL7                                                                                                     Teredinibacter turnerae (strain ATCC 39867 / T7901)     bacterial      GH10          modeller modeller_foldx_normalized                  4.004629         RandomForestRegressor                            2.173908          1.830722   1.830722
+           Q9Y7F2                                                                                                      Scheffersomyces stipitis (Yeast) (Pichia stipitis)        fungal      GH11          modeller modeller_foldx_normalized                  3.146667         RandomForestRegressor                            1.348172          1.798495   1.798495
+           Q9F4L0                                                                                                      Fibrobacter succinogenes (strain ATCC 19169 / S85)     bacterial      GH10          modeller modeller_foldx_normalized                  4.871461         RandomForestRegressor                            3.148612          1.722848   1.722848
+           D7CDL1                                                                                                             Streptomyces bingchenggensis (strain BCW-1)     bacterial      GH10          modeller modeller_foldx_normalized                  0.795353         RandomForestRegressor                            2.508668         -1.713315   1.713315
+           P14768                                                                        Cellvibrio japonicus (strain Ueda107) (Pseudomonas fluorescens subsp. cellulosa)     bacterial      GH10               pdb  pdb_foldx_with_structure                 -0.037414 HistGradientBoostingRegressor                            1.639864         -1.677278   1.677278
+           C5BPL7                                                                                                     Teredinibacter turnerae (strain ATCC 39867 / T7901)     bacterial      GH10          modeller modeller_foldx_normalized                  4.004629 HistGradientBoostingRegressor                            2.342732          1.661897   1.661897
+           Q7WYB1                                                                                                                                Fibrobacter intestinalis     bacterial      GH11          modeller modeller_foldx_normalized                  2.710996         RandomForestRegressor                            1.058078          1.652918   1.652918
+           O87118                                                                  Acetivibrio thermocellus (Hungateiclostridium thermocellum) (Clostridium thermocellum)     bacterial      GH11          modeller modeller_foldx_normalized                  4.377637 HistGradientBoostingRegressor                            2.773996          1.603641   1.603641
+           Q6GVM9                                                                                                                                      Ruminococcus albus     bacterial      GH11          modeller modeller_foldx_normalized                  1.657168 HistGradientBoostingRegressor                            3.247243         -1.590075   1.590075
+           P83513                                                                                                                         Pseudobutyrivibrio xylanivorans     bacterial      GH11          modeller modeller_foldx_normalized                  0.693563         RandomForestRegressor                            2.263246         -1.569682   1.569682
+           E4S9X6                                         Caldicellulosiruptor acetigenus (strain ATCC 700853 / DSM 12137 / I77R1B) (Caldicellulosiruptor kristjanssonii)     bacterial      GH10          modeller modeller_foldx_normalized                  5.526923         RandomForestRegressor                            3.965357          1.561566   1.561566
+           A5FD49 Flavobacterium johnsoniae (strain ATCC 17061 / DSM 2064 / JCM 8514 / BCRC 14874 / CCUG 350202 / NBRC 14942 / NCIMB 11054 / UW101) (Cytophaga johnsonae)     bacterial      GH10          modeller modeller_foldx_normalized                  3.448056 HistGradientBoostingRegressor                            1.954855          1.493201   1.493201
+           E4S9X6                                         Caldicellulosiruptor acetigenus (strain ATCC 700853 / DSM 12137 / I77R1B) (Caldicellulosiruptor kristjanssonii)     bacterial      GH10          modeller modeller_foldx_normalized                  5.526923 HistGradientBoostingRegressor                            4.034563          1.492360   1.492360
+           Q02290                                                                                                               Neocallimastix patriciarum (Rumen fungus)        fungal      GH10          modeller modeller_foldx_normalized                  3.874198         RandomForestRegressor                            2.385733          1.488464   1.488464
+           C5BLA7                                                                                                     Teredinibacter turnerae (strain ATCC 39867 / T7901)     bacterial      GH10          modeller modeller_foldx_normalized                  1.426908         RandomForestRegressor                            2.895106         -1.468199   1.468199
+           D1BKV8                                                                               Sanguibacter keddieii (strain ATCC 51767 / DSM 10542 / NCFB 3025 / ST-74)     bacterial      GH10          modeller modeller_foldx_normalized                  3.605530 HistGradientBoostingRegressor                            2.144865          1.460665   1.460665
+           Q21PD4                                                                                         Saccharophagus degradans (strain 2-40 / ATCC 43961 / DSM 17024)     bacterial      GH10          modeller modeller_foldx_normalized                  4.487526         RandomForestRegressor                            3.119812          1.367714   1.367714
+           D1LGU1                                                                                                                                   Orpinomyces sp. FCT 2        fungal      GH11          modeller modeller_foldx_normalized                  2.030182 HistGradientBoostingRegressor                            0.703612          1.326570   1.326570
+           Q01421                                                                                                                 Neocallimastix frontalis (Rumen fungus)        fungal      GH11          modeller modeller_foldx_normalized                  3.175140 HistGradientBoostingRegressor                            1.859704          1.315436   1.315436
+           Q9Z485                                                                                                                   Aeromonas caviae (Aeromonas punctata)     bacterial      GH10          modeller modeller_foldx_normalized                  0.597430 HistGradientBoostingRegressor                            1.909028         -1.311598   1.311598
