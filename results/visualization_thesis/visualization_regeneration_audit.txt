@@ -1,0 +1,156 @@
+Thesis visualization regeneration audit
+================================================================================
+
+Input files detected:
+- master: /home/ubuntu/xylanase-thesis/data/curated/xylanase_thesis_master_final_v5_activity_labels.csv
+- structured: /home/ubuntu/xylanase-thesis/data/curated/xylanase_structured_subset_with_foldx_norm.csv
+- top15: /home/ubuntu/xylanase-thesis/results/ranking/top15_candidates_with_docking.csv
+- top15_final: /home/ubuntu/xylanase-thesis/results/ranking/top15_final_ranked.csv
+- foldx_ddg: /home/ubuntu/xylanase-thesis/results/foldx_clean/tier2_ddg_ranked_annotated.csv
+- docking_scores: /home/ubuntu/xylanase-thesis/docking_tier2_all_best_mutants_reformatted/tier2_reformatted_docking_scores.csv
+- docking_comparison: /home/ubuntu/xylanase-thesis/docking_tier2_all_best_mutants_reformatted/tier2_reformatted_wt_mutant_docking_comparison.csv
+- docking_group: /home/ubuntu/xylanase-thesis/docking_tier2_all_best_mutants_reformatted/tier2_reformatted_docking_group_summary.csv
+- ml_predictions: /home/ubuntu/xylanase-thesis/results/ml/structural_thermostability_ml_no_template_predictions.csv
+- ml_feature: /home/ubuntu/xylanase-thesis/results/ml/structural_thermostability_ml_no_template_feature_importance.csv
+- ml_permutation: /home/ubuntu/xylanase-thesis/results/ml/structural_thermostability_ml_no_template_permutation_importance.csv
+- ml_group: /home/ubuntu/xylanase-thesis/results/ml/structural_thermostability_ml_no_template_group_summary.csv
+- tmalign_quality: /home/ubuntu/xylanase-thesis/results/reports/tmalign_best_reference_quality_classes.csv
+- tmalign_by_gh: /home/ubuntu/xylanase-thesis/results/reports/tmalign_best_reference_by_gh_family.csv
+- tmalign_by_organism_gh: /home/ubuntu/xylanase-thesis/results/reports/tmalign_best_reference_by_organism_gh.csv
+
+Generated PNG files:
+- 01_data_acquisition_curation/figure_4_01_dataset_curation_overview.png
+- 01_data_acquisition_curation/figure_4_02_organism_type_distribution.png
+- 01_data_acquisition_curation/figure_4_03_gh_family_distribution.png
+- 01_data_acquisition_curation/figure_4_04_organism_type_by_gh_family_heatmap.png
+- 01_data_acquisition_curation/figure_4_05_activity_evidence_confidence.png
+- 01_data_acquisition_curation/figure_4_06_activity_evidence_by_organism_gh.png
+- 01_data_acquisition_curation/figure_4_14_structure_source_distribution.png
+- 01_data_curation/dataset_by_organism_type_and_gh_family.png
+- 01_data_curation/organism_type_by_gh_family_heatmap.png
+- 01_data_curation/structure_source_distribution.png
+- 02_sequence_features/aromaticity_by_gh_family.png
+- 02_sequence_features/aromaticity_by_organism_type.png
+- 02_sequence_features/figure_4_07_sequence_length_by_gh_family.png
+- 02_sequence_features/figure_4_08_sequence_length_by_organism_gh.png
+- 02_sequence_features/figure_4_09_aromaticity_by_organism_gh.png
+- 02_sequence_features/figure_4_09_gravy_by_organism_gh.png
+- 02_sequence_features/figure_4_09_helix_fraction_by_organism_gh.png
+- 02_sequence_features/figure_4_09_instability_index_by_organism_gh.png
+- 02_sequence_features/figure_4_09_isoelectric_point_by_organism_gh.png
+- 02_sequence_features/figure_4_09_molecular_weight_by_organism_gh.png
+- 02_sequence_features/figure_4_09_sheet_fraction_by_organism_gh.png
+- 02_sequence_features/figure_4_09_turn_fraction_by_organism_gh.png
+- 02_sequence_features/figure_4_10_sequence_feature_correlation_heatmap.png
+- 02_sequence_features/gravy_by_gh_family.png
+- 02_sequence_features/gravy_by_organism_type.png
+- 02_sequence_features/helix_fraction_by_gh_family.png
+- 02_sequence_features/helix_fraction_by_organism_type.png
+- 02_sequence_features/instability_index_by_gh_family.png
+- 02_sequence_features/instability_index_by_organism_type.png
+- 02_sequence_features/isoelectric_point_by_gh_family.png
+- 02_sequence_features/isoelectric_point_by_organism_type.png
+- 02_sequence_features/molecular_weight_by_gh_family.png
+- 02_sequence_features/molecular_weight_by_organism_type.png
+- 02_sequence_features/nterm_hydrophobic_count_5_25_by_gh_family.png
+- 02_sequence_features/nterm_hydrophobic_count_5_25_by_organism_type.png
+- 02_sequence_features/nterm_positive_count_1_10_by_gh_family.png
+- 02_sequence_features/nterm_positive_count_1_10_by_organism_type.png
+- 02_sequence_features/sequence_feature_correlation_heatmap.png
+- 02_sequence_features/sequence_length_by_gh_family.png
+- 02_sequence_features/sequence_length_by_organism_type.png
+- 02_sequence_features/sheet_fraction_by_gh_family.png
+- 02_sequence_features/sheet_fraction_by_organism_type.png
+- 02_sequence_features/turn_fraction_by_gh_family.png
+- 02_sequence_features/turn_fraction_by_organism_type.png
+- 03_structural_features/chain_length_by_gh_family.png
+- 03_structural_features/chain_length_by_organism_type.png
+- 03_structural_features/disulfide_count_by_gh_family.png
+- 03_structural_features/disulfide_count_by_organism_type.png
+- 03_structural_features/foldx_energy_per_residue_by_gh_family.png
+- 03_structural_features/foldx_energy_per_residue_by_organism_type.png
+- 03_structural_features/hbond_proxy_count_by_gh_family.png
+- 03_structural_features/hbond_proxy_count_by_organism_type.png
+- 03_structural_features/hbond_proxy_vs_foldx_energy_by_organism.png
+- 03_structural_features/salt_bridge_count_by_gh_family.png
+- 03_structural_features/salt_bridge_count_by_organism_type.png
+- 03_structural_features/salt_bridge_vs_foldx_energy_by_organism.png
+- 03_structural_features/sasa_total_by_gh_family.png
+- 03_structural_features/sasa_total_by_organism_type.png
+- 03_structural_features/structural_feature_correlation_heatmap.png
+- 04_foldx_stability/foldx_ddg_distribution_all_mutations.png
+- 04_foldx_stability/foldx_ddg_distribution_by_gh_family.png
+- 04_foldx_stability/foldx_energy_per_residue_by_gh_family.png
+- 04_foldx_stability/foldx_energy_per_residue_by_organism_type.png
+- 04_foldx_stability/mean_foldx_energy_per_residue_by_organism_gh.png
+- 05_docking/best_binding_energy_by_ligand.png
+- 05_docking/best_binding_energy_by_ligand_and_state.png
+- 05_docking/best_binding_energy_by_state.png
+- 05_docking/delta_binding_by_functional_integrity.png
+- 05_docking/delta_binding_by_ligand.png
+- 05_docking/foldx_ddg_vs_delta_binding_by_functional_integrity.png
+- 05_docking/functional_retention_fraction_by_group.png
+- 05_docking/wt_mutant_binding_energy_distribution.png
+- 05_structural_features_foldx/figure_4_20_foldx_energy_per_residue_distribution.png
+- 05_structural_features_foldx/figure_4_21_foldx_energy_per_residue_by_organism_gh.png
+- 05_structural_features_foldx/figure_4_22_hbond_proxy_by_organism_gh.png
+- 05_structural_features_foldx/figure_4_23_salt_bridge_count_by_organism_gh.png
+- 05_structural_features_foldx/figure_4_24_sasa_per_residue_by_organism_gh.png
+- 05_structural_features_foldx/figure_4_25_structural_feature_correlation_heatmap.png
+- 05_structural_features_foldx/figure_4_26_foldx_energy_vs_chain_length.png
+- 05_structural_features_foldx/figure_4_26_foldx_energy_vs_hbond_per_res.png
+- 05_structural_features_foldx/figure_4_26_foldx_energy_vs_salt_bridge_per_res.png
+- 05_structural_features_foldx/figure_4_26_foldx_energy_vs_sasa_per_res.png
+- 06_mutation_screening/figure_4_27_mutation_screening_workflow_counts.png
+- 06_mutation_screening/figure_4_28_foldx_ddg_distribution.png
+- 06_mutation_screening/figure_4_29_mutation_effect_by_organism_type.png
+- 06_mutation_screening/figure_4_30_mutation_effect_by_gh_family.png
+- 06_mutation_screening/figure_4_31_mutation_effect_by_organism_gh.png
+- 06_mutation_screening/figure_4_32_top_stabilizing_mutations.png
+- 06_mutation_stability/foldx_ddg_by_gh_family.png
+- 06_mutation_stability/foldx_ddg_by_organism_type.png
+- 06_mutation_stability/stabilizing_mutation_fraction_by_organism_gh.png
+- 07_docking/figure_4_33_tier2_docking_coverage.png
+- 07_docking/figure_4_34_wt_mutant_binding_energy_distribution.png
+- 07_docking/figure_4_35_delta_binding_distribution.png
+- 07_docking/figure_4_36_retained_improved_fraction_by_group.png
+- 07_docking/figure_4_37_top_improved_docking_mutants.png
+- 07_docking/figure_4_38_top_weakened_docking_mutants.png
+- 07_docking/figure_4_39_foldx_ddg_vs_delta_binding.png
+- 07_machine_learning/ml_group_prediction_error_by_model.png
+- 07_machine_learning/ml_prediction_residual_distribution.png
+- 07_machine_learning/ml_top_feature_importance.png
+- 07_machine_learning/ml_top_permutation_importance.png
+- 07_machine_learning/observed_vs_predicted_foldx_energy_per_residue.png
+- 08_machine_learning/figure_4_40_ml_model_comparison_mae.png
+- 08_machine_learning/figure_4_40_ml_model_comparison_r2.png
+- 08_machine_learning/figure_4_40_ml_model_comparison_rmse.png
+- 08_machine_learning/figure_4_41_observed_vs_predicted_foldx_energy.png
+- 08_machine_learning/figure_4_42_prediction_error_distribution.png
+- 08_machine_learning/figure_4_42b_absolute_error_distribution.png
+- 08_machine_learning/figure_4_43_ml_feature_importance.png
+- 08_machine_learning/figure_4_44_ml_permutation_importance.png
+- 08_md/md_simulation_status_heatmap.png
+- 08_md/md_status_count_by_temperature.png
+- 09_molecular_dynamics/figure_4_45_md_simulation_status_heatmap.png
+- 09_tmalign/tm_score_vs_rmsd_with_quality_legend.png
+- 09_tmalign/tmalign_quality_class_distribution.png
+- 10_integrated_ranking/figure_4_51_integrated_candidate_prioritization_heatmap.png
+- 10_integrated_ranking/integrated_candidate_prioritization_heatmap.png
+- 10_integrated_ranking/mean_final_score_by_organism_gh.png
+- 10_integrated_ranking/top_candidates_by_final_score.png
+- md/md_tier2_simulation_status_heatmap.png
+- priority_13/01_dataset_curation_overview.png
+- priority_13/02_organism_type_by_gh_family_heatmap.png
+- priority_13/03_tm_score_vs_rmsd.png
+- priority_13/04_foldx_energy_per_residue_by_organism_gh.png
+- priority_13/05_structural_feature_correlation_heatmap.png
+- priority_13/06_foldx_ddg_distribution.png
+- priority_13/07_mutation_effect_by_organism_gh.png
+- priority_13/08_wt_mutant_binding_energy_distribution.png
+- priority_13/09_foldx_ddg_vs_delta_binding.png
+- priority_13/10_observed_vs_predicted_foldx_energy.png
+- priority_13/11_ml_feature_importance.png
+- priority_13/12_md_simulation_status_heatmap.png
+- priority_13/13_integrated_candidate_prioritization_heatmap.png
+- structure_validation/tm_score_vs_rmsd.png
